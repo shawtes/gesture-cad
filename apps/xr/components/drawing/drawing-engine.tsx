@@ -1,53 +1,63 @@
 "use client";
 
-import { useRef, useState, useCallback } from "react";
-import { useFrame } from "@react-three/fiber";
+import { useRef, useState, useCallback, useEffect } from "react";
+import { useFrame, useThree } from "@react-three/fiber";
 import { Line, Html } from "@react-three/drei";
 import * as THREE from "three";
 import {
   type AnnotationStroke,
   finalizeStroke,
   COLOR_PALETTE,
-  measure3D,
 } from "@/lib/annotations";
 
 interface DrawingEngineProps {
   active: boolean;
 }
 
+const PINCH_THRESHOLD = 0.025; // 2.5cm — "holding a pencil"
+const MIN_POINT_DISTANCE = 0.003; // 3mm between samples
+
 /**
- * 3D Drawing/Annotation engine for XR and desktop.
- * - Draw mode: accumulates index fingertip / mouse positions into strokes
- * - Strokes are Catmull-Rom smoothed and stored in world space
- * - Undo removes last stroke
- * - Color palette selectable
- * - Measurement mode: two-point distance display
+ * 3D Drawing/Annotation engine.
+ *
+ * Pencil metaphor:
+ *   PINCH (thumb+index close) = pen is down → drawing
+ *   RELEASE (thumb+index apart) = pen is up → stroke finalized
+ *
+ * Works in both XR (hand tracking) and desktop (click-drag) modes.
  */
 export function DrawingEngine({ active }: DrawingEngineProps) {
+  const { gl, camera } = useThree();
   const [strokes, setStrokes] = useState<AnnotationStroke[]>([]);
   const [currentPoints, setCurrentPoints] = useState<THREE.Vector3[]>([]);
   const [colorIndex, setColorIndex] = useState(0);
-  const [measurements, setMeasurements] = useState<
-    { id: string; a: THREE.Vector3; b: THREE.Vector3; dist: number }[]
-  >([]);
-  const isDrawing = useRef(false);
+  const isPinching = useRef(false);
+  const lastPoint = useRef<THREE.Vector3 | null>(null);
 
   const activeColor = COLOR_PALETTE[colorIndex];
 
+  // ─── Finalize stroke when pinch releases ───
   const finishCurrentStroke = useCallback(() => {
-    if (currentPoints.length < 2) {
-      setCurrentPoints([]);
-      isDrawing.current = false;
-      return;
-    }
-
-    const stroke = finalizeStroke(currentPoints, activeColor, 3);
-    if (stroke) {
-      setStrokes((prev) => [...prev, stroke]);
+    if (currentPoints.length >= 2) {
+      const stroke = finalizeStroke(currentPoints, activeColor, 3);
+      if (stroke) {
+        setStrokes((prev) => [...prev, stroke]);
+      }
     }
     setCurrentPoints([]);
-    isDrawing.current = false;
+    lastPoint.current = null;
+    isPinching.current = false;
   }, [currentPoints, activeColor]);
+
+  // ─── Add a point while pinching (pen down) ───
+  const addDrawPoint = useCallback((point: THREE.Vector3) => {
+    // Skip if too close to last point (reduces noise)
+    if (lastPoint.current && point.distanceTo(lastPoint.current) < MIN_POINT_DISTANCE) {
+      return;
+    }
+    lastPoint.current = point.clone();
+    setCurrentPoints((prev) => [...prev, point.clone()]);
+  }, []);
 
   const undoLastStroke = useCallback(() => {
     setStrokes((prev) => prev.slice(0, -1));
@@ -57,6 +67,106 @@ export function DrawingEngine({ active }: DrawingEngineProps) {
     setColorIndex((i) => (i + 1) % COLOR_PALETTE.length);
   }, []);
 
+  // ─── XR Hand Tracking: detect pinch per frame ───
+  useFrame((state) => {
+    if (!active) return;
+
+    const session = (state.gl as any).xr?.getSession?.();
+    if (!session) return;
+
+    const frame = (state as any).__xrFrame;
+    if (!frame) return;
+
+    // Get hand input sources
+    for (const source of session.inputSources) {
+      if (source.hand && source.handedness === "right") {
+        const refSpace = (state.gl as any).xr.getReferenceSpace();
+        if (!refSpace) continue;
+
+        const thumbTip = source.hand.get("thumb-tip");
+        const indexTip = source.hand.get("index-finger-tip");
+        if (!thumbTip || !indexTip) continue;
+
+        const thumbPose = frame.getJointPose?.(thumbTip, refSpace);
+        const indexPose = frame.getJointPose?.(indexTip, refSpace);
+        if (!thumbPose || !indexPose) continue;
+
+        const thumbPos = new THREE.Vector3(
+          thumbPose.transform.position.x,
+          thumbPose.transform.position.y,
+          thumbPose.transform.position.z
+        );
+        const indexPos = new THREE.Vector3(
+          indexPose.transform.position.x,
+          indexPose.transform.position.y,
+          indexPose.transform.position.z
+        );
+
+        const distance = thumbPos.distanceTo(indexPos);
+        const pinchPoint = new THREE.Vector3().addVectors(thumbPos, indexPos).multiplyScalar(0.5);
+
+        if (distance < PINCH_THRESHOLD) {
+          // Pen DOWN — pinching like holding a pencil
+          if (!isPinching.current) {
+            isPinching.current = true;
+          }
+          addDrawPoint(pinchPoint);
+        } else {
+          // Pen UP — released the pencil
+          if (isPinching.current) {
+            finishCurrentStroke();
+          }
+        }
+      }
+    }
+  });
+
+  // ─── Desktop fallback: click-drag to draw ───
+  useEffect(() => {
+    if (!active) return;
+
+    const canvas = gl.domElement;
+    const raycaster = new THREE.Raycaster();
+    const mouse = new THREE.Vector2();
+    const drawPlane = new THREE.Plane(new THREE.Vector3(0, 0, -1), 1); // plane at z=-1
+
+    const getPoint = (e: PointerEvent): THREE.Vector3 | null => {
+      const rect = canvas.getBoundingClientRect();
+      mouse.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
+      mouse.y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
+      raycaster.setFromCamera(mouse, camera);
+      const pt = new THREE.Vector3();
+      return raycaster.ray.intersectPlane(drawPlane, pt) ? pt : null;
+    };
+
+    const onPointerDown = (e: PointerEvent) => {
+      isPinching.current = true;
+      const pt = getPoint(e);
+      if (pt) addDrawPoint(pt);
+    };
+
+    const onPointerMove = (e: PointerEvent) => {
+      if (!isPinching.current) return;
+      const pt = getPoint(e);
+      if (pt) addDrawPoint(pt);
+    };
+
+    const onPointerUp = () => {
+      if (isPinching.current) {
+        finishCurrentStroke();
+      }
+    };
+
+    canvas.addEventListener("pointerdown", onPointerDown);
+    canvas.addEventListener("pointermove", onPointerMove);
+    canvas.addEventListener("pointerup", onPointerUp);
+    return () => {
+      canvas.removeEventListener("pointerdown", onPointerDown);
+      canvas.removeEventListener("pointermove", onPointerMove);
+      canvas.removeEventListener("pointerup", onPointerUp);
+    };
+  }, [active, gl, camera, addDrawPoint, finishCurrentStroke]);
+
   return (
     <group>
       {/* Completed strokes */}
@@ -64,7 +174,7 @@ export function DrawingEngine({ active }: DrawingEngineProps) {
         <StrokeRenderer key={stroke.id} stroke={stroke} />
       ))}
 
-      {/* Current stroke being drawn (preview) */}
+      {/* Current stroke being drawn (live preview) */}
       {currentPoints.length >= 2 && (
         <Line
           points={currentPoints.map(
@@ -78,22 +188,26 @@ export function DrawingEngine({ active }: DrawingEngineProps) {
         />
       )}
 
-      {/* Measurements */}
-      {measurements.map((m) => (
-        <MeasurementDisplay key={m.id} measurement={m} />
-      ))}
+      {/* Active drawing indicator — pencil tip dot */}
+      {active && isPinching.current && lastPoint.current && (
+        <mesh position={[lastPoint.current.x, lastPoint.current.y, lastPoint.current.z]}>
+          <sphereGeometry args={[0.004, 8, 8]} />
+          <meshBasicMaterial color={activeColor} />
+        </mesh>
+      )}
 
-      {/* Color palette UI (visible when draw mode active) */}
+      {/* Color palette + controls (visible in draw mode) */}
       {active && (
         <group position={[-0.3, 0.15, -0.5]}>
-          <Html center distanceFactor={4} style={{ pointerEvents: "none" }}>
+          <Html center distanceFactor={4} style={{ pointerEvents: "auto" }}>
             <div
-              data-testid="color-palette"
+              data-testid="draw-controls"
               style={{
                 display: "flex",
-                gap: 4,
-                background: "rgba(0,0,0,0.6)",
-                padding: "6px 10px",
+                gap: 6,
+                alignItems: "center",
+                background: "rgba(0,0,0,0.7)",
+                padding: "8px 12px",
                 borderRadius: 8,
                 backdropFilter: "blur(4px)",
               }}
@@ -101,37 +215,39 @@ export function DrawingEngine({ active }: DrawingEngineProps) {
               {COLOR_PALETTE.map((color, i) => (
                 <div
                   key={color}
+                  onClick={() => setColorIndex(i)}
                   style={{
-                    width: 16,
-                    height: 16,
+                    width: 18,
+                    height: 18,
                     borderRadius: "50%",
                     background: color,
-                    border: i === colorIndex ? "2px solid white" : "1px solid #333",
+                    border: i === colorIndex ? "2px solid white" : "1px solid #444",
                     cursor: "pointer",
                   }}
                 />
               ))}
-            </div>
-          </Html>
-        </group>
-      )}
-
-      {/* Stroke count indicator */}
-      {strokes.length > 0 && (
-        <group position={[-0.3, 0.08, -0.5]}>
-          <Html center distanceFactor={4} style={{ pointerEvents: "none" }}>
-            <div
-              data-testid="stroke-count"
-              style={{
-                color: "#a0a0a0",
-                fontSize: 10,
-                fontFamily: "monospace",
-                background: "rgba(0,0,0,0.4)",
-                padding: "2px 8px",
-                borderRadius: 4,
-              }}
-            >
-              {strokes.length} stroke{strokes.length !== 1 ? "s" : ""}
+              <div style={{ width: 1, height: 20, background: "#333", margin: "0 4px" }} />
+              <button
+                onClick={undoLastStroke}
+                style={{
+                  background: "#2a2a2a",
+                  border: "1px solid #444",
+                  color: "#e5e5e5",
+                  padding: "4px 10px",
+                  borderRadius: 4,
+                  cursor: "pointer",
+                  fontSize: 11,
+                  fontFamily: "inherit",
+                }}
+              >
+                Undo
+              </button>
+              <div
+                data-testid="stroke-count"
+                style={{ color: "#666", fontSize: 10, fontFamily: "monospace" }}
+              >
+                {strokes.length} stroke{strokes.length !== 1 ? "s" : ""}
+              </div>
             </div>
           </Html>
         </group>
@@ -150,57 +266,5 @@ function StrokeRenderer({ stroke }: { stroke: AnnotationStroke }) {
       color={stroke.color}
       lineWidth={stroke.lineWidth}
     />
-  );
-}
-
-function MeasurementDisplay({
-  measurement,
-}: {
-  measurement: { id: string; a: THREE.Vector3; b: THREE.Vector3; dist: number };
-}) {
-  const { a, b, dist } = measurement;
-  const mid = new THREE.Vector3().addVectors(a, b).multiplyScalar(0.5);
-
-  return (
-    <group>
-      {/* Measurement line */}
-      <Line
-        points={[
-          [a.x, a.y, a.z],
-          [b.x, b.y, b.z],
-        ]}
-        color="#eab308"
-        lineWidth={2}
-      />
-      {/* Endpoint spheres */}
-      <mesh position={[a.x, a.y, a.z]}>
-        <sphereGeometry args={[0.005, 8, 8]} />
-        <meshBasicMaterial color="#eab308" />
-      </mesh>
-      <mesh position={[b.x, b.y, b.z]}>
-        <sphereGeometry args={[0.005, 8, 8]} />
-        <meshBasicMaterial color="#eab308" />
-      </mesh>
-      {/* Distance label */}
-      <group position={[mid.x, mid.y + 0.02, mid.z]}>
-        <Html center distanceFactor={4} style={{ pointerEvents: "none" }}>
-          <div
-            style={{
-              background: "rgba(234, 179, 8, 0.2)",
-              border: "1px solid #eab308",
-              color: "#eab308",
-              padding: "2px 8px",
-              borderRadius: 4,
-              fontSize: 11,
-              fontFamily: "monospace",
-              fontWeight: 700,
-              whiteSpace: "nowrap",
-            }}
-          >
-            {(dist * 1000).toFixed(1)} mm
-          </div>
-        </Html>
-      </group>
-    </group>
   );
 }
