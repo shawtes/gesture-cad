@@ -23,6 +23,10 @@ export class CADPage {
   }
 
   async goto() {
+    // Dismiss tutorial on test pages by pre-setting localStorage
+    await this.page.addInitScript(() => {
+      localStorage.setItem("gesture-cad-tutorial-dismissed", "true");
+    });
     await this.page.goto("/", { waitUntil: "networkidle" });
     // Wait for the Three.js canvas to render
     await this.viewport.waitFor({ state: "visible", timeout: 10000 });

@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers import geometry, export
+from routers import geometry, export, sketch
 
 app = FastAPI(
     title="GestureCAD API",
@@ -26,3 +26,4 @@ async def health():
 
 app.include_router(geometry.router, prefix="/api/geometry", tags=["geometry"])
 app.include_router(export.router, prefix="/api/export", tags=["export"])
+app.include_router(sketch.router, prefix="/api/sketch", tags=["sketch"])

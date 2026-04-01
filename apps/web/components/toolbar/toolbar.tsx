@@ -1,6 +1,7 @@
 "use client";
 
 import { useCADState, useCADDispatch, type ToolId } from "@/lib/store";
+import { TutorialButton } from "@/components/tutorial/tutorial-overlay";
 
 const tools: { id: ToolId; label: string; icon: string; gesture: string }[] = [
   { id: "select", label: "Select", icon: "◇", gesture: "fist" },
@@ -68,7 +69,7 @@ export function Toolbar() {
         <button style={styles.actionBtn}>File</button>
         <button style={styles.actionBtn}>Edit</button>
         <button style={styles.actionBtn}>View</button>
-        <button style={styles.actionBtn}>Help</button>
+        <TutorialButton />
       </div>
     </div>
   );

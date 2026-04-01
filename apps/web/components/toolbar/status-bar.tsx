@@ -32,7 +32,7 @@ const toolLabels: Record<string, string> = {
 };
 
 export function StatusBar({ gesture, fps, trackingActive }: StatusBarProps) {
-  const { activeTool, entities } = useCADState();
+  const { activeTool, entities, constraints, constraintStatus } = useCADState();
 
   return (
     <div style={styles.bar} data-testid="status-bar">
@@ -69,6 +69,18 @@ export function StatusBar({ gesture, fps, trackingActive }: StatusBarProps) {
         <span style={styles.label}>Entities:</span>
         <span data-testid="status-entity-count" style={styles.value}>
           {entities.length}
+        </span>
+      </div>
+
+      <div style={styles.section}>
+        <span style={styles.label}>Constraints:</span>
+        <span data-testid="status-constraint-count" style={{
+          ...styles.value,
+          color: constraintStatus === "solved" ? "#22c55e" :
+                 constraintStatus === "overconstrained" ? "#ef4444" :
+                 "#a0a0a0",
+        }}>
+          {constraints.length}
         </span>
       </div>
 

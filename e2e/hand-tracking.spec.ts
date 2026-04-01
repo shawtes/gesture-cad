@@ -1,6 +1,13 @@
 import { test, expect } from "@playwright/test";
 
 test.describe("Hand Tracking Pipeline", () => {
+  test.beforeEach(async ({ page }) => {
+    // Dismiss tutorial overlay in tests
+    await page.addInitScript(() => {
+      localStorage.setItem("gesture-cad-tutorial-dismissed", "true");
+    });
+  });
+
   test("page loads within 5 seconds", async ({ page }) => {
     const start = Date.now();
     await page.goto("/", { waitUntil: "networkidle" });

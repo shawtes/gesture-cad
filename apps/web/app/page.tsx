@@ -4,6 +4,7 @@ import { Viewport } from "@/components/viewport/viewport";
 import { GestureOverlay } from "@/components/gesture/gesture-overlay";
 import { Toolbar } from "@/components/toolbar/toolbar";
 import { StatusBar } from "@/components/toolbar/status-bar";
+import { TutorialOverlay } from "@/components/tutorial/tutorial-overlay";
 import { useCADDispatch, type ToolId } from "@/lib/store";
 import { useState, useEffect, useCallback, useRef } from "react";
 
@@ -89,6 +90,7 @@ export default function Home() {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", height: "100vh" }}>
+      <TutorialOverlay />
       <Toolbar />
       <div style={{ flex: 1, position: "relative", overflow: "hidden" }}>
         <Viewport handPosition={handPosition} gesture={gesture} />

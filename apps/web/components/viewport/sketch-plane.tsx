@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useCallback } from "react";
 import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
 import { useCADState, useCADDispatch } from "@/lib/store";
@@ -10,6 +10,8 @@ import {
   createCircle,
   createRect,
 } from "@/lib/sketch-entities";
+import { autoDetectConstraints } from "@/lib/constraints";
+import { solveConstraints } from "@/lib/constraint-solver";
 
 interface SketchPlaneProps {
   firstClick: { x: number; z: number } | null;
@@ -46,7 +48,7 @@ export function SketchPlane({
   handPosition,
   gesture,
 }: SketchPlaneProps) {
-  const { activeTool } = useCADState();
+  const { activeTool, entities: storeEntities, constraints: storeConstraints } = useCADState();
   const dispatch = useCADDispatch();
   const { camera, gl } = useThree();
 
@@ -71,6 +73,36 @@ export function SketchPlane({
   onFirstClickChangeRef.current = onFirstClickChange;
   onCursorMoveRef.current = onCursorMove;
   dispatchRef.current = dispatch;
+
+  const storeEntitiesRef = useRef(storeEntities);
+  const storeConstraintsRef = useRef(storeConstraints);
+  storeEntitiesRef.current = storeEntities;
+  storeConstraintsRef.current = storeConstraints;
+
+  /** Run constraint auto-detection and solving after entity creation. */
+  const runConstraintPipeline = useCallback(async (newEntity: any) => {
+    const allEntities = storeEntitiesRef.current;
+    const existingConstraints = storeConstraintsRef.current;
+
+    // Auto-detect constraints for the new entity
+    const newConstraints = autoDetectConstraints(newEntity, allEntities);
+    if (newConstraints.length > 0) {
+      dispatchRef.current({ type: "ADD_CONSTRAINTS", constraints: newConstraints });
+    }
+
+    // Solve all constraints
+    const allConstraints = [...existingConstraints, ...newConstraints];
+    if (allConstraints.length > 0) {
+      const result = await solveConstraints(allEntities, allConstraints);
+      if (result.status === "solved" || result.status === "overconstrained") {
+        dispatchRef.current({
+          type: "UPDATE_ENTITIES_FROM_SOLVER",
+          entities: result.entities,
+          status: result.status,
+        });
+      }
+    }
+  }, []);
 
   // Sync parent firstClick to internal ref
   useEffect(() => {
@@ -119,7 +151,9 @@ export function SketchPlane({
     const tool = activeToolRef.current;
 
     if (tool === "draw") {
-      dispatchRef.current({ type: "ADD_ENTITY", entity: createPoint(pt.x, pt.z) });
+      const entity = createPoint(pt.x, pt.z);
+      dispatchRef.current({ type: "ADD_ENTITY", entity });
+      runConstraintPipeline(entity);
       return;
     }
 
@@ -135,24 +169,20 @@ export function SketchPlane({
     internalFirstClick.current = null;
     onFirstClickChangeRef.current(null);
 
+    let entity;
     if (tool === "line") {
-      dispatchRef.current({
-        type: "ADD_ENTITY",
-        entity: createLine(fc.x, fc.z, pt.x, pt.z),
-      });
+      entity = createLine(fc.x, fc.z, pt.x, pt.z);
     } else if (tool === "circle") {
       const radius = Math.hypot(pt.x - fc.x, pt.z - fc.z);
-      if (radius > 0.01) {
-        dispatchRef.current({
-          type: "ADD_ENTITY",
-          entity: createCircle(fc.x, fc.z, radius),
-        });
-      }
+      if (radius <= 0.01) return;
+      entity = createCircle(fc.x, fc.z, radius);
     } else if (tool === "rect") {
-      dispatchRef.current({
-        type: "ADD_ENTITY",
-        entity: createRect(fc.x, fc.z, pt.x, pt.z),
-      });
+      entity = createRect(fc.x, fc.z, pt.x, pt.z);
+    }
+
+    if (entity) {
+      dispatchRef.current({ type: "ADD_ENTITY", entity });
+      runConstraintPipeline(entity);
     }
   }
 

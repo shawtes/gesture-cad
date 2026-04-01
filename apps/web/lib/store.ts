@@ -9,6 +9,7 @@ import {
 } from "react";
 import React from "react";
 import type { SketchEntity } from "./sketch-entities";
+import type { SketchConstraint } from "./constraints";
 
 // ---------- Tool types ----------
 export type ToolId =
@@ -30,13 +31,17 @@ export type ToolId =
 export interface CADState {
   activeTool: ToolId;
   entities: SketchEntity[];
-  undoStack: SketchEntity[][];
-  redoStack: SketchEntity[][];
+  constraints: SketchConstraint[];
+  constraintStatus: "idle" | "solved" | "failed" | "overconstrained";
+  undoStack: { entities: SketchEntity[]; constraints: SketchConstraint[] }[];
+  redoStack: { entities: SketchEntity[]; constraints: SketchConstraint[] }[];
 }
 
 const initialState: CADState = {
   activeTool: "select",
   entities: [],
+  constraints: [],
+  constraintStatus: "idle",
   undoStack: [],
   redoStack: [],
 };
@@ -45,6 +50,8 @@ const initialState: CADState = {
 export type CADAction =
   | { type: "SET_TOOL"; tool: ToolId }
   | { type: "ADD_ENTITY"; entity: SketchEntity }
+  | { type: "ADD_CONSTRAINTS"; constraints: SketchConstraint[] }
+  | { type: "UPDATE_ENTITIES_FROM_SOLVER"; entities: SketchEntity[]; status: CADState["constraintStatus"] }
   | { type: "UNDO" }
   | { type: "REDO" }
   | { type: "CLEAR_ALL" };
@@ -57,9 +64,22 @@ function cadReducer(state: CADState, action: CADAction): CADState {
     case "ADD_ENTITY":
       return {
         ...state,
-        undoStack: [...state.undoStack, state.entities],
+        undoStack: [...state.undoStack, { entities: state.entities, constraints: state.constraints }],
         redoStack: [],
         entities: [...state.entities, action.entity],
+      };
+
+    case "ADD_CONSTRAINTS":
+      return {
+        ...state,
+        constraints: [...state.constraints, ...action.constraints],
+      };
+
+    case "UPDATE_ENTITIES_FROM_SOLVER":
+      return {
+        ...state,
+        entities: action.entities,
+        constraintStatus: action.status,
       };
 
     case "UNDO": {
@@ -68,8 +88,10 @@ function cadReducer(state: CADState, action: CADAction): CADState {
       return {
         ...state,
         undoStack: state.undoStack.slice(0, -1),
-        redoStack: [...state.redoStack, state.entities],
-        entities: prev,
+        redoStack: [...state.redoStack, { entities: state.entities, constraints: state.constraints }],
+        entities: prev.entities,
+        constraints: prev.constraints,
+        constraintStatus: prev.constraints.length > 0 ? "solved" : "idle",
       };
     }
 
@@ -79,17 +101,21 @@ function cadReducer(state: CADState, action: CADAction): CADState {
       return {
         ...state,
         redoStack: state.redoStack.slice(0, -1),
-        undoStack: [...state.undoStack, state.entities],
-        entities: next,
+        undoStack: [...state.undoStack, { entities: state.entities, constraints: state.constraints }],
+        entities: next.entities,
+        constraints: next.constraints,
+        constraintStatus: next.constraints.length > 0 ? "solved" : "idle",
       };
     }
 
     case "CLEAR_ALL":
       return {
         ...state,
-        undoStack: [...state.undoStack, state.entities],
+        undoStack: [...state.undoStack, { entities: state.entities, constraints: state.constraints }],
         redoStack: [],
         entities: [],
+        constraints: [],
+        constraintStatus: "idle",
       };
 
     default:

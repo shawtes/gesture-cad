@@ -13,6 +13,7 @@
     "@mediapipe/tasks-vision": "^0.10.18",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
+    "@salusoft89/planegcs": "^1.1.7",
     "next": "^15.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

@@ -45,3 +45,36 @@ export async function getExportFormats(): Promise<{
   if (!res.ok) throw new Error(`API error: ${res.status}`);
   return res.json();
 }
+
+export interface SketchValidationResult {
+  valid: boolean;
+  closed: boolean;
+  entity_count: number;
+  constraint_count: number;
+  errors: string[];
+}
+
+export async function validateSketch(
+  entities: any[],
+  constraints: any[] = []
+): Promise<SketchValidationResult> {
+  const res = await fetch(`${API_BASE}/api/sketch/validate`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      entities: entities.map((e) => ({
+        ...e,
+        entity_ids: undefined,
+        entityIds: undefined,
+      })),
+      constraints: constraints.map((c) => ({
+        id: c.id,
+        type: c.type,
+        entity_ids: c.entityIds,
+        value: c.value ?? null,
+      })),
+    }),
+  });
+  if (!res.ok) throw new Error(`API error: ${res.status}`);
+  return res.json();
+}
