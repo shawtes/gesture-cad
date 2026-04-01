@@ -11,6 +11,8 @@ import React from "react";
 import type { SketchEntity } from "./sketch-entities";
 import type { SketchConstraint } from "./constraints";
 import type { Feature } from "./features";
+import type { NamedParameter } from "./parameters";
+import { createDefaultParameters } from "./parameters";
 
 // ---------- Tool types ----------
 export type ToolId =
@@ -38,6 +40,7 @@ export interface CADState {
   constraintStatus: "idle" | "solved" | "failed" | "overconstrained";
   features: Feature[];
   selectedFeatureId: string | null;
+  parameters: NamedParameter[];
   undoStack: { entities: SketchEntity[]; constraints: SketchConstraint[]; features: Feature[] }[];
   redoStack: { entities: SketchEntity[]; constraints: SketchConstraint[]; features: Feature[] }[];
 }
@@ -49,6 +52,7 @@ const initialState: CADState = {
   constraintStatus: "idle",
   features: [],
   selectedFeatureId: null,
+  parameters: createDefaultParameters(),
   undoStack: [],
   redoStack: [],
 };
@@ -63,6 +67,8 @@ export type CADAction =
   | { type: "UPDATE_FEATURE"; id: string; updates: Partial<Feature> }
   | { type: "SELECT_FEATURE"; id: string | null }
   | { type: "TOGGLE_FEATURE_VISIBILITY"; id: string }
+  | { type: "SET_PARAMETER"; name: string; value: number; expression?: string }
+  | { type: "ADD_PARAMETER"; param: NamedParameter }
   | { type: "UNDO" }
   | { type: "REDO" }
   | { type: "CLEAR_ALL" };
@@ -118,6 +124,22 @@ function cadReducer(state: CADState, action: CADAction): CADState {
         ...state,
         entities: action.entities,
         constraintStatus: action.status,
+      };
+
+    case "SET_PARAMETER":
+      return {
+        ...state,
+        parameters: state.parameters.map((p) =>
+          p.name === action.name
+            ? { ...p, value: action.value, expression: action.expression }
+            : p
+        ),
+      };
+
+    case "ADD_PARAMETER":
+      return {
+        ...state,
+        parameters: [...state.parameters, action.param],
       };
 
     case "UNDO": {
