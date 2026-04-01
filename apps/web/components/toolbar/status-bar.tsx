@@ -26,13 +26,13 @@ const toolLabels: Record<string, string> = {
   line: "Line",
   circle: "Circle",
   rect: "Rectangle",
+  extrude: "Extrude",
   pan: "Pan",
   confirm: "Confirm",
-  extrude: "Extrude",
 };
 
 export function StatusBar({ gesture, fps, trackingActive }: StatusBarProps) {
-  const { activeTool, entities, constraints, constraintStatus } = useCADState();
+  const { activeTool, entities, constraints, constraintStatus, features } = useCADState();
 
   return (
     <div style={styles.bar} data-testid="status-bar">
@@ -81,6 +81,13 @@ export function StatusBar({ gesture, fps, trackingActive }: StatusBarProps) {
                  "#a0a0a0",
         }}>
           {constraints.length}
+        </span>
+      </div>
+
+      <div style={styles.section}>
+        <span style={styles.label}>Features:</span>
+        <span data-testid="status-feature-count" style={styles.value}>
+          {features.length}
         </span>
       </div>
 

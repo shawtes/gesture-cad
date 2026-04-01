@@ -5,7 +5,9 @@ import { GestureOverlay } from "@/components/gesture/gesture-overlay";
 import { Toolbar } from "@/components/toolbar/toolbar";
 import { StatusBar } from "@/components/toolbar/status-bar";
 import { TutorialOverlay } from "@/components/tutorial/tutorial-overlay";
-import { useCADDispatch, type ToolId } from "@/lib/store";
+import { FeatureTreePanel } from "@/components/feature-tree/feature-tree-panel";
+import { useCADState, useCADDispatch, type ToolId } from "@/lib/store";
+import { createExtrudeFeature, generateExtrudePreviewMesh } from "@/lib/features";
 import { useState, useEffect, useCallback, useRef } from "react";
 
 /** Maps gesture strings to tool IDs with a stability filter. */
@@ -20,6 +22,7 @@ const GESTURE_TO_TOOL: Record<string, ToolId> = {
 };
 
 export default function Home() {
+  const { entities, activeTool } = useCADState();
   const dispatch = useCADDispatch();
   const [gesture, setGesture] = useState<string>("none");
   const [fps, setFps] = useState<number>(0);
@@ -67,6 +70,31 @@ export default function Home() {
     []
   );
 
+  // Extrude: when tool is "extrude" and there's a rect, auto-extrude it
+  const handleExtrudeClick = useCallback(() => {
+    const rects = entities.filter((e) => e.type === "rect");
+    if (rects.length === 0) return;
+    const lastRect = rects[rects.length - 1];
+    const distance = 2.0; // default extrude distance
+    const mesh = generateExtrudePreviewMesh(
+      lastRect.x1, lastRect.z1, lastRect.x2, lastRect.z2, distance
+    );
+    const feature = createExtrudeFeature(
+      [lastRect.id],
+      { distance, direction: "up" },
+      mesh
+    );
+    dispatch({ type: "ADD_FEATURE", feature });
+    dispatch({ type: "SET_TOOL", tool: "select" });
+  }, [entities, dispatch]);
+
+  // Auto-trigger extrude when tool switches to "extrude"
+  useEffect(() => {
+    if (activeTool === "extrude") {
+      handleExtrudeClick();
+    }
+  }, [activeTool, handleExtrudeClick]);
+
   // Keyboard shortcuts
   useEffect(() => {
     function handleKeyDown(e: KeyboardEvent) {
@@ -93,6 +121,7 @@ export default function Home() {
       <TutorialOverlay />
       <Toolbar />
       <div style={{ flex: 1, position: "relative", overflow: "hidden" }}>
+        <FeatureTreePanel />
         <Viewport handPosition={handPosition} gesture={gesture} />
         <GestureOverlay
           onGestureDetected={handleGestureDetected}

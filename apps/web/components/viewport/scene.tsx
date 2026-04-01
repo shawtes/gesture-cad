@@ -5,6 +5,7 @@ import { SketchPlane } from "./sketch-plane";
 import { SketchRenderer } from "./sketch-renderer";
 import { SketchPreview } from "./sketch-preview";
 import { ConstraintRenderer } from "./constraint-renderer";
+import { MeshRenderer } from "./mesh-renderer";
 import { useCADState } from "@/lib/store";
 
 interface SceneProps {
@@ -43,6 +44,7 @@ export function Scene({ handPosition, gesture }: SceneProps) {
       <SketchRenderer />
       <SketchPreview firstClick={firstClick} cursor={cursor} />
       <ConstraintRenderer />
+      <MeshRenderer />
 
       {/* First-click indicator dot (amber) */}
       {firstClick && (

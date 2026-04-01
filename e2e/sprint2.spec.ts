@@ -74,10 +74,10 @@ test.describe("Sprint 2: Constraints + Backend", () => {
   test.describe("Multiple Entities", () => {
     test("draw two lines and both have correct entity count", async () => {
       await cad.selectTool("line");
-      await cad.clickViewport(200, 300);
-      await cad.clickViewport(400, 300);
-      await cad.clickViewport(400, 300);
-      await cad.clickViewport(400, 200);
+      await cad.clickViewport(350, 300);
+      await cad.clickViewport(550, 300);
+      await cad.clickViewport(550, 300);
+      await cad.clickViewport(550, 200);
       await cad.expectEntityCount(2);
     });
 

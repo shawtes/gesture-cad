@@ -42,3 +42,6 @@ apps/web/public/mediapipe/
 # Misc
 *.log
 *.tsbuildinfo
+# Playwright
+playwright-report/
+test-results/
