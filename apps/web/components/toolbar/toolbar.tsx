@@ -9,6 +9,8 @@ const tools: { id: ToolId; label: string; icon: string; gesture: string }[] = [
   { id: "line", label: "Line", icon: "╱", gesture: "peace" },
   { id: "circle", label: "Circle", icon: "○", gesture: "3 fingers" },
   { id: "rect", label: "Rect", icon: "□", gesture: "L-shape" },
+  { id: "arc", label: "Arc", icon: "⌒", gesture: "3-click" },
+  { id: "spline", label: "Spline", icon: "〜", gesture: "multi-click" },
   { id: "extrude", label: "Extrude", icon: "⬡", gesture: "pinch+pull" },
   { id: "pan", label: "Pan", icon: "✋", gesture: "open palm" },
 ];

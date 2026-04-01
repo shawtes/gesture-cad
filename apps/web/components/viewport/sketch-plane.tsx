@@ -9,6 +9,8 @@ import {
   createLine,
   createCircle,
   createRect,
+  createArc,
+  createSpline,
 } from "@/lib/sketch-entities";
 import { autoDetectConstraints } from "@/lib/constraints";
 import { solveConstraints } from "@/lib/constraint-solver";
@@ -52,14 +54,18 @@ export function SketchPlane({
   const dispatch = useCADDispatch();
   const { camera, gl } = useThree();
 
-  // Internal ref for first click — avoids stale closure issues
+  // Internal refs for multi-click tools — avoids stale closure issues
   const internalFirstClick = useRef<{ x: number; z: number } | null>(null);
+  const internalSecondClick = useRef<{ x: number; z: number } | null>(null);
+  const splinePoints = useRef<number[]>([]);
 
   const isSketchTool =
     activeTool === "draw" ||
     activeTool === "line" ||
     activeTool === "circle" ||
-    activeTool === "rect";
+    activeTool === "rect" ||
+    activeTool === "arc" ||
+    activeTool === "spline";
 
   // Stable refs to avoid re-registering DOM listeners on every render
   const isSketchToolRef = useRef(isSketchTool);
@@ -112,6 +118,8 @@ export function SketchPlane({
   // Reset on tool change
   useEffect(() => {
     internalFirstClick.current = null;
+    internalSecondClick.current = null;
+    splinePoints.current = [];
     onFirstClickChangeRef.current(null);
   }, [activeTool]);
 
@@ -157,7 +165,52 @@ export function SketchPlane({
       return;
     }
 
-    // 2-click tools
+    // Spline: multi-click, double-click (close to last point) to finish
+    if (tool === "spline") {
+      const pts = splinePoints.current;
+      if (pts.length >= 4) {
+        const lastX = pts[pts.length - 2];
+        const lastZ = pts[pts.length - 1];
+        const dist = Math.hypot(pt.x - lastX, pt.z - lastZ);
+        if (dist < 0.2) {
+          // Double-click → finish spline
+          const entity = createSpline([...pts]);
+          dispatchRef.current({ type: "ADD_ENTITY", entity });
+          runConstraintPipeline(entity);
+          splinePoints.current = [];
+          onFirstClickChangeRef.current(null);
+          return;
+        }
+      }
+      pts.push(pt.x, pt.z);
+      onFirstClickChangeRef.current(pt);
+      return;
+    }
+
+    // Arc: 3-click tool (start, mid, end)
+    if (tool === "arc") {
+      if (!internalFirstClick.current) {
+        internalFirstClick.current = pt;
+        onFirstClickChangeRef.current(pt);
+        return;
+      }
+      if (!internalSecondClick.current) {
+        internalSecondClick.current = pt;
+        return;
+      }
+      // Third click — create arc
+      const fc = internalFirstClick.current;
+      const sc = internalSecondClick.current;
+      const entity = createArc(fc.x, fc.z, sc.x, sc.z, pt.x, pt.z);
+      dispatchRef.current({ type: "ADD_ENTITY", entity });
+      runConstraintPipeline(entity);
+      internalFirstClick.current = null;
+      internalSecondClick.current = null;
+      onFirstClickChangeRef.current(null);
+      return;
+    }
+
+    // 2-click tools: line, circle, rect
     const fc = internalFirstClick.current;
     if (!fc) {
       internalFirstClick.current = pt;

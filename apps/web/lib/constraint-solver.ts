@@ -309,6 +309,9 @@ function getLastEndpoint(e: SketchEntity): { x: number; z: number } | null {
     case "line": return { x: e.x2, z: e.z2 };
     case "circle": return { x: e.cx, z: e.cz };
     case "rect": return { x: e.x2, z: e.z2 };
+    case "arc": return { x: e.x2, z: e.z2 };
+    case "spline": return e.points.length >= 2 ? { x: e.points[e.points.length - 2], z: e.points[e.points.length - 1] } : null;
+    default: return null;
   }
 }
 
@@ -318,6 +321,9 @@ function getFirstEndpoint(e: SketchEntity): { x: number; z: number } | null {
     case "line": return { x: e.x1, z: e.z1 };
     case "circle": return { x: e.cx, z: e.cz };
     case "rect": return { x: e.x1, z: e.z1 };
+    case "arc": return { x: e.x1, z: e.z1 };
+    case "spline": return e.points.length >= 2 ? { x: e.points[0], z: e.points[1] } : null;
+    default: return null;
   }
 }
 
@@ -327,6 +333,7 @@ function setLastEndpoint(e: any, pt: { x: number; z: number }) {
     case "line": e.x2 = pt.x; e.z2 = pt.z; break;
     case "circle": e.cx = pt.x; e.cz = pt.z; break;
     case "rect": e.x2 = pt.x; e.z2 = pt.z; break;
+    case "arc": e.x2 = pt.x; e.z2 = pt.z; break;
   }
 }
 
@@ -336,5 +343,6 @@ function setFirstEndpoint(e: any, pt: { x: number; z: number }) {
     case "line": e.x1 = pt.x; e.z1 = pt.z; break;
     case "circle": e.cx = pt.x; e.cz = pt.z; break;
     case "rect": e.x1 = pt.x; e.z1 = pt.z; break;
+    case "arc": e.x1 = pt.x; e.z1 = pt.z; break;
   }
 }

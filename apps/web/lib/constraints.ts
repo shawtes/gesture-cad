@@ -106,6 +106,19 @@ function getEntityEndpoints(
         { x: entity.x1, z: entity.z1 },
         { x: entity.x2, z: entity.z2 },
       ];
+    case "arc":
+      return [
+        { x: entity.x1, z: entity.z1 },
+        { x: entity.x2, z: entity.z2 },
+      ];
+    case "spline":
+      if (entity.points.length >= 2) {
+        return [
+          { x: entity.points[0], z: entity.points[1] },
+          { x: entity.points[entity.points.length - 2], z: entity.points[entity.points.length - 1] },
+        ];
+      }
+      return [];
   }
 }
 

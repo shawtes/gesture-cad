@@ -26,6 +26,8 @@ const toolLabels: Record<string, string> = {
   line: "Line",
   circle: "Circle",
   rect: "Rectangle",
+  arc: "Arc",
+  spline: "Spline",
   extrude: "Extrude",
   pan: "Pan",
   confirm: "Confirm",

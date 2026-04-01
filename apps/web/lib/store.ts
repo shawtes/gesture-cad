@@ -19,6 +19,8 @@ export type ToolId =
   | "line"
   | "circle"
   | "rect"
+  | "arc"
+  | "spline"
   | "pan"
   | "confirm"
   | "extrude"

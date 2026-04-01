@@ -25,6 +25,15 @@ function getConstraintPosition(
       return { x: entity.cx, z: entity.cz };
     case "rect":
       return { x: (entity.x1 + entity.x2) / 2, z: (entity.z1 + entity.z2) / 2 };
+    case "arc":
+      return { x: entity.mx, z: entity.mz };
+    case "spline":
+      if (entity.points.length >= 2) {
+        return { x: entity.points[0], z: entity.points[1] };
+      }
+      return null;
+    default:
+      return null;
   }
 }
 
