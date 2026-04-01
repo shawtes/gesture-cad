@@ -7,6 +7,7 @@ import { StatusBar } from "@/components/toolbar/status-bar";
 import { TutorialOverlay } from "@/components/tutorial/tutorial-overlay";
 import { FeatureTreePanel } from "@/components/feature-tree/feature-tree-panel";
 import { ParameterPanel } from "@/components/parameter-panel/parameter-panel";
+import { DragDropZone } from "@/components/file-io/drag-drop-zone";
 import { useCADState, useCADDispatch, type ToolId } from "@/lib/store";
 import { createExtrudeFeature, generateExtrudePreviewMesh } from "@/lib/features";
 import { useState, useEffect, useCallback, useRef } from "react";
@@ -125,6 +126,7 @@ export default function Home() {
         <FeatureTreePanel />
         <Viewport handPosition={handPosition} gesture={gesture} />
         <ParameterPanel />
+        <DragDropZone />
         <GestureOverlay
           onGestureDetected={handleGestureDetected}
           onFpsUpdate={setFps}

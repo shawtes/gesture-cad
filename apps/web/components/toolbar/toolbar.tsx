@@ -2,6 +2,7 @@
 
 import { useCADState, useCADDispatch, type ToolId } from "@/lib/store";
 import { TutorialButton } from "@/components/tutorial/tutorial-overlay";
+import { ExportMenu } from "@/components/file-io/export-menu";
 
 const tools: { id: ToolId; label: string; icon: string; gesture: string }[] = [
   { id: "select", label: "Select", icon: "◇", gesture: "fist" },
@@ -69,7 +70,7 @@ export function Toolbar() {
       <div style={styles.spacer} />
 
       <div style={styles.actions}>
-        <button style={styles.actionBtn}>File</button>
+        <ExportMenu />
         <button style={styles.actionBtn}>Edit</button>
         <button style={styles.actionBtn}>View</button>
         <TutorialButton />
