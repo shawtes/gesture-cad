@@ -15,6 +15,10 @@ const tools: { id: ToolId; label: string; icon: string; gesture: string }[] = [
   { id: "extrude", label: "Extrude", icon: "⬡", gesture: "pinch+pull" },
   { id: "union", label: "Union", icon: "⊕", gesture: "—" },
   { id: "subtract", label: "Cut", icon: "⊖", gesture: "—" },
+  { id: "fillet", label: "Fillet", icon: "◠", gesture: "—" },
+  { id: "chamfer", label: "Chamfer", icon: "⌐", gesture: "—" },
+  { id: "mirror", label: "Mirror", icon: "⎸⎹", gesture: "—" },
+  { id: "sweep", label: "Sweep", icon: "↝", gesture: "—" },
   { id: "pan", label: "Pan", icon: "✋", gesture: "open palm" },
 ];
 

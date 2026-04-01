@@ -33,7 +33,15 @@ export type ToolId =
   | "apply"
   | "union"
   | "subtract"
-  | "intersect";
+  | "intersect"
+  | "fillet"
+  | "chamfer"
+  | "shell"
+  | "linear_pattern"
+  | "circular_pattern"
+  | "mirror"
+  | "sweep"
+  | "loft";
 
 // ---------- State ----------
 export interface CADState {
