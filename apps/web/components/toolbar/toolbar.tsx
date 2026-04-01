@@ -13,6 +13,8 @@ const tools: { id: ToolId; label: string; icon: string; gesture: string }[] = [
   { id: "arc", label: "Arc", icon: "⌒", gesture: "3-click" },
   { id: "spline", label: "Spline", icon: "〜", gesture: "multi-click" },
   { id: "extrude", label: "Extrude", icon: "⬡", gesture: "pinch+pull" },
+  { id: "union", label: "Union", icon: "⊕", gesture: "—" },
+  { id: "subtract", label: "Cut", icon: "⊖", gesture: "—" },
   { id: "pan", label: "Pan", icon: "✋", gesture: "open palm" },
 ];
 

@@ -10,6 +10,7 @@ import { ParameterPanel } from "@/components/parameter-panel/parameter-panel";
 import { DragDropZone } from "@/components/file-io/drag-drop-zone";
 import { useCADState, useCADDispatch, type ToolId } from "@/lib/store";
 import { createExtrudeFeature, generateExtrudePreviewMesh } from "@/lib/features";
+import { performBoolean, type BooleanOp } from "@/lib/boolean-ops";
 import { useState, useEffect, useCallback, useRef } from "react";
 
 /** Maps gesture strings to tool IDs with a stability filter. */
@@ -24,7 +25,7 @@ const GESTURE_TO_TOOL: Record<string, ToolId> = {
 };
 
 export default function Home() {
-  const { entities, activeTool } = useCADState();
+  const { entities, activeTool, features } = useCADState();
   const dispatch = useCADDispatch();
   const [gesture, setGesture] = useState<string>("none");
   const [fps, setFps] = useState<number>(0);
@@ -90,12 +91,34 @@ export default function Home() {
     dispatch({ type: "SET_TOOL", tool: "select" });
   }, [entities, dispatch]);
 
-  // Auto-trigger extrude when tool switches to "extrude"
+  // Boolean: combine last two features with mesh
+  const handleBoolean = useCallback((op: BooleanOp) => {
+    const meshFeatures = entities.length === 0 ? [] : []; // use features instead
+    const withMesh = ([] as typeof features).concat(features).filter((f) => f.mesh);
+    if (withMesh.length < 2) return;
+    const a = withMesh[withMesh.length - 2];
+    const b = withMesh[withMesh.length - 1];
+    if (!a.mesh || !b.mesh) return;
+
+    const resultMesh = performBoolean(a.mesh, b.mesh, op);
+    const feature = createExtrudeFeature([], { distance: 0, direction: "up" }, resultMesh);
+    feature.name = `${op.charAt(0).toUpperCase() + op.slice(1)} Result`;
+    dispatch({ type: "ADD_FEATURE", feature });
+    dispatch({ type: "SET_TOOL", tool: "select" });
+  }, [features, dispatch]);
+
+  // Auto-trigger extrude/boolean when tool switches
   useEffect(() => {
     if (activeTool === "extrude") {
       handleExtrudeClick();
+    } else if (activeTool === "union") {
+      handleBoolean("union");
+    } else if (activeTool === "subtract") {
+      handleBoolean("subtract");
+    } else if (activeTool === "intersect") {
+      handleBoolean("intersect");
     }
-  }, [activeTool, handleExtrudeClick]);
+  }, [activeTool, handleExtrudeClick, handleBoolean]);
 
   // Keyboard shortcuts
   useEffect(() => {

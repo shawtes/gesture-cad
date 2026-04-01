@@ -30,7 +30,10 @@ export type ToolId =
   | "redo"
   | "zoom"
   | "orbit"
-  | "apply";
+  | "apply"
+  | "union"
+  | "subtract"
+  | "intersect";
 
 // ---------- State ----------
 export interface CADState {

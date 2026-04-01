@@ -29,6 +29,9 @@ const toolLabels: Record<string, string> = {
   arc: "Arc",
   spline: "Spline",
   extrude: "Extrude",
+  union: "Union",
+  subtract: "Cut",
+  intersect: "Intersect",
   pan: "Pan",
   confirm: "Confirm",
 };
