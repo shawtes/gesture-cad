@@ -1,15 +1,20 @@
 "use client";
 
-const tools = [
+import { useCADState, useCADDispatch, type ToolId } from "@/lib/store";
+
+const tools: { id: ToolId; label: string; icon: string; gesture: string }[] = [
   { id: "select", label: "Select", icon: "◇", gesture: "fist" },
+  { id: "draw", label: "Point", icon: "•", gesture: "point" },
   { id: "line", label: "Line", icon: "╱", gesture: "peace" },
   { id: "circle", label: "Circle", icon: "○", gesture: "3 fingers" },
   { id: "rect", label: "Rect", icon: "□", gesture: "L-shape" },
-  { id: "extrude", label: "Extrude", icon: "⬡", gesture: "pinch+drag" },
   { id: "pan", label: "Pan", icon: "✋", gesture: "open palm" },
 ];
 
 export function Toolbar() {
+  const { activeTool } = useCADState();
+  const dispatch = useCADDispatch();
+
   return (
     <div style={styles.bar}>
       <div style={styles.brand}>
@@ -18,13 +23,44 @@ export function Toolbar() {
       </div>
 
       <div style={styles.tools}>
-        {tools.map((tool) => (
-          <button key={tool.id} style={styles.toolBtn} title={`${tool.label} (${tool.gesture})`}>
-            <span style={styles.toolIcon}>{tool.icon}</span>
-            <span style={styles.toolLabel}>{tool.label}</span>
-          </button>
-        ))}
+        {tools.map((tool) => {
+          const isActive = activeTool === tool.id;
+          return (
+            <button
+              key={tool.id}
+              data-testid={`tool-${tool.id}`}
+              style={{
+                ...styles.toolBtn,
+                ...(isActive ? styles.toolBtnActive : {}),
+              }}
+              title={`${tool.label} (${tool.gesture})`}
+              onClick={() => dispatch({ type: "SET_TOOL", tool: tool.id })}
+            >
+              <span style={styles.toolIcon}>{tool.icon}</span>
+              <span style={styles.toolLabel}>{tool.label}</span>
+            </button>
+          );
+        })}
       </div>
+
+      <div style={styles.divider} />
+
+      <button
+        data-testid="btn-undo"
+        style={styles.actionBtn}
+        title="Undo (Ctrl+Z)"
+        onClick={() => dispatch({ type: "UNDO" })}
+      >
+        Undo
+      </button>
+      <button
+        data-testid="btn-redo"
+        style={styles.actionBtn}
+        title="Redo (Ctrl+Y)"
+        onClick={() => dispatch({ type: "REDO" })}
+      >
+        Redo
+      </button>
 
       <div style={styles.spacer} />
 
@@ -71,7 +107,7 @@ const styles: Record<string, React.CSSProperties> = {
   },
   toolBtn: {
     display: "flex",
-    flexDirection: "column",
+    flexDirection: "column" as const,
     alignItems: "center",
     gap: 1,
     padding: "4px 10px",
@@ -84,11 +120,22 @@ const styles: Record<string, React.CSSProperties> = {
     fontSize: 11,
     transition: "all 0.15s",
   },
+  toolBtnActive: {
+    background: "#1e3a5f",
+    border: "1px solid #3b82f6",
+    color: "#e5e5e5",
+  },
   toolIcon: {
     fontSize: 16,
   },
   toolLabel: {
     fontSize: 10,
+  },
+  divider: {
+    width: 1,
+    height: 24,
+    background: "#2a2a2a",
+    margin: "0 4px",
   },
   spacer: {
     flex: 1,

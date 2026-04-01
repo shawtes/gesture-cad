@@ -36,6 +36,9 @@ Thumbs.db
 coverage/
 .nyc_output/
 
+# MediaPipe WASM/model (large binaries served locally)
+apps/web/public/mediapipe/
+
 # Misc
 *.log
 *.tsbuildinfo

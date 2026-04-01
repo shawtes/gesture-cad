@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { CADStoreWrapper } from "./store-wrapper";
 
 export const metadata: Metadata = {
   title: "GestureCAD — Hand Gesture Controlled CAD",
@@ -13,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body>{children}</body>
+      <body>
+        <CADStoreWrapper>{children}</CADStoreWrapper>
+      </body>
     </html>
   );
 }

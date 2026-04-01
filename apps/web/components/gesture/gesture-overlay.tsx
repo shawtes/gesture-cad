@@ -6,6 +6,8 @@ interface GestureOverlayProps {
   onGestureDetected: (gesture: string) => void;
   onFpsUpdate: (fps: number) => void;
   onTrackingStatusChange: (active: boolean) => void;
+  /** Normalized hand position (0-1) from index fingertip, for 3D cursor projection */
+  onHandPosition?: (pos: { x: number; y: number } | null) => void;
 }
 
 const HAND_CONNECTIONS = [
@@ -70,15 +72,21 @@ function classifyGesture(landmarks: { x: number; y: number; z: number }[]): stri
   return "unknown";
 }
 
+// Serve WASM + model from local public/ dir — no CDN round-trip on reload
+const WASM_URL = "/mediapipe";
+const MODEL_URL = "/mediapipe/hand_landmarker.task";
+
 export function GestureOverlay({
   onGestureDetected,
   onFpsUpdate,
   onTrackingStatusChange,
+  onHandPosition,
 }: GestureOverlayProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [cameraEnabled, setCameraEnabled] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [loadingStatus, setLoadingStatus] = useState<string | null>(null);
   const frameCountRef = useRef(0);
   const lastFpsTimeRef = useRef(Date.now());
   const animFrameRef = useRef<number>(0);
@@ -110,12 +118,21 @@ export function GestureOverlay({
         ctx.arc(lm.x * width, lm.y * height, 4, 0, Math.PI * 2);
         ctx.fill();
       }
+
+      // Highlight index fingertip (landmark 8) — this drives the 3D cursor
+      const idx = landmarks[8];
+      ctx.fillStyle = "#f472b6";
+      ctx.beginPath();
+      ctx.arc(idx.x * width, idx.y * height, 8, 0, Math.PI * 2);
+      ctx.fill();
     },
     []
   );
 
   const startTracking = useCallback(async () => {
     try {
+      setLoadingStatus("Requesting camera...");
+
       const stream = await navigator.mediaDevices.getUserMedia({
         video: { width: 640, height: 480, facingMode: "user" },
       });
@@ -127,20 +144,20 @@ export function GestureOverlay({
         onTrackingStatusChange(true);
       }
 
+      setLoadingStatus("Loading hand tracking model...");
+
       // Load MediaPipe HandLandmarker
       const vision = await import("@mediapipe/tasks-vision");
       const { HandLandmarker, FilesetResolver } = vision;
 
-      const filesetResolver = await FilesetResolver.forVisionTasks(
-        "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@latest/wasm"
-      );
+      const filesetResolver = await FilesetResolver.forVisionTasks(WASM_URL);
 
-      handLandmarkerRef.current = await HandLandmarker.createFromOptions(
-        filesetResolver,
-        {
+      // Try GPU first, fall back to CPU
+      let landmarker;
+      try {
+        landmarker = await HandLandmarker.createFromOptions(filesetResolver, {
           baseOptions: {
-            modelAssetPath:
-              "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
+            modelAssetPath: MODEL_URL,
             delegate: "GPU",
           },
           runningMode: "VIDEO",
@@ -148,12 +165,33 @@ export function GestureOverlay({
           minHandDetectionConfidence: 0.5,
           minHandPresenceConfidence: 0.5,
           minTrackingConfidence: 0.5,
-        }
-      );
+        });
+      } catch (gpuErr) {
+        console.warn("GPU delegate failed, falling back to CPU:", gpuErr);
+        setLoadingStatus("GPU unavailable, using CPU...");
+        landmarker = await HandLandmarker.createFromOptions(filesetResolver, {
+          baseOptions: {
+            modelAssetPath: MODEL_URL,
+            delegate: "CPU",
+          },
+          runningMode: "VIDEO",
+          numHands: 1,
+          minHandDetectionConfidence: 0.5,
+          minHandPresenceConfidence: 0.5,
+          minTrackingConfidence: 0.5,
+        });
+      }
+
+      handLandmarkerRef.current = landmarker;
+      setLoadingStatus(null);
 
       // Start detection loop
+      let lastTimestamp = -1;
       const detect = () => {
-        if (!videoRef.current || !canvasRef.current || !handLandmarkerRef.current) return;
+        if (!videoRef.current || !canvasRef.current || !handLandmarkerRef.current) {
+          animFrameRef.current = requestAnimationFrame(detect);
+          return;
+        }
 
         const video = videoRef.current;
         const canvas = canvasRef.current;
@@ -173,33 +211,49 @@ export function GestureOverlay({
         ctx.drawImage(video, -canvas.width, 0, canvas.width, canvas.height);
         ctx.restore();
 
-        const results = handLandmarkerRef.current.detectForVideo(
-          video,
-          performance.now()
-        );
+        // MediaPipe requires strictly increasing timestamps
+        const now = performance.now();
+        if (now <= lastTimestamp) {
+          animFrameRef.current = requestAnimationFrame(detect);
+          return;
+        }
+        lastTimestamp = now;
 
-        if (results.landmarks && results.landmarks.length > 0) {
-          for (const hand of results.landmarks) {
-            // Mirror landmarks for display
-            const mirrored = hand.map((lm: any) => ({
-              ...lm,
-              x: 1 - lm.x,
-            }));
-            drawHand(ctx, mirrored, canvas.width, canvas.height);
+        try {
+          const results = handLandmarkerRef.current.detectForVideo(video, now);
+
+          if (results.landmarks && results.landmarks.length > 0) {
+            for (const hand of results.landmarks) {
+              const mirrored = hand.map((lm: any) => ({
+                ...lm,
+                x: 1 - lm.x,
+              }));
+              drawHand(ctx, mirrored, canvas.width, canvas.height);
+            }
+            const gesture = classifyGesture(results.landmarks[0]);
+            onGestureDetected(gesture);
+
+            // Emit index fingertip position for 3D cursor
+            const indexTip = results.landmarks[0][8];
+            if (indexTip && onHandPosition) {
+              onHandPosition({ x: 1 - indexTip.x, y: indexTip.y });
+            }
+          } else {
+            onGestureDetected("none");
+            onHandPosition?.(null);
           }
-          const gesture = classifyGesture(results.landmarks[0]);
-          onGestureDetected(gesture);
-        } else {
-          onGestureDetected("none");
+        } catch (detectErr) {
+          // Silently skip frame on detection error
+          console.warn("Detection error:", detectErr);
         }
 
         // FPS calculation
         frameCountRef.current++;
-        const now = Date.now();
-        if (now - lastFpsTimeRef.current >= 1000) {
+        const fpsNow = Date.now();
+        if (fpsNow - lastFpsTimeRef.current >= 1000) {
           onFpsUpdate(frameCountRef.current);
           frameCountRef.current = 0;
-          lastFpsTimeRef.current = now;
+          lastFpsTimeRef.current = fpsNow;
         }
 
         animFrameRef.current = requestAnimationFrame(detect);
@@ -207,10 +261,12 @@ export function GestureOverlay({
 
       detect();
     } catch (err: any) {
-      setError(err.message || "Failed to access camera");
+      console.error("Hand tracking error:", err);
+      setError(err.message || "Failed to start hand tracking");
+      setLoadingStatus(null);
       onTrackingStatusChange(false);
     }
-  }, [onGestureDetected, onFpsUpdate, onTrackingStatusChange, drawHand]);
+  }, [onGestureDetected, onFpsUpdate, onTrackingStatusChange, onHandPosition, drawHand]);
 
   useEffect(() => {
     return () => {
@@ -247,6 +303,13 @@ export function GestureOverlay({
           ref={canvasRef}
           style={styles.pipCanvas}
         />
+      )}
+
+      {/* Loading status overlay */}
+      {loadingStatus && (
+        <div style={styles.loadingBanner}>
+          {loadingStatus}
+        </div>
       )}
 
       {/* Camera toggle button */}
@@ -297,5 +360,17 @@ const styles: Record<string, React.CSSProperties> = {
     borderRadius: 6,
     fontSize: 13,
     zIndex: 20,
+  },
+  loadingBanner: {
+    position: "absolute",
+    bottom: 200,
+    left: 12,
+    padding: "6px 12px",
+    background: "#1e3a5f",
+    color: "#93c5fd",
+    borderRadius: 6,
+    fontSize: 12,
+    zIndex: 20,
+    border: "1px solid #3b82f6",
   },
 };

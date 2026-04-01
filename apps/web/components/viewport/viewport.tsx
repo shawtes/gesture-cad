@@ -9,8 +9,34 @@ import {
   Environment,
 } from "@react-three/drei";
 import { Scene } from "./scene";
+import { useCADState } from "@/lib/store";
 
-export function Viewport() {
+interface ViewportProps {
+  handPosition: { x: number; y: number } | null;
+  gesture: string;
+}
+
+function ViewportControls() {
+  const { activeTool } = useCADState();
+  const isSketchTool =
+    activeTool === "draw" ||
+    activeTool === "line" ||
+    activeTool === "circle" ||
+    activeTool === "rect";
+
+  return (
+    <OrbitControls
+      makeDefault
+      enableDamping
+      dampingFactor={0.1}
+      minDistance={1}
+      maxDistance={100}
+      enabled={!isSketchTool}
+    />
+  );
+}
+
+export function Viewport({ handPosition, gesture }: ViewportProps) {
   return (
     <div style={{ width: "100%", height: "100%", background: "#0a0a0a" }}>
       <Canvas
@@ -24,7 +50,7 @@ export function Viewport() {
         <directionalLight position={[10, 10, 5]} intensity={0.8} castShadow />
         <directionalLight position={[-5, 5, -5]} intensity={0.3} />
 
-        <Scene />
+        <Scene handPosition={handPosition} gesture={gesture} />
 
         <Grid
           infiniteGrid
@@ -38,13 +64,7 @@ export function Viewport() {
           fadeStrength={1}
         />
 
-        <OrbitControls
-          makeDefault
-          enableDamping
-          dampingFactor={0.1}
-          minDistance={1}
-          maxDistance={100}
-        />
+        <ViewportControls />
 
         <GizmoHelper alignment="bottom-right" margin={[80, 80]}>
           <GizmoViewport

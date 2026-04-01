@@ -1,5 +1,7 @@
 "use client";
 
+import { useCADState } from "@/lib/store";
+
 interface StatusBarProps {
   gesture: string;
   fps: number;
@@ -18,9 +20,22 @@ const gestureLabels: Record<string, string> = {
   unknown: "Unrecognized gesture",
 };
 
+const toolLabels: Record<string, string> = {
+  select: "Select",
+  draw: "Point",
+  line: "Line",
+  circle: "Circle",
+  rect: "Rectangle",
+  pan: "Pan",
+  confirm: "Confirm",
+  extrude: "Extrude",
+};
+
 export function StatusBar({ gesture, fps, trackingActive }: StatusBarProps) {
+  const { activeTool, entities } = useCADState();
+
   return (
-    <div style={styles.bar}>
+    <div style={styles.bar} data-testid="status-bar">
       <div style={styles.section}>
         <span style={{
           ...styles.dot,
@@ -28,6 +43,13 @@ export function StatusBar({ gesture, fps, trackingActive }: StatusBarProps) {
         }} />
         <span style={styles.label}>
           {trackingActive ? "Tracking" : "Camera off"}
+        </span>
+      </div>
+
+      <div style={styles.section}>
+        <span style={styles.label}>Tool:</span>
+        <span data-testid="status-tool" style={{ ...styles.value, color: "#3b82f6" }}>
+          {toolLabels[activeTool] || activeTool}
         </span>
       </div>
 
@@ -42,6 +64,13 @@ export function StatusBar({ gesture, fps, trackingActive }: StatusBarProps) {
       </div>
 
       <div style={styles.spacer} />
+
+      <div style={styles.section}>
+        <span style={styles.label}>Entities:</span>
+        <span data-testid="status-entity-count" style={styles.value}>
+          {entities.length}
+        </span>
+      </div>
 
       <div style={styles.section}>
         <span style={styles.label}>FPS:</span>
