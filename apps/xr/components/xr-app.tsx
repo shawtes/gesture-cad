@@ -49,6 +49,8 @@ export default function XRApp() {
   const [tableScale, setTableScale] = useState(1.0);
   const [gestureLeft, setGestureLeft] = useState<XRGestureState | null>(null);
   const [gestureRight, setGestureRight] = useState<XRGestureState | null>(null);
+  /** Where the next object will be placed — set by tapping the table */
+  const [placementPos, setPlacementPos] = useState<[number, number, number] | null>(null);
 
   const holoGroupRef = useRef<THREE.Group>(null);
 
@@ -108,21 +110,24 @@ export default function XRApp() {
     setGestureRight(right);
   }, []);
 
-  // Smart tool handler — primitives auto-add, others set tool
+  // Smart tool handler — primitives add at placement position or auto-position
   const handleToolSelect = useCallback((toolId: string) => {
+    // Use placement position if set, otherwise auto-position
+    const pos = placementPos || undefined;
+
     switch (toolId) {
-      case "box": addObject(createBox(1, 1, 1)); return;
-      case "cylinder": addObject(createCylinder(0.5, 1)); return;
-      case "sphere": addObject(createSphere(0.5)); return;
-      case "cone": addObject(createCone(0.5, 1)); return;
-      case "torus": addObject(createTorus(0.5, 0.15)); return;
+      case "box": addObject(createBox(1, 1, 1, pos)); return;
+      case "cylinder": addObject(createCylinder(0.5, 1, 32, pos)); return;
+      case "sphere": addObject(createSphere(0.5, 32, pos)); return;
+      case "cone": addObject(createCone(0.5, 1, 32, pos)); return;
+      case "torus": addObject(createTorus(0.5, 0.15, 32, pos)); return;
       case "generate": addObjects(generateHouse("2bed")); return;
-      case "rect": addObject(createExtrudedRect(-0.5, -0.5, 0.5, 0.5, 1)); return;
-      case "circle": addObject(createExtrudedCircle(0, 0, 0.5, 1)); return;
-      case "polygon": addObject(createExtrudedPolygon(0, 0, 0.5, 6, 1)); return;
+      case "rect": addObject(createExtrudedRect(-0.5, -0.5, 0.5, 0.5, 1, pos)); return;
+      case "circle": addObject(createExtrudedCircle(0, 0, 0.5, 1, pos)); return;
+      case "polygon": addObject(createExtrudedPolygon(0, 0, 0.5, 6, 1, pos)); return;
     }
     setActiveTool(toolId);
-  }, [addObject, addObjects]);
+  }, [addObject, addObjects, placementPos]);
 
   const isSketchTool = ["line", "arc"].includes(activeTool);
   const isDrawTool = activeTool === "draw";
@@ -146,7 +151,8 @@ export default function XRApp() {
             <pointLight position={[0, 1.5, 0]} intensity={0.2} color="#00ffcc" />
 
             <ARWorkbench activeTool={activeTool} onToolSelect={handleToolSelect}
-              preset={preset} tableHeight={tableHeight} tableScale={tableScale}>
+              preset={preset} tableHeight={tableHeight} tableScale={tableScale}
+              onTableTap={setPlacementPos} placementPos={placementPos}>
               <group ref={holoGroupRef}>
                 {hasContent && (
                   <CADObjectsRenderer

@@ -26,6 +26,10 @@ interface WorkbenchProps {
   preset: HologramPreset;
   tableHeight?: number;
   tableScale?: number;
+  /** Called when user taps on the table surface */
+  onTableTap?: (position: [number, number, number]) => void;
+  /** The current placement cursor position */
+  placementPos?: [number, number, number] | null;
   children?: React.ReactNode;
 }
 
@@ -77,6 +81,7 @@ const TOOL_TRAYS: { group: string; side: "front" | "back" | "left" | "right"; to
 export function ARWorkbench({
   activeTool, onToolSelect, preset,
   tableHeight = 0.78, tableScale = 1.0,
+  onTableTap, placementPos,
   children,
 }: WorkbenchProps) {
   const presetColor = HOLOGRAM_PRESETS[preset].color;
@@ -85,11 +90,40 @@ export function ARWorkbench({
 
   return (
     <group position={[0, 0, 0]}>
-      {/* ═══ TABLE SURFACE ═══ */}
-      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, tableHeight - 0.001, 0]}>
+      {/* ═══ TABLE SURFACE — clickable for placement ═══ */}
+      <mesh
+        rotation={[-Math.PI / 2, 0, 0]}
+        position={[0, tableHeight - 0.001, 0]}
+        onClick={(e) => {
+          e.stopPropagation();
+          if (onTableTap) {
+            const p = e.point;
+            onTableTap([p.x, 0, p.z]);
+          }
+        }}
+      >
         <planeGeometry args={[tw, td]} />
         <meshBasicMaterial color="#e8e3db" transparent opacity={0.25} side={THREE.DoubleSide} />
       </mesh>
+
+      {/* Placement cursor — shows where next object will appear */}
+      {placementPos && (
+        <group position={[placementPos[0], tableHeight + 0.005, placementPos[2]]}>
+          <mesh rotation={[-Math.PI / 2, 0, 0]}>
+            <ringGeometry args={[0.03, 0.04, 24]} />
+            <meshBasicMaterial color="#ff6600" transparent opacity={0.8} side={THREE.DoubleSide} />
+          </mesh>
+          <mesh rotation={[-Math.PI / 2, 0, 0]}>
+            <ringGeometry args={[0.05, 0.052, 24]} />
+            <meshBasicMaterial color="#ff6600" transparent opacity={0.3} side={THREE.DoubleSide} />
+          </mesh>
+          <Billboard position={[0, 0.06, 0]}>
+            <Text fontSize={0.015} color="#ff6600" anchorX="center" fontWeight="bold">
+              TAP TO PLACE
+            </Text>
+          </Billboard>
+        </group>
+      )}
 
       {/* 3D Grid */}
       <Grid
