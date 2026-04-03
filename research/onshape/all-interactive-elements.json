@@ -1,0 +1,245 @@
+[
+  {
+    "tag": "A",
+    "text": "",
+    "href": "https://cad.onshape.com/documents",
+    "role": null,
+    "title": null,
+    "ariaLabel": null,
+    "classes": "navbar-logo-documents d-flex align-items-center",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 139,
+      "h": 40
+    }
+  },
+  {
+    "tag": "A",
+    "text": "",
+    "role": null,
+    "title": null,
+    "ariaLabel": null,
+    "classes": "os-search-box-search-button",
+    "rect": {
+      "x": 1021,
+      "y": 6,
+      "w": 30,
+      "h": 28
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "",
+    "role": "button",
+    "title": null,
+    "ariaLabel": "Notifications",
+    "classes": "dropdown",
+    "rect": {
+      "x": 1583,
+      "y": 0,
+      "w": 32,
+      "h": 40
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "role": "link",
+    "title": null,
+    "ariaLabel": "Navigates you to Action items page in a new window.",
+    "classes": "btn nav-item",
+    "rect": {
+      "x": 1615,
+      "y": 0,
+      "w": 32,
+      "h": 40
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "role": "link",
+    "title": null,
+    "ariaLabel": "Navigates you to Onshape app store in a new window.",
+    "classes": "btn nav-invite nav-item",
+    "rect": {
+      "x": 1647,
+      "y": 0,
+      "w": 32,
+      "h": 40
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "role": "link",
+    "title": null,
+    "ariaLabel": "Navigates you to Onshape Learning Center in a new window.",
+    "classes": "btn nav-invite nav-item",
+    "rect": {
+      "x": 1679,
+      "y": 0,
+      "w": 32,
+      "h": 40
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "sineshaw tesfaye",
+    "role": "button",
+    "title": null,
+    "ariaLabel": null,
+    "classes": "user-signin-name os-user-signin-name btn nav-item",
+    "rect": {
+      "x": 1758,
+      "y": 0,
+      "w": 162,
+      "h": 40
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Create",
+    "role": null,
+    "title": null,
+    "ariaLabel": null,
+    "classes": "dropdown-toggle btn btn-primary ng-star-inserted",
+    "rect": {
+      "x": 35,
+      "y": 49,
+      "w": 150,
+      "h": 34
+    }
+  },
+  {
+    "tag": "A",
+    "text": "",
+    "role": null,
+    "title": null,
+    "ariaLabel": null,
+    "classes": "",
+    "rect": {
+      "x": 243,
+      "y": 530,
+      "w": 10,
+      "h": 21
+    }
+  },
+  {
+    "tag": "A",
+    "text": "Onshape EDU Quickstart",
+    "href": "https://cad.onshape.com/documents/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/e/091ee274b01614a5ece78dbb",
+    "role": null,
+    "title": null,
+    "ariaLabel": null,
+    "classes": "document-display-link",
+    "rect": {
+      "x": 335,
+      "y": 588,
+      "w": 152,
+      "h": 20
+    }
+  },
+  {
+    "tag": "A",
+    "text": "",
+    "role": null,
+    "title": null,
+    "ariaLabel": null,
+    "classes": "",
+    "rect": {
+      "x": 243,
+      "y": 646,
+      "w": 10,
+      "h": 21
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Type",
+    "role": null,
+    "title": null,
+    "ariaLabel": null,
+    "classes": "dropdown-toggle btn btn-secondary btn-sm type-filter-label",
+    "rect": {
+      "x": 246,
+      "y": 697,
+      "w": 61,
+      "h": 30
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Add",
+    "role": null,
+    "title": null,
+    "ariaLabel": null,
+    "classes": "d-flex align-items-center btn btn-secondary btn-sm border-0 add-column-button",
+    "rect": {
+      "x": 1788,
+      "y": 698,
+      "w": 66,
+      "h": 28
+    }
+  },
+  {
+    "tag": "A",
+    "text": "Onshape EDU Quickstart",
+    "href": "https://cad.onshape.com/documents/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/e/091ee274b01614a5ece78dbb",
+    "role": null,
+    "title": null,
+    "ariaLabel": null,
+    "classes": "document-list-item-name document-list-cell-hyperlink d-block ellipseOverflowText ng-star-inserted",
+    "rect": {
+      "x": 326,
+      "y": 779,
+      "w": 147,
+      "h": 20
+    }
+  },
+  {
+    "tag": "A",
+    "text": "",
+    "role": null,
+    "title": null,
+    "ariaLabel": null,
+    "classes": "btn btn-secondary border-0 ng-star-inserted",
+    "rect": {
+      "x": 1037,
+      "y": 674,
+      "w": 26,
+      "h": 16
+    }
+  },
+  {
+    "tag": "A",
+    "text": "© 2013 - 2026, PTC Inc. All Rights Reserved.",
+    "href": "https://www.onshape.com/en",
+    "role": null,
+    "title": null,
+    "ariaLabel": null,
+    "classes": "",
+    "rect": {
+      "x": 241,
+      "y": 1058,
+      "w": 235,
+      "h": 17
+    }
+  },
+  {
+    "tag": "A",
+    "text": "Terms & Privacy",
+    "href": "https://www.onshape.com/en/legal",
+    "role": null,
+    "title": null,
+    "ariaLabel": null,
+    "classes": "",
+    "rect": {
+      "x": 958,
+      "y": 1058,
+      "w": 88,
+      "h": 17
+    }
+  }
+]

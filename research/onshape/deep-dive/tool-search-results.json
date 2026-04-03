@@ -1,0 +1,5718 @@
+{
+  "Extrude": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Extrude\nshifte",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Revolve": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Revolve\nshiftw",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Sweep": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Sweep",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Loft": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loft",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Sheet metal loft",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Sketch": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Sketch\nshifts",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Fillet": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Fillet\nshiftf",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Modify fillet",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Chamfer": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Chamfer",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Shell": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Shell",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Sheet metal loft",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Sheet metal model",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Finish sheet metal model",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Draft": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Draft",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Body draft",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Boolean": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Boolean",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Pattern": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Curve pattern",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Linear pattern",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Circular pattern",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Mirror": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Mirror",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Hole": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Hole",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Split": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Split",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Thicken": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Thicken",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Helix": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Helix",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Plane": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Plane",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Offset": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Offset curve",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Offset surface",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Rib": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Rib",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Variable",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Query variable",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Sheet Metal": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Sheet metal loft",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Sheet metal model",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Finish sheet metal model",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Line": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Linear pattern",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Isocline",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "3D fit spline",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Circle": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Circular pattern",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Arc": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Boundary surface",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Isoparametric curve",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Constrained surface",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Rectangle": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Spline": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "3D fit spline",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Dimension": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Constraint": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ],
+  "Mate": [
+    {
+      "text": "Rename document",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Move to…",
+      "classes": "dropdown-item rename-document-command"
+    },
+    {
+      "text": "Document details…",
+      "classes": "dropdown-item document-properties-command"
+    },
+    {
+      "text": "Restore deleted workspaces…",
+      "classes": "dropdown-item restore-workspaces-command"
+    },
+    {
+      "text": "Copy workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Update workspace…",
+      "classes": "dropdown-item ƒ"
+    },
+    {
+      "text": "Workspace units…",
+      "classes": "dropdown-item units-command"
+    },
+    {
+      "text": "Workspace properties…",
+      "classes": "dropdown-item edit-current-workspace-properties-command"
+    },
+    {
+      "text": "Print…",
+      "classes": "dropdown-item print-setup-command"
+    },
+    {
+      "text": "Close document",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Help",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "FeatureScript documentation",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Keyboard shortcuts",
+      "classes": "dropdown-item hotkey-help-target"
+    },
+    {
+      "text": "What's new",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Forums",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Report a bug",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "System check",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "About",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "My account",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View support tickets",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "App Store dev portal",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "View in dark mode beta",
+      "classes": "dropdown-item clickable"
+    },
+    {
+      "text": "Sign out",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Mate connector\nctrlm",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": "Add custom features",
+      "classes": "toolbar-item os-row"
+    },
+    {
+      "text": ":part – Filter bodies by name and features by bodies directly affected",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":type – Filter features and bodies by type",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":name – Filter features and bodies by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":errors – Filter by features and bodies with errors",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":folder – Filter Part Studio folders by name",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":suppressed – Filter by suppressed features",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":hidden – Filter by hidden features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": ":shown – Filter by shown features and bodies",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Applications",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Go to App Store",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Loading…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create tutorial…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Material Library",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Feature Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Part Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Assembly",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Variable Studio",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create Drawing…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create folder",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Create table",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Import…",
+      "classes": "dropdown-item"
+    },
+    {
+      "text": "Paste tab",
+      "classes": "dropdown-item"
+    }
+  ]
+}

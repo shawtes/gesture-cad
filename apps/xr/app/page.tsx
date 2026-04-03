@@ -1,210 +1,178 @@
 "use client";
 
-import { useState, useCallback, Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
-import { createXRStore, XR, XROrigin } from "@react-three/xr";
-import { Environment, OrbitControls } from "@react-three/drei";
-import { XRScene } from "@/components/xr-session/xr-scene";
-import { HandTracker } from "@/components/hand-tracking/hand-tracker";
-import { ModelViewer } from "@/components/model-viewer/model-viewer";
-import { DrawingEngine } from "@/components/drawing/drawing-engine";
+/**
+ * GestureCAD XR — Holographic AR CAD Viewer
+ *
+ * Two-phase loading for Quest Browser compatibility:
+ * 1. Lightweight landing page (no Three.js) — loads instantly
+ * 2. Full 3D scene loaded on demand when user taps "Launch"
+ */
 
-// Create XR store for session management
-const xrStore = createXRStore({
-  hand: { rayPointer: { minDistance: 0.2 } },
-  controller: { rayPointer: true },
+import { useState } from "react";
+import dynamic from "next/dynamic";
+
+// Lazy-load the heavy 3D scene — only downloads Three.js when needed
+const XRScene3D = dynamic(() => import("@/components/xr-app"), {
+  ssr: false,
+  loading: () => (
+    <div style={loadingStyle}>
+      <div style={spinnerStyle} />
+      <p>Loading 3D engine...</p>
+    </div>
+  ),
 });
 
 export default function XRPage() {
-  const [modelUrl, setModelUrl] = useState<string | null>(null);
-  const [mode, setMode] = useState<"view" | "draw" | "measure">("view");
+  const [launched, setLaunched] = useState(false);
+  const [xrSupport, setXrSupport] = useState<string>("checking...");
 
-  const handleFileDrop = useCallback((e: React.DragEvent) => {
-    e.preventDefault();
-    const file = e.dataTransfer.files[0];
-    if (file && (file.name.endsWith(".glb") || file.name.endsWith(".gltf"))) {
-      const url = URL.createObjectURL(file);
-      setModelUrl(url);
+  // Check WebXR on mount
+  if (typeof window !== "undefined" && xrSupport === "checking...") {
+    if (navigator.xr) {
+      navigator.xr
+        .isSessionSupported("immersive-ar")
+        .then((supported) =>
+          setXrSupport(supported ? "AR supported" : "VR only")
+        )
+        .catch(() => setXrSupport("WebXR error"));
+    } else {
+      setXrSupport("No WebXR (desktop mode)");
     }
-  }, []);
+  }
 
-  const handleFileSelect = useCallback(() => {
-    const input = document.createElement("input");
-    input.type = "file";
-    input.accept = ".glb,.gltf,.stl";
-    input.onchange = () => {
-      const file = input.files?.[0];
-      if (file) {
-        const url = URL.createObjectURL(file);
-        setModelUrl(url);
-      }
-    };
-    input.click();
-  }, []);
+  if (launched) {
+    return <XRScene3D />;
+  }
 
   return (
-    <div
-      style={{ width: "100vw", height: "100vh", position: "relative" }}
-      onDragOver={(e) => e.preventDefault()}
-      onDrop={handleFileDrop}
-    >
-      {/* XR Controls */}
-      <div style={styles.controls}>
-        <div style={styles.brand}>
-          <span style={{ color: "#3b82f6", fontSize: 20 }}>◈</span>
-          <span style={styles.title}>GestureCAD XR</span>
+    <div style={landingStyle}>
+      <div style={cardStyle}>
+        <span style={{ fontSize: 48 }}>◈</span>
+        <h1 style={titleStyle}>GestureCAD XR</h1>
+        <p style={badgeStyle}>HOLOGRAM</p>
+
+        <p style={descStyle}>
+          View your CAD models as holograms in AR.
+          <br />
+          Control with your hands or controllers.
+        </p>
+
+        <div style={statusStyle}>
+          <span style={{ color: xrSupport.includes("AR") ? "#00ccaa" : "#888" }}>
+            {xrSupport}
+          </span>
         </div>
-        <div style={styles.buttons}>
-          <button
-            style={styles.enterXR}
-            onClick={() => xrStore.enterAR()}
-            data-testid="enter-ar-btn"
-          >
-            Enter AR
-          </button>
-          <button
-            style={styles.enterXR}
-            onClick={() => xrStore.enterVR()}
-            data-testid="enter-vr-btn"
-          >
-            Enter VR
-          </button>
-          <button style={styles.btn} onClick={handleFileSelect} data-testid="load-model-btn">
-            Load Model
-          </button>
-        </div>
-        <div style={styles.modeBar}>
-          {(["view", "draw", "measure"] as const).map((m) => (
-            <button
-              key={m}
-              data-testid={`mode-${m}`}
-              style={{
-                ...styles.modeBtn,
-                ...(mode === m ? styles.modeBtnActive : {}),
-              }}
-              onClick={() => setMode(m)}
-            >
-              {m === "view" ? "👁 View" : m === "draw" ? "✏️ Draw" : "📏 Measure"}
-            </button>
-          ))}
+
+        <button style={launchBtnStyle} onClick={() => setLaunched(true)}>
+          Launch 3D Viewer
+        </button>
+
+        <div style={hintsStyle}>
+          <p>Pinch = grab & move</p>
+          <p>Two-hand pinch = scale</p>
+          <p>Fist = rotate</p>
+          <p>Open palm = reset</p>
         </div>
       </div>
-
-      {/* 3D Canvas — works in both desktop preview and XR immersive modes */}
-      <Canvas
-        camera={{ position: [2, 2, 2], fov: 50 }}
-        gl={{ antialias: true, alpha: true }}
-        style={{ background: "#0a0a0a" }}
-      >
-        <XR store={xrStore}>
-          <Suspense fallback={null}>
-            <XRScene />
-            <HandTracker mode={mode} />
-            {modelUrl && <ModelViewer url={modelUrl} />}
-            <DrawingEngine active={mode === "draw"} />
-          </Suspense>
-
-          <XROrigin position={[0, 0, 0]} />
-
-          {/* Desktop preview controls (disabled in XR) */}
-          <OrbitControls makeDefault />
-          <Environment preset="city" />
-        </XR>
-      </Canvas>
-
-      {/* Drop zone overlay */}
-      {!modelUrl && (
-        <div style={styles.dropHint} data-testid="drop-hint">
-          <p style={{ fontSize: 18, fontWeight: 600 }}>Drop a .glb model here</p>
-          <p style={{ fontSize: 13, color: "#666" }}>or click Load Model above</p>
-          <p style={{ fontSize: 11, color: "#444", marginTop: 12 }}>
-            On Meta Quest: open this URL in Quest Browser → tap Enter AR
-          </p>
-        </div>
-      )}
     </div>
   );
 }
 
-const styles: Record<string, React.CSSProperties> = {
-  controls: {
-    position: "absolute",
-    top: 0,
-    left: 0,
-    right: 0,
-    zIndex: 10,
-    padding: "12px 16px",
-    display: "flex",
-    alignItems: "center",
-    gap: 16,
-    background: "rgba(10, 10, 10, 0.85)",
-    backdropFilter: "blur(8px)",
-    borderBottom: "1px solid #2a2a2a",
-  },
-  brand: {
-    display: "flex",
-    alignItems: "center",
-    gap: 8,
-  },
-  title: {
-    fontSize: 15,
-    fontWeight: 700,
-    color: "#e5e5e5",
-    letterSpacing: "-0.02em",
-  },
-  buttons: {
-    display: "flex",
-    gap: 8,
-  },
-  enterXR: {
-    padding: "8px 20px",
-    background: "#3b82f6",
-    color: "#fff",
-    border: "none",
-    borderRadius: 6,
-    cursor: "pointer",
-    fontFamily: "inherit",
-    fontSize: 13,
-    fontWeight: 600,
-  },
-  btn: {
-    padding: "8px 16px",
-    background: "#2a2a2a",
-    color: "#e5e5e5",
-    border: "1px solid #333",
-    borderRadius: 6,
-    cursor: "pointer",
-    fontFamily: "inherit",
-    fontSize: 13,
-  },
-  modeBar: {
-    display: "flex",
-    gap: 4,
-    marginLeft: "auto",
-  },
-  modeBtn: {
-    padding: "6px 14px",
-    background: "transparent",
-    color: "#a0a0a0",
-    border: "1px solid transparent",
-    borderRadius: 4,
-    cursor: "pointer",
-    fontFamily: "inherit",
-    fontSize: 12,
-  },
-  modeBtnActive: {
-    background: "#1e3a5f",
-    border: "1px solid #3b82f6",
-    color: "#e5e5e5",
-  },
-  dropHint: {
-    position: "absolute",
-    inset: 0,
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-    pointerEvents: "none",
-    color: "#666",
-  },
+const landingStyle: React.CSSProperties = {
+  width: "100vw",
+  height: "100vh",
+  background: "#f5f0e8",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  fontFamily: "'SF Mono', 'Menlo', monospace",
+};
+
+const cardStyle: React.CSSProperties = {
+  textAlign: "center",
+  color: "#333",
+  maxWidth: 400,
+  padding: "40px 30px",
+};
+
+const titleStyle: React.CSSProperties = {
+  fontSize: 28,
+  fontWeight: 700,
+  color: "#333",
+  margin: "12px 0 8px",
+  letterSpacing: "-0.02em",
+};
+
+const badgeStyle: React.CSSProperties = {
+  fontSize: 10,
+  fontWeight: 700,
+  color: "#00ccaa",
+  letterSpacing: "0.2em",
+  background: "rgba(0,255,204,0.1)",
+  border: "1px solid rgba(0,255,204,0.3)",
+  display: "inline-block",
+  padding: "3px 12px",
+  borderRadius: 4,
+  marginBottom: 24,
+};
+
+const descStyle: React.CSSProperties = {
+  fontSize: 14,
+  color: "#668",
+  lineHeight: 1.6,
+  marginBottom: 20,
+};
+
+const statusStyle: React.CSSProperties = {
+  fontSize: 12,
+  marginBottom: 24,
+  padding: "8px 16px",
+  background: "rgba(0,255,204,0.05)",
+  border: "1px solid rgba(0,255,204,0.15)",
+  borderRadius: 8,
+  display: "inline-block",
+};
+
+const launchBtnStyle: React.CSSProperties = {
+  display: "block",
+  width: "100%",
+  padding: "16px 0",
+  fontSize: 16,
+  fontWeight: 700,
+  fontFamily: "inherit",
+  color: "#f5f0e8",
+  background: "#00ccaa",
+  border: "none",
+  borderRadius: 10,
+  cursor: "pointer",
+  marginBottom: 24,
+};
+
+const hintsStyle: React.CSSProperties = {
+  fontSize: 11,
+  color: "#445",
+  lineHeight: 1.8,
+};
+
+const loadingStyle: React.CSSProperties = {
+  width: "100vw",
+  height: "100vh",
+  background: "#f5f0e8",
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  justifyContent: "center",
+  color: "#00ccaa",
+  fontFamily: "'SF Mono', monospace",
+  fontSize: 14,
+  gap: 16,
+};
+
+const spinnerStyle: React.CSSProperties = {
+  width: 32,
+  height: 32,
+  border: "3px solid #112",
+  borderTop: "3px solid #00ccaa",
+  borderRadius: "50%",
+  animation: "spin 1s linear infinite",
 };

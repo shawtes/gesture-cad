@@ -1,0 +1,149 @@
+{
+  "classPrefixes": {
+    "wf-": 2,
+    "os-": 313,
+    "osc-": 19,
+    "disable-": 6,
+    "navbar-": 21,
+    "fixed-": 1,
+    "document-": 21,
+    "nav-": 21,
+    "d-": 11,
+    "align-": 1,
+    "hamburger-": 1,
+    "dropdown-": 75,
+    "rename-": 2,
+    "restore-": 1,
+    "units-": 1,
+    "edit-": 1,
+    "print-": 3,
+    "workspace-": 1,
+    "collaborator-": 1,
+    "ng-": 60,
+    "feature-": 2,
+    "flyout-": 4,
+    "cross-": 1,
+    "user-": 4,
+    "btn-": 29,
+    "help-": 1,
+    "hotkey-": 1,
+    "username-": 1,
+    "form-": 11,
+    "text-": 4,
+    "mb-": 1,
+    "rounded-": 1,
+    "bg-": 1,
+    "enable-": 1,
+    "debug-": 2,
+    "ui-": 15,
+    "element-": 9,
+    "custom-": 1,
+    "toolbar-": 11,
+    "is-": 77,
+    "tool-": 58,
+    "hide-": 28,
+    "toolset-": 9,
+    "command-": 1,
+    "shortcut-": 2,
+    "content-": 2,
+    "loader-": 1,
+    "left-": 7,
+    "panel-": 2,
+    "ns-": 51,
+    "visibility-": 1,
+    "pane-": 2,
+    "select-": 6,
+    "float-": 9,
+    "glyphicon-": 3,
+    "assembly-": 1,
+    "append-": 1,
+    "node-": 16,
+    "drop-": 2,
+    "split-": 10,
+    "canvas-": 1,
+    "dialog-": 1,
+    "primary-": 1,
+    "measure-": 1,
+    "analysis-": 1,
+    "mass-": 1,
+    "scalar-": 1,
+    "cube-": 1,
+    "right-": 2,
+    "network-": 1,
+    "tag-": 1,
+    "timing-": 2,
+    "check-": 1,
+    "move-": 2,
+    "view-": 1,
+    "stats-": 1,
+    "bbox-": 1,
+    "facetcount-": 1,
+    "fps-": 1,
+    "lui-": 1,
+    "foreign-": 2,
+    "iframe-": 1,
+    "breadcrumb-": 3,
+    "tab-": 11,
+    "drag-": 3,
+    "extended-": 3,
+    "consolidated-": 3,
+    "scroll-": 2,
+    "bottom-": 2,
+    "application-": 1,
+    "old-": 3,
+    "upgrade-": 3,
+    "beta-": 2,
+    "osx-": 1,
+    "thumbnail-": 1
+  },
+  "stylesheets": [
+    {
+      "href": "https://cad.onshape.com/css/onshape-design-tokens.v1.0.53.min.css",
+      "rulesCount": 11,
+      "media": ""
+    },
+    {
+      "href": "https://cad.onshape.com/js/vendor-bundle.a0f1d14328cc3f3a93ea.css",
+      "rulesCount": 1483,
+      "media": ""
+    },
+    {
+      "href": "https://cad.onshape.com/css/woolsthorpe.25761be6d0aca82641f2.css",
+      "rulesCount": 11322,
+      "media": ""
+    },
+    {
+      "href": "https://cad.onshape.com/css/web-fonts.css",
+      "rulesCount": 10,
+      "media": "all"
+    },
+    {
+      "rulesCount": 30,
+      "media": ""
+    },
+    {
+      "rulesCount": 28,
+      "media": ""
+    },
+    {
+      "rulesCount": 12,
+      "media": ""
+    },
+    {
+      "rulesCount": 26,
+      "media": ""
+    },
+    {
+      "rulesCount": 20,
+      "media": ""
+    },
+    {
+      "rulesCount": 3,
+      "media": ""
+    },
+    {
+      "rulesCount": 1,
+      "media": ""
+    }
+  ]
+}

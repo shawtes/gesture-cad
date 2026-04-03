@@ -1,0 +1,126 @@
+[
+  {
+    "classes": "left-panel-header",
+    "rect": {
+      "x": 40,
+      "y": 77,
+      "w": 200,
+      "h": 35
+    },
+    "text": "Configurations",
+    "children": [
+      {
+        "tag": "SPAN",
+        "classes": "ns-subdialog-title",
+        "text": "Configurations"
+      },
+      {
+        "tag": "A",
+        "classes": "visibility-conditions-icon",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "classes": "left-panel-header",
+    "rect": {
+      "x": 40,
+      "y": 158,
+      "w": 200,
+      "h": 67
+    },
+    "text": "Features (47)",
+    "children": [
+      {
+        "tag": "DIV",
+        "classes": "ns-filter-feature-control",
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "classes": "os-row feature-list-header",
+        "text": "Features (47)"
+      }
+    ]
+  },
+  {
+    "classes": "os-row feature-list-header",
+    "rect": {
+      "x": 40,
+      "y": 195,
+      "w": 200,
+      "h": 30
+    },
+    "text": "Features (47)",
+    "children": [
+      {
+        "tag": "SPAN",
+        "classes": "features-title ns-subdialog-title os-grow",
+        "text": "Features (47)"
+      },
+      {
+        "tag": "BUTTON",
+        "classes": "feature-list-header-button is-button",
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "classes": "feature-list-header-button is-button",
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "classes": "feature-list-header-button is-button",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "classes": "feature-list-header-button is-button",
+    "rect": {
+      "x": 140,
+      "y": 195,
+      "w": 30,
+      "h": 30
+    },
+    "text": "",
+    "children": [
+      {
+        "tag": "svg",
+        "classes": "[object SVGAnimatedString]"
+      }
+    ]
+  },
+  {
+    "classes": "feature-list-header-button is-button",
+    "rect": {
+      "x": 170,
+      "y": 195,
+      "w": 30,
+      "h": 30
+    },
+    "text": "",
+    "children": [
+      {
+        "tag": "svg",
+        "classes": "[object SVGAnimatedString]"
+      }
+    ]
+  },
+  {
+    "classes": "feature-list-header-button is-button",
+    "rect": {
+      "x": 200,
+      "y": 195,
+      "w": 30,
+      "h": 30
+    },
+    "text": "",
+    "children": [
+      {
+        "tag": "svg",
+        "classes": "[object SVGAnimatedString]"
+      }
+    ]
+  }
+]

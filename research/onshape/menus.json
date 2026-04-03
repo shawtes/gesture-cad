@@ -1,0 +1,357 @@
+[
+  {
+    "menu": "Tools",
+    "items": [
+      {
+        "text": "Rename document",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item rename-document-command"
+      },
+      {
+        "text": "Move to…",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item rename-document-command"
+      },
+      {
+        "text": "Document details…",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item document-properties-command"
+      },
+      {
+        "text": "Restore deleted workspaces…",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item restore-workspaces-command"
+      },
+      {
+        "text": "Copy workspace…",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item ƒ"
+      },
+      {
+        "text": "Update workspace…",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item ƒ"
+      },
+      {
+        "text": "Workspace units…",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item units-command"
+      },
+      {
+        "text": "Workspace properties…",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item edit-current-workspace-properties-command"
+      },
+      {
+        "text": "Print…",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item print-setup-command"
+      },
+      {
+        "text": "Close document",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Help",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "FeatureScript documentation",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Keyboard shortcuts",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item hotkey-help-target"
+      },
+      {
+        "text": "What's new",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Forums",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Report a bug",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "System check",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "About",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "sineshaw tesfaye",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": true,
+        "classes": "user-signin-name os-user-signin-name btn nav-item"
+      },
+      {
+        "text": "My account",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "View support tickets",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "App Store dev portal",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "View in dark mode beta",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item clickable"
+      },
+      {
+        "text": "Sign out",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": ":part – Filter bodies by name and features by bodies directly affected",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": ":type – Filter features and bodies by type",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": ":name – Filter features and bodies by name",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": ":errors – Filter by features and bodies with errors",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": ":folder – Filter Part Studio folders by name",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": ":variable – Filter by features that use or change a specific variable (case-sensitive)",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": ":suppressed – Filter by suppressed features",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": ":hidden – Filter by hidden features and bodies",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": ":shown – Filter by shown features and bodies",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Applications",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Go to App Store",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Loading…",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Create tutorial…",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Create Material Library",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Create Feature Studio",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Create Render Studio\n    \n      \n      \n        \n      \n      Upgrade",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Create PCB Studio\n    \n      \n      \n        \n      \n      Upgrade",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Create CAM Studio\n    \n      \n      \n        \n      \n      Upgrade",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Create Part Studio",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Create Assembly",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Create Variable Studio",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Create Drawing…",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Create folder",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Create table",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Import…",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      },
+      {
+        "text": "Paste tab",
+        "shortcut": null,
+        "disabled": false,
+        "hasSubmenu": false,
+        "classes": "dropdown-item"
+      }
+    ]
+  }
+]

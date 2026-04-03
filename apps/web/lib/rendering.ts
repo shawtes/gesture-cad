@@ -90,3 +90,54 @@ export type EnvironmentPreset =
   | "forest"
   | "city"
   | "night";
+
+export type RenderMode = "shaded" | "wireframe" | "flat" | "xray" | "pbr";
+
+/**
+ * Convert a PBRMaterial to Three.js MeshPhysicalMaterial parameters.
+ */
+export function materialToThreeParams(mat: PBRMaterial): {
+  color: string;
+  roughness: number;
+  metalness: number;
+  transparent: boolean;
+  opacity: number;
+  emissive?: string;
+  emissiveIntensity?: number;
+  side: number; // THREE.DoubleSide = 2
+} {
+  return {
+    color: mat.color,
+    roughness: mat.roughness,
+    metalness: mat.metalness,
+    transparent: mat.opacity < 1,
+    opacity: mat.opacity,
+    emissive: mat.emissive,
+    emissiveIntensity: mat.emissiveIntensity,
+    side: 2,
+  };
+}
+
+/** Get material names for UI dropdowns */
+export function getMaterialNames(): { id: string; name: string }[] {
+  return Object.entries(MATERIAL_LIBRARY).map(([id, mat]) => ({ id, name: mat.name }));
+}
+
+/**
+ * Post-processing settings for viewport.
+ */
+export interface PostProcessSettings {
+  ssao: boolean;       // Screen Space Ambient Occlusion
+  toneMapping: "none" | "aces" | "reinhard" | "cineon";
+  exposure: number;    // 0.5-2.0
+  bloom: boolean;
+  bloomIntensity: number; // 0-1
+}
+
+export const DEFAULT_POST_PROCESS: PostProcessSettings = {
+  ssao: true,
+  toneMapping: "aces",
+  exposure: 1.0,
+  bloom: false,
+  bloomIntensity: 0.3,
+};

@@ -1,0 +1,118 @@
+{
+  "toolbars": [
+    {
+      "classes": "os-element-toolbar visibility-hidden",
+      "rect": {
+        "x": 40,
+        "y": 40,
+        "w": 1880,
+        "h": 36
+      },
+      "buttons": []
+    },
+    {
+      "classes": "os-toolbar-container os-no-shrink os-grow",
+      "rect": {
+        "x": 40,
+        "y": 58,
+        "w": 1880,
+        "h": 0
+      },
+      "buttons": []
+    },
+    {
+      "classes": "lui-toolbar-foreign-data ng-hide",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "buttons": []
+    },
+    {
+      "classes": "os-mini-toolbar-panel os-mini-toolbar-incontext",
+      "rect": {
+        "x": 40,
+        "y": 40,
+        "w": 175,
+        "h": 0
+      },
+      "buttons": []
+    }
+  ],
+  "allButtons": [
+    {
+      "text": "",
+      "title": null,
+      "ariaLabel": "Notifications",
+      "classes": "dropdown",
+      "rect": {
+        "x": 1516,
+        "y": 0,
+        "w": 32,
+        "h": 40
+      }
+    },
+    {
+      "text": "",
+      "title": null,
+      "ariaLabel": "Navigates you to Action items page in a new window.",
+      "classes": "btn nav-item",
+      "rect": {
+        "x": 1548,
+        "y": 0,
+        "w": 32,
+        "h": 40
+      }
+    },
+    {
+      "text": "",
+      "title": null,
+      "ariaLabel": "Navigates you to Onshape app store in a new window.",
+      "classes": "btn nav-invite nav-item",
+      "rect": {
+        "x": 1580,
+        "y": 0,
+        "w": 32,
+        "h": 40
+      }
+    },
+    {
+      "text": "",
+      "title": null,
+      "ariaLabel": "Navigates you to Onshape Learning Center in a new window.",
+      "classes": "btn nav-invite nav-item",
+      "rect": {
+        "x": 1612,
+        "y": 0,
+        "w": 32,
+        "h": 40
+      }
+    },
+    {
+      "text": "Share",
+      "title": null,
+      "ariaLabel": null,
+      "classes": "btn btn-primary nav-share document-list-share-button os-navbar-share-button",
+      "rect": {
+        "x": 1648,
+        "y": 3,
+        "w": 59,
+        "h": 34
+      }
+    },
+    {
+      "text": "sineshaw tesfaye",
+      "title": null,
+      "ariaLabel": null,
+      "classes": "user-signin-name os-user-signin-name btn nav-item",
+      "rect": {
+        "x": 1758,
+        "y": 0,
+        "w": 162,
+        "h": 40
+      }
+    }
+  ]
+}

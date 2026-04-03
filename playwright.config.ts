@@ -8,39 +8,20 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: "html",
   use: {
+    baseURL: "http://localhost:3000",
     trace: "on-first-retry",
     screenshot: "only-on-failure",
   },
   projects: [
     {
-      name: "web",
-      testMatch: /sprint[0-9].*\.spec\.ts|hand-tracking\.spec\.ts/,
-      use: {
-        ...devices["Desktop Chrome"],
-        baseURL: "http://localhost:3000",
-      },
-    },
-    {
-      name: "xr",
-      testMatch: /xr-.*\.spec\.ts/,
-      use: {
-        ...devices["Desktop Chrome"],
-        baseURL: "http://localhost:3002",
-      },
+      name: "chromium",
+      use: { ...devices["Desktop Chrome"] },
     },
   ],
-  webServer: [
-    {
-      command: "pnpm --filter @gesture-cad/web dev",
-      url: "http://localhost:3000",
-      reuseExistingServer: !process.env.CI,
-      timeout: 30000,
-    },
-    {
-      command: "pnpm --filter @gesture-cad/xr dev",
-      url: "http://localhost:3002",
-      reuseExistingServer: !process.env.CI,
-      timeout: 30000,
-    },
-  ],
+  webServer: {
+    command: "pnpm --filter @gesture-cad/web dev",
+    url: "http://localhost:3000",
+    reuseExistingServer: !process.env.CI,
+    timeout: 30000,
+  },
 });

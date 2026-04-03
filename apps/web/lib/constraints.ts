@@ -5,7 +5,16 @@ export type ConstraintType =
   | "vertical"
   | "coincident"
   | "tangent"
-  | "equal";
+  | "equal"
+  | "parallel"
+  | "perpendicular"
+  | "symmetric"
+  | "concentric"
+  | "midpoint"
+  | "distance"
+  | "angle"
+  | "radius"
+  | "diameter";
 
 export interface SketchConstraint {
   id: string;
@@ -119,7 +128,53 @@ function getEntityEndpoints(
         ];
       }
       return [];
+    case "ellipse":
+      return [{ x: entity.cx, z: entity.cz }];
+    default:
+      return [];
   }
+}
+
+// ─── Manual constraint factories ───
+
+/** Create a distance constraint between two entities */
+export function createDistanceConstraint(entityId1: string, entityId2: string, value: number): SketchConstraint {
+  return { id: nextConstraintId(), type: "distance", entityIds: [entityId1, entityId2], value };
+}
+
+/** Create an angle constraint between two lines */
+export function createAngleConstraint(lineId1: string, lineId2: string, angleDeg: number): SketchConstraint {
+  return { id: nextConstraintId(), type: "angle", entityIds: [lineId1, lineId2], value: angleDeg };
+}
+
+/** Create a radius constraint on a circle or arc */
+export function createRadiusConstraint(entityId: string, radius: number): SketchConstraint {
+  return { id: nextConstraintId(), type: "radius", entityIds: [entityId], value: radius };
+}
+
+/** Create a diameter constraint on a circle */
+export function createDiameterConstraint(entityId: string, diameter: number): SketchConstraint {
+  return { id: nextConstraintId(), type: "diameter", entityIds: [entityId], value: diameter };
+}
+
+/** Create a parallel constraint between two lines */
+export function createParallelConstraint(lineId1: string, lineId2: string): SketchConstraint {
+  return { id: nextConstraintId(), type: "parallel", entityIds: [lineId1, lineId2] };
+}
+
+/** Create a perpendicular constraint between two lines */
+export function createPerpendicularConstraint(lineId1: string, lineId2: string): SketchConstraint {
+  return { id: nextConstraintId(), type: "perpendicular", entityIds: [lineId1, lineId2] };
+}
+
+/** Create a symmetric constraint for two entities about an axis entity */
+export function createSymmetricConstraint(entityId1: string, entityId2: string, axisId: string): SketchConstraint {
+  return { id: nextConstraintId(), type: "symmetric", entityIds: [entityId1, entityId2, axisId] };
+}
+
+/** Create a concentric constraint between two circles/arcs */
+export function createConcentricConstraint(entityId1: string, entityId2: string): SketchConstraint {
+  return { id: nextConstraintId(), type: "concentric", entityIds: [entityId1, entityId2] };
 }
 
 /** Run all auto-detections on a newly created entity. */

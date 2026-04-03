@@ -1,0 +1,24 @@
+{
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyColor": "rgb(51, 51, 51)",
+  "bodyFont": "Flama, \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+  "fontSize": "14px",
+  "uniqueColors": [
+    "rgb(0, 0, 0)",
+    "rgb(51, 51, 51)",
+    "rgb(85, 85, 85)",
+    "rgb(255, 255, 255)",
+    "rgb(215, 215, 215)",
+    "rgb(102, 102, 102)",
+    "rgb(170, 37, 45)"
+  ],
+  "uniqueFonts": [
+    "Times",
+    "Flama, \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+  ],
+  "viewport": {
+    "w": 1920,
+    "h": 1080,
+    "dpr": 1
+  }
+}

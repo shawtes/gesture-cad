@@ -1,0 +1,36 @@
+{
+  "frameworks": [
+    "Angular",
+    "jQuery",
+    "WebGL2"
+  ],
+  "globals": [
+    "WebAssembly"
+  ],
+  "meta": [
+    {
+      "name": "robots",
+      "content": "noindex,nofollow"
+    },
+    {
+      "name": "description",
+      "content": "Sign in to Onshape, the #1 fastest growing CAD system in the world."
+    },
+    {
+      "name": "apple-itunes-app",
+      "content": "app-id=923421284, app-argument=onshape://cad.onshape.com/documents/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/e/091ee274b01614a5ece78dbb"
+    }
+  ],
+  "scripts": [
+    "https://cad.onshape.com/js/runtime.c2893d472fdb364791bf.js",
+    "https://cad.onshape.com/js/js/vendor-bundle.63db2ee61e7910ca81e4.js",
+    "https://cad.onshape.com/js/webpack-vendor.ae2f4b72c3709dd1d7ed.js",
+    "https://cad.onshape.com/js/serialize.38424040595aae4c7dba.js",
+    "https://cad.onshape.com/js/webgl.25b177761561a407b039.js",
+    "https://cad.onshape.com/js/107.a814255b1cf183c8593d.js",
+    "https://cad.onshape.com/js/woolsthorpe.5753558fd205c082c0ed.js",
+    "https://cad.onshape.com/js/css/woolsthorpe.d567795cdc40b9bff1e6.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-MHJTW9LF87",
+    "https://jserrors.dev.onshape.com/agent/v3/latest/t.js"
+  ]
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "text": "Insert",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "DIV",
+    "classes": "toolbar-item os-row"
+  },
+  {
+    "text": "Insert",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "DIV",
+    "classes": "toolset os-row"
+  },
+  {
+    "text": "Insert",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "DIV",
+    "classes": "os-row os-grow"
+  },
+  {
+    "text": "Insert",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "DIV",
+    "classes": "tool is-activatable is-button"
+  },
+  {
+    "text": "Insert",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "SPAN",
+    "classes": "tool-label"
+  },
+  {
+    "text": "Search tools… alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "DIV",
+    "classes": "os-row os-align-center"
+  },
+  {
+    "text": "Search tools… alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "BUTTON",
+    "classes": "command-search-trigger"
+  },
+  {
+    "text": "alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "SPAN",
+    "classes": ""
+  },
+  {
+    "text": "alt/⌥",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "SPAN",
+    "classes": "shortcut-key"
+  },
+  {
+    "text": "c",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "SPAN",
+    "classes": "shortcut-key"
+  },
+  {
+    "text": "Configurations",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "SPAN",
+    "classes": "ns-subdialog-title"
+  }
+]

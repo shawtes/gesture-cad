@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-04-01T15:17:37.349Z",
+  "purpose": "Academic research into Onshape CAD interface design",
+  "outputs": {
+    "jsonReports": [
+      "RESEARCH-SUMMARY.json",
+      "accessibility-audit.json",
+      "all-interactive-elements.json",
+      "cad-feature-tree.json",
+      "cad-menus.json",
+      "cad-panels.json",
+      "cad-toolbars.json",
+      "cad-viewport.json",
+      "context-menu.json",
+      "design-tokens.json",
+      "document-links.json",
+      "element-inventory.json",
+      "feature-tools.json",
+      "feature-tree.json",
+      "keyboard-shortcuts.json",
+      "menus.json",
+      "page-structure.json",
+      "performance-analysis.json",
+      "performance.json",
+      "tab-assembly-tools.json",
+      "tab-drawing-tools.json",
+      "tech-stack.json",
+      "theme-analysis.json",
+      "toolbars.json",
+      "workspace-tabs.json"
+    ],
+    "screenshots": [
+      "01-signin-page-initial.png",
+      "02-email-filled.png",
+      "02b-after-next.png",
+      "03-credentials-filled.png",
+      "04-post-login.png",
+      "05-documents-page.png",
+      "06-cad-workspace.png",
+      "07-cad-workspace.png",
+      "07-tab-assembly.png",
+      "07-tab-drawing.png",
+      "08-menu-tools.png",
+      "11-context-menu.png",
+      "12-keyboard-shortcuts.png",
+      "14-final-state.png",
+      "99-final-state.png"
+    ],
+    "domSnapshots": [
+      "01-signin-page.html",
+      "02-post-login.html",
+      "03-documents-page.html",
+      "04-cad-workspace.html",
+      "cad-workspace-full.html"
+    ]
+  },
+  "network": {
+    "totalRequests": 438,
+    "apiCalls": 311,
+    "uniqueEndpoints": 129,
+    "websockets": 0
+  }
+}

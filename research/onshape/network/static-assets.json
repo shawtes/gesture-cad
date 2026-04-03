@@ -1,0 +1,962 @@
+[
+  {
+    "url": "https://cad.onshape.com/css/onshape-design-tokens.v1.0.53.min.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056585311,
+    "status": 200,
+    "contentType": "text/css;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/vendor-bundle.a0f1d14328cc3f3a93ea.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056585311,
+    "status": 200,
+    "contentType": "text/css;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/css/woolsthorpe.25761be6d0aca82641f2.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056585311,
+    "status": 200,
+    "contentType": "text/css;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/runtime.c2893d472fdb364791bf.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056585311,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/js/vendor-bundle.63db2ee61e7910ca81e4.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056585311,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/webpack-vendor.ae2f4b72c3709dd1d7ed.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056585311,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/serialize.38424040595aae4c7dba.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056585311,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/webgl.25b177761561a407b039.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056585311,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/107.a814255b1cf183c8593d.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056585311,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/woolsthorpe.5753558fd205c082c0ed.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056585311,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/css/woolsthorpe.d567795cdc40b9bff1e6.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056585311,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/cacheworker-worker.62b975e1da885a2d73e5.chunk.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056586876
+  },
+  {
+    "url": "https://cad.onshape.com/css/web-fonts.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056587067,
+    "status": 200,
+    "contentType": "text/css;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/Flama-Basic.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056587101,
+    "status": 200,
+    "contentType": "font/woff2;charset=utf-8"
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-MHJTW9LF87",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056587530,
+    "status": 200,
+    "contentType": "application/javascript; charset=UTF-8"
+  },
+  {
+    "url": "https://jserrors.dev.onshape.com/agent/v3/latest/t.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056587555,
+    "status": 200,
+    "contentType": "application/javascript"
+  },
+  {
+    "url": "https://cad.onshape.com/images/oauth/onelogin-logo.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056587806,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/oauth/classlink-logo.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056587806,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/oauth/saml.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056587806,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/oauth/google-icon.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056587806,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/oauth/microsoft-icon.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056587806,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/Flama-Light.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056587811,
+    "status": 200,
+    "contentType": "font/woff2;charset=utf-8"
+  },
+  {
+    "url": "https://jserrors.dev.onshape.com/usage.gif?token=28a577dba23f48ce98ed383fb2ddf1dd&correlationId=75126467-d041-4507-bbf6-2cf352de350f&application=production&x=41a6dacf-146b-4697-b400-e016cf4480eb&",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056588214,
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://www.onshape.com/global-assets/iframe.png?v=1.0.13",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056588334,
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cad.onshape.com/images/ai/ai-advisor-logo.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056598070,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/logo-onshape-gray-green-nav-bar.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056598070,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/placeholder-user.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056598070,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/Flama-Medium.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056598074,
+    "status": 200,
+    "contentType": "font/woff2;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/Flama-Semibold.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056598074,
+    "status": 200,
+    "contentType": "font/woff2;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/document-graphic.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056598307,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/Flama-Bold.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056598319,
+    "status": 200,
+    "contentType": "font/woff2;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/thumbnails/d/6942f3f3544f9bd9e108f8e8/w/62f8d36ca6d74691ccf152f7/s/300x170?t=1711654333621",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056598337,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/ai/ai-advisor-header-left.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056598388,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/ai/ai-advisor-header-right.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056598388,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/thumbnails/d/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/s/300x170?t=1775036397467",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056598475,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/css/onshape-design-tokens.v1.0.53.min.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056608890,
+    "status": 200,
+    "contentType": "text/css;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/vendor-bundle.a0f1d14328cc3f3a93ea.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056608890,
+    "status": 200,
+    "contentType": "text/css;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/css/woolsthorpe.25761be6d0aca82641f2.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056608891,
+    "status": 200,
+    "contentType": "text/css;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/runtime.c2893d472fdb364791bf.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056608891,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/js/vendor-bundle.63db2ee61e7910ca81e4.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056608891,
+    "status": 304,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/js/webpack-vendor.ae2f4b72c3709dd1d7ed.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056608891,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/serialize.38424040595aae4c7dba.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056608891,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/webgl.25b177761561a407b039.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056608891,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/107.a814255b1cf183c8593d.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056608891,
+    "status": 304,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/js/woolsthorpe.5753558fd205c082c0ed.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056608891,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/css/woolsthorpe.d567795cdc40b9bff1e6.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056608891,
+    "status": 304,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/js/cacheworker-worker.62b975e1da885a2d73e5.chunk.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056609440
+  },
+  {
+    "url": "https://cad.onshape.com/css/web-fonts.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056609549,
+    "status": 200,
+    "contentType": "text/css;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/Flama-Basic.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056609556,
+    "status": 304,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-MHJTW9LF87",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056609632,
+    "status": 200,
+    "contentType": "application/javascript; charset=UTF-8"
+  },
+  {
+    "url": "https://jserrors.dev.onshape.com/agent/v3/latest/t.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056609646,
+    "status": 200,
+    "contentType": "application/javascript"
+  },
+  {
+    "url": "https://cad.onshape.com/images/ai/ai-advisor-logo.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056609944,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/logo-onshape-gray-green-nav-bar.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056609945,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/placeholder-user.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056609945,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/Flama-Medium.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056609946,
+    "status": 304,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/Flama-Semibold.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056609946,
+    "status": 304,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/images/document-graphic.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056610069,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://jserrors.dev.onshape.com/usage.gif?token=28a577dba23f48ce98ed383fb2ddf1dd&correlationId=c96af192-ddab-43a0-b78d-925878152ce2&application=production&x=3ec31204-4af8-43b2-8416-455822b82226&",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056610070,
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/Flama-Bold.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056610089,
+    "status": 304,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/Flama-Light.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056610090,
+    "status": 304,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/images/ai/ai-advisor-header-left.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056610099,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/ai/ai-advisor-header-right.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056610100,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/thumbnails/d/6942f3f3544f9bd9e108f8e8/w/62f8d36ca6d74691ccf152f7/s/300x170?t=1711654333621",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056610153,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/thumbnails/d/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/s/300x170?t=1775036397467",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056610274,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/css/onshape-design-tokens.v1.0.53.min.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056618569,
+    "status": 200,
+    "contentType": "text/css;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/vendor-bundle.a0f1d14328cc3f3a93ea.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056618570,
+    "status": 200,
+    "contentType": "text/css;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/css/woolsthorpe.25761be6d0aca82641f2.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056618570,
+    "status": 200,
+    "contentType": "text/css;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/runtime.c2893d472fdb364791bf.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056618570,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/js/vendor-bundle.63db2ee61e7910ca81e4.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056618570,
+    "status": 304,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/js/webpack-vendor.ae2f4b72c3709dd1d7ed.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056618570,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/serialize.38424040595aae4c7dba.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056618570,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/webgl.25b177761561a407b039.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056618570,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/107.a814255b1cf183c8593d.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056618570,
+    "status": 304,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/js/woolsthorpe.5753558fd205c082c0ed.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056618570,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/css/woolsthorpe.d567795cdc40b9bff1e6.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056618570,
+    "status": 304,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/js/cacheworker-worker.62b975e1da885a2d73e5.chunk.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056619189
+  },
+  {
+    "url": "https://cad.onshape.com/css/web-fonts.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056619196,
+    "status": 200,
+    "contentType": "text/css;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/Flama-Basic.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056619206,
+    "status": 304,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-MHJTW9LF87",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056619274,
+    "status": 200,
+    "contentType": "application/javascript; charset=UTF-8"
+  },
+  {
+    "url": "https://jserrors.dev.onshape.com/agent/v3/latest/t.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056619295,
+    "status": 200,
+    "contentType": "application/javascript"
+  },
+  {
+    "url": "https://cad.onshape.com/images/ai/ai-advisor-logo.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056619785,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/logo-onshape-gray-green-nav-bar.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056619786,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/Flama-Semibold.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056619788,
+    "status": 304,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/images/placeholder-user.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056619788,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://jserrors.dev.onshape.com/usage.gif?token=28a577dba23f48ce98ed383fb2ddf1dd&correlationId=50c47795-bd0c-4f31-8315-0c091a5b1040&application=production&x=8e071491-4479-4e55-bca3-d3b6399d5a97&",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056619972,
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://cad.onshape.com/images/ai/ai-advisor-header-left.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056619972,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/ai/ai-advisor-header-right.svg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056619972,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/scalar-visualization-gradient-viridis.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056621396,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/scalar-visualization-gradient-rainbow.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056621396,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/scalar-visualization-gradient.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056621396,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/scalar-visualization-gradient-plasma.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056621396,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/Flama-Medium.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056622336,
+    "status": 304,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/tutorials/content/onshape-edu-quickstart/v1/static/web-fonts-with-css/css/all.min.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056623257,
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://cad.onshape.com/tutorials/content/onshape-edu-quickstart/v1/static/css/course.external.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056623257,
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://cad.onshape.com/tutorials/content/onshape-edu-quickstart/v1/static/css/course.vendor.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056623257,
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://cad.onshape.com/tutorials/content/onshape-edu-quickstart/v1/static/css/course.module.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056623258,
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://cad.onshape.com/tutorials/content/onshape-edu-quickstart/v1/static/css/tabsacc/1.20.11/TabsAccordion.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056623258,
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://cad.onshape.com/tutorials/content/onshape-edu-quickstart/v1/static/css/base-theme.css",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056623258,
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://cad.onshape.com/tutorials/content/onshape-edu-quickstart/v1/data.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056623258,
+    "status": 200,
+    "contentType": "text/javascript"
+  },
+  {
+    "url": "https://cad.onshape.com/tutorials/content/onshape-edu-quickstart/v1/static/js/course.external.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056623258,
+    "status": 200,
+    "contentType": "text/javascript"
+  },
+  {
+    "url": "https://cad.onshape.com/tutorials/content/onshape-edu-quickstart/v1/static/js/course.vendor.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056623258,
+    "status": 200,
+    "contentType": "text/javascript"
+  },
+  {
+    "url": "https://cad.onshape.com/tutorials/content/onshape-edu-quickstart/v1/static/js/course.module.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056623259,
+    "status": 200,
+    "contentType": "text/javascript"
+  },
+  {
+    "url": "https://cad.onshape.com/tutorials/content/onshape-edu-quickstart/v1/static/js/tabsacc/1.20.11/TabsAccordion.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056623259,
+    "status": 200,
+    "contentType": "text/javascript"
+  },
+  {
+    "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400i",
+    "method": "GET",
+    "resourceType": "stylesheet",
+    "timestamp": 1775056623412,
+    "status": 200,
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "blob:https://cad.onshape.com/328a31a6-da17-4a0b-a56e-3249ba4e0fbc",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056623782
+  },
+  {
+    "url": "https://www.youtube.com/iframe_api",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056624092,
+    "status": 200,
+    "contentType": "text/javascript; charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/tutorials/content/onshape-edu-quickstart/v1/assets/651d826779c2f1e86c35e519-Screen-Shot-2023-10-04-at-11.18.50-AM.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056624092,
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/sourcesanspro/v23/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056624092,
+    "status": 200,
+    "contentType": "font/woff2"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/sourcesanspro/v23/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056624092,
+    "status": 200,
+    "contentType": "font/woff2"
+  },
+  {
+    "url": "https://cad.onshape.com/tutorials/content/onshape-edu-quickstart/v1/static/web-fonts-with-css/webfonts/fa-light-300.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056624092,
+    "status": 200,
+    "contentType": "font/woff2"
+  },
+  {
+    "url": "https://www.youtube.com/s/player/ace4b2f8/www-widgetapi.vflset/www-widgetapi.js",
+    "method": "GET",
+    "resourceType": "script",
+    "timestamp": 1775056624180,
+    "status": 200,
+    "contentType": "text/javascript"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/Flama-Light.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056635258,
+    "status": 304,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/images/reflectionAnalysis_qwantani.jpg",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056635258,
+    "status": 200,
+    "contentType": "image/jpeg;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/scalar-visualization-gradient-viridis.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056635347,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/scalar-visualization-gradient-rainbow.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056635347,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/scalar-visualization-gradient.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056635347,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/scalar-visualization-gradient-plasma.png",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056635347,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/opensans.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056635347,
+    "status": 200,
+    "contentType": "font/woff2;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/thumbnails/d/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/e/c08f682043b385fff0c88319/s/300x170?t=6e25058112f4a7db060398172026-04-01T09:39:34.273+00:00&rejectEmpty=true",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056635370,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/thumbnails/d/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/e/c08f682043b385fff0c88319/ac/List_tSwtWVVKW53tJm%3DCopy_of_3_/s/300x170?t=6e25058112f4a7db060398172026-04-01T09:39:34.273+00:00&rejectEmpty=true",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056640968,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/fonts/Flama-Bold.woff2",
+    "method": "GET",
+    "resourceType": "font",
+    "timestamp": 1775056649398,
+    "status": 304,
+    "contentType": "unknown"
+  }
+]

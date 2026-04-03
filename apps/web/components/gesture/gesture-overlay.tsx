@@ -1,6 +1,20 @@
 "use client";
 
 import { useEffect, useRef, useCallback, useState } from "react";
+import { OneEuroFilter2D } from "@/lib/gesture-engine/one-euro-filter";
+import { ScreenMapper, type ScreenMapperTelemetry } from "@/lib/gesture-engine/screen-mapper";
+import { TelemetryOverlay } from "./telemetry-overlay";
+
+/** Full tracked hand data for the gesture interaction manager */
+export interface TrackedHandData {
+  handedness: "Left" | "Right";
+  landmarks: { x: number; y: number; z: number }[];
+  gesture: string;
+  screenPosition: { x: number; y: number };
+  pinchDistance: number;
+  isPinching: boolean;
+  confidence: number;
+}
 
 interface GestureOverlayProps {
   onGestureDetected: (gesture: string) => void;
@@ -8,6 +22,10 @@ interface GestureOverlayProps {
   onTrackingStatusChange: (active: boolean) => void;
   /** Normalized hand position (0-1) from index fingertip, for 3D cursor projection */
   onHandPosition?: (pos: { x: number; y: number } | null) => void;
+  /** Full hand tracking data for gesture interaction manager (both hands) */
+  onHandsTracked?: (hands: TrackedHandData[]) => void;
+  /** Show telemetry overlay for debugging hand tracking */
+  showTelemetry?: boolean;
 }
 
 const HAND_CONNECTIONS = [
@@ -81,6 +99,8 @@ export function GestureOverlay({
   onFpsUpdate,
   onTrackingStatusChange,
   onHandPosition,
+  onHandsTracked,
+  showTelemetry,
 }: GestureOverlayProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -91,6 +111,30 @@ export function GestureOverlay({
   const lastFpsTimeRef = useRef(Date.now());
   const animFrameRef = useRef<number>(0);
   const handLandmarkerRef = useRef<any>(null);
+
+  // One Euro Filter for smooth hand cursor (eliminates jitter)
+  const posFilterRef = useRef(new OneEuroFilter2D(30, 1.0, 0.007));
+
+  // Dynamic screen mapper with auto-calibration + telemetry
+  const screenMapperRef = useRef(new ScreenMapper({
+    autoCalibrate: true,
+    calibrationRate: 0.02,
+    deadZone: 0.003,
+    acceleration: 1.4,
+    useDepth: true,
+  }));
+  const [telemetryData, setTelemetryData] = useState<ScreenMapperTelemetry | null>(null);
+  const telemetryFrameRef = useRef(0);
+
+  // Pinch hysteresis state (prevents false toggles at threshold boundary)
+  const pinchStateRef = useRef<{ isPinching: boolean; lastTransition: number; lockedPos: { x: number; y: number } | null }>({
+    isPinching: false,
+    lastTransition: 0,
+    lockedPos: null,
+  });
+  const PINCH_ACTIVATE = 0.05;     // Distance to trigger pinch
+  const PINCH_DEACTIVATE = 0.08;   // Distance to release pinch (wider = less jitter)
+  const PINCH_DEBOUNCE_MS = 80;    // Min time between transitions
 
   const drawHand = useCallback(
     (
@@ -223,24 +267,100 @@ export function GestureOverlay({
           const results = handLandmarkerRef.current.detectForVideo(video, now);
 
           if (results.landmarks && results.landmarks.length > 0) {
-            for (const hand of results.landmarks) {
+            const trackedHands: TrackedHandData[] = [];
+
+            for (let hi = 0; hi < results.landmarks.length; hi++) {
+              const hand = results.landmarks[hi];
               const mirrored = hand.map((lm: any) => ({
                 ...lm,
                 x: 1 - lm.x,
               }));
               drawHand(ctx, mirrored, canvas.width, canvas.height);
+
+              const gesture = classifyGesture(hand);
+
+              // Compute pinch distance (thumb tip to index tip)
+              const thumbTip = hand[4];
+              const indexTip = hand[8];
+              const pinchDist = Math.hypot(
+                thumbTip.x - indexTip.x,
+                thumbTip.y - indexTip.y,
+                thumbTip.z - indexTip.z
+              );
+
+              // Apply pinch hysteresis + debounce (industry standard pattern)
+              const ps = pinchStateRef.current;
+              const timeSinceTransition = now - ps.lastTransition;
+              if (!ps.isPinching && pinchDist < PINCH_ACTIVATE && timeSinceTransition > PINCH_DEBOUNCE_MS) {
+                ps.isPinching = true;
+                ps.lastTransition = now;
+              } else if (ps.isPinching && pinchDist > PINCH_DEACTIVATE && timeSinceTransition > PINCH_DEBOUNCE_MS) {
+                ps.isPinching = false;
+                ps.lastTransition = now;
+              }
+
+              const handedness: "Left" | "Right" =
+                results.handednesses?.[hi]?.[0]?.categoryName === "Left" ? "Left" : "Right";
+
+              // Dynamic screen mapping with auto-calibration + adaptive smoothing
+              const mapResult = screenMapperRef.current.process(
+                hand, // pass all 21 landmarks
+                now / 1000, // timestamp in seconds
+                results.handednesses?.[hi]?.[0]?.score ?? 0.8
+              );
+              const filtered = { x: mapResult.x, y: mapResult.y };
+
+              // Update telemetry every 3 frames (avoid React re-render flood)
+              telemetryFrameRef.current++;
+              if (telemetryFrameRef.current % 10 === 0) {
+                setTelemetryData(mapResult.telemetry);
+              }
+
+              trackedHands.push({
+                handedness,
+                landmarks: mirrored,
+                gesture,
+                screenPosition: filtered,
+                pinchDistance: pinchDist,
+                isPinching: ps.isPinching,
+                confidence: results.handednesses?.[hi]?.[0]?.score ?? 0.8,
+              });
             }
+
+            // Emit gesture (first hand)
             const gesture = classifyGesture(results.landmarks[0]);
             onGestureDetected(gesture);
 
-            // Emit index fingertip position for 3D cursor
-            const indexTip = results.landmarks[0][8];
-            if (indexTip && onHandPosition) {
-              onHandPosition({ x: 1 - indexTip.x, y: indexTip.y });
+            // Emit hand position — freeze during pinch to prevent recoil
+            if (trackedHands.length > 0 && onHandPosition) {
+              const th = trackedHands[0];
+              if (th.isPinching) {
+                // Pinching: lock cursor at the position where pinch began
+                if (!pinchStateRef.current.lockedPos) {
+                  pinchStateRef.current.lockedPos = { x: th.screenPosition.x, y: th.screenPosition.y };
+                }
+                // Don't emit — cursor stays frozen
+              } else {
+                if (pinchStateRef.current.lockedPos) {
+                  // Just released pinch: emit the locked position to avoid snap-back,
+                  // then clear lock so next frame resumes live tracking
+                  onHandPosition(pinchStateRef.current.lockedPos);
+                  pinchStateRef.current.lockedPos = null;
+                } else {
+                  onHandPosition(th.screenPosition);
+                }
+              }
             }
+
+            // Emit full tracking data
+            onHandsTracked?.(trackedHands);
           } else {
             onGestureDetected("none");
             onHandPosition?.(null);
+            onHandsTracked?.([]);
+            posFilterRef.current.reset();
+            pinchStateRef.current.isPinching = false;
+            pinchStateRef.current.lockedPos = null;
           }
         } catch (detectErr) {
           // Silently skip frame on detection error
@@ -266,7 +386,7 @@ export function GestureOverlay({
       setLoadingStatus(null);
       onTrackingStatusChange(false);
     }
-  }, [onGestureDetected, onFpsUpdate, onTrackingStatusChange, onHandPosition, drawHand]);
+  }, [onGestureDetected, onFpsUpdate, onTrackingStatusChange, onHandPosition, onHandsTracked, drawHand]);
 
   useEffect(() => {
     return () => {
@@ -314,10 +434,26 @@ export function GestureOverlay({
 
       {/* Camera toggle button */}
       {!cameraEnabled && (
-        <button onClick={startTracking} style={styles.enableButton}>
+        <button
+          onClick={() => {
+            console.log("[GestureCAD] Starting hand tracking...");
+            startTracking();
+          }}
+          style={styles.enableButton}
+        >
           Enable Hand Tracking
         </button>
       )}
+
+      {/* Debug: show tracking status */}
+      {cameraEnabled && (
+        <div style={styles.trackingBadge}>
+          TRACKING ACTIVE
+        </div>
+      )}
+
+      {/* Telemetry overlay — real-time hand tracking diagnostics */}
+      <TelemetryOverlay telemetry={telemetryData} visible={showTelemetry ?? false} />
     </>
   );
 }
@@ -372,5 +508,19 @@ const styles: Record<string, React.CSSProperties> = {
     fontSize: 12,
     zIndex: 20,
     border: "1px solid #3b82f6",
+  },
+  trackingBadge: {
+    position: "absolute",
+    bottom: 200,
+    left: 12,
+    padding: "4px 10px",
+    background: "#22c55e22",
+    color: "#22c55e",
+    borderRadius: 4,
+    fontSize: 10,
+    fontWeight: 700,
+    zIndex: 20,
+    border: "1px solid #22c55e44",
+    letterSpacing: "0.05em",
   },
 };

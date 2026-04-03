@@ -1,0 +1,145 @@
+[
+  {
+    "text": "Insert",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "DIV",
+    "classes": "toolbar-item os-row",
+    "rect": {
+      "x": 148,
+      "y": 40,
+      "w": 82,
+      "h": 36
+    }
+  },
+  {
+    "text": "Insert",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "DIV",
+    "classes": "toolset os-row",
+    "rect": {
+      "x": 151,
+      "y": 41,
+      "w": 78,
+      "h": 34
+    }
+  },
+  {
+    "text": "Insert",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "DIV",
+    "classes": "os-row os-grow",
+    "rect": {
+      "x": 151,
+      "y": 41,
+      "w": 78,
+      "h": 34
+    }
+  },
+  {
+    "text": "Insert",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "DIV",
+    "classes": "tool is-activatable is-button",
+    "rect": {
+      "x": 152,
+      "y": 42,
+      "w": 76,
+      "h": 32
+    }
+  },
+  {
+    "text": "Insert",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "SPAN",
+    "classes": "tool-label",
+    "rect": {
+      "x": 182,
+      "y": 48,
+      "w": 36,
+      "h": 20
+    }
+  },
+  {
+    "text": "Search tools… alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "DIV",
+    "classes": "os-row os-align-center",
+    "rect": {
+      "x": 1104,
+      "y": 40,
+      "w": 171,
+      "h": 36
+    }
+  },
+  {
+    "text": "Search tools… alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "BUTTON",
+    "classes": "command-search-trigger",
+    "rect": {
+      "x": 1114,
+      "y": 42,
+      "w": 161,
+      "h": 32
+    }
+  },
+  {
+    "text": "alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "SPAN",
+    "classes": "",
+    "rect": {
+      "x": 1214,
+      "y": 48,
+      "w": 51,
+      "h": 20
+    }
+  },
+  {
+    "text": "alt/⌥",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "SPAN",
+    "classes": "shortcut-key",
+    "rect": {
+      "x": 1214,
+      "y": 50,
+      "w": 34,
+      "h": 20
+    }
+  },
+  {
+    "text": "c",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "SPAN",
+    "classes": "shortcut-key",
+    "rect": {
+      "x": 1248,
+      "y": 50,
+      "w": 17,
+      "h": 20
+    }
+  },
+  {
+    "text": "Configurations",
+    "title": null,
+    "ariaLabel": null,
+    "tag": "SPAN",
+    "classes": "ns-subdialog-title",
+    "rect": {
+      "x": 40,
+      "y": 77,
+      "w": 93,
+      "h": 30
+    }
+  }
+]

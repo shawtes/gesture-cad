@@ -1,0 +1,89 @@
+{
+  "totalElements": 7834,
+  "buttons": 20,
+  "inputs": 6,
+  "canvases": [
+    {
+      "width": 1674,
+      "height": 974,
+      "id": "canvas",
+      "classes": ""
+    }
+  ],
+  "svgCount": 157,
+  "iframes": [
+    {
+      "src": "https://cad.onshape.com/tutorials/content/onshape-edu-quickstart/v1/index.html",
+      "id": ""
+    }
+  ],
+  "ariaRoles": {
+    "navigation": 1,
+    "menu": 2,
+    "button": 7,
+    "link": 3,
+    "menubar": 1,
+    "menuitem": 7,
+    "separator": 2,
+    "dialog": 1
+  },
+  "dataAttributes": [
+    "data-appender-id",
+    "data-automation",
+    "data-bs-expanded-content",
+    "data-bs-html",
+    "data-bs-original-title",
+    "data-bs-placement",
+    "data-bs-theme",
+    "data-bs-toggle",
+    "data-draggable",
+    "data-expand-delay",
+    "data-has-thumbnail",
+    "data-icon-src",
+    "data-id",
+    "data-identifier",
+    "data-inapp-location",
+    "data-loader-status",
+    "data-name",
+    "data-os-stack",
+    "data-os-theme",
+    "data-parameter-id",
+    "data-v-app",
+    "data-view-shown"
+  ],
+  "customElements": [
+    "document-spinners",
+    "element-name",
+    "network-monitor",
+    "os-enum-parameter",
+    "os-flyout",
+    "os-lui-toolbar",
+    "os-notification-flyout",
+    "os-parameter-group",
+    "os-parameter-list-view",
+    "os-select-single",
+    "os-toolbar",
+    "os-vue-custom-toolbar",
+    "os-vue-panel-selector-component",
+    "os-woolsthorpe-navbar",
+    "osc-icons-min",
+    "osc-svg-icon",
+    "osx-contact-support",
+    "osx-document-collaborators",
+    "osx-document-submission-workflows",
+    "osx-footer",
+    "osx-left-navigation",
+    "osx-message-bubble",
+    "osx-navbar-logo-component",
+    "osx-root",
+    "osx-row",
+    "osx-submission-workflows",
+    "osx-user-notification-list",
+    "print-setup-bounding-box",
+    "selection-filter",
+    "tab-list",
+    "tab-list-item",
+    "user-notifications-toggle"
+  ],
+  "links": 10
+}

@@ -1,0 +1,2480 @@
+[
+  {
+    "url": "https://cad.onshape.com/images/icons.v1.4.398.min.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056587067,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/locales/messages-en_US.json",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056587289,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/locales/tooltips-en_US.json",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056587289,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/locales/server-en_US.json",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056587289,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/locales/devportal-en_US.json",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056587290,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/clientVersion.json?cb=1775056587512",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587555,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/build/production",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587556,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/capabilities/check/?capabilities=WEB.COLLECT_BROWSER_METRICS,WEB.EXTAUTH_GOOGLE,WEB.ZENDESK,WEB.PRINCIPAL_AXES_INDICATOR,WEB.SCOPE_ELEMENTS,WEB.DYNAMIC_SIGNIN_IFRAME,WEB.USER_SELECTION_FILTER,WEB.USE_DISPLAY_DATA_GPU_BUFFERS,WEB.DECREASED_BODY_DISPLAY_LIMIT,WEB.INVITE_RESPONSE_RESTRICTION,WEB.NEW_ORIGIN_FOR_MEASURE,WEB.CONFIGURE_SKETCH_APPEARANCE,WEB.CURVE_APPEARANCE,WEB.AWS_WAF_INTEGRATION,WEB.PUBLICATIONS_SINGLE_REVISIONED_PART,WEB.PERSIST_SECTION_VIEW,WEB.OAUTH_TWO_STEP_LOGIN",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587556,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/locales",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587556,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/build/production",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587556,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/deploymentinfo/appstore",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587556,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/companies/identitymanagement/login",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587556,
+    "status": 204,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/capabilities/check/web/EXTAUTH_GOOGLE",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587556,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/companies/enterprise/loginInfo",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587556,
+    "status": 204,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/users/session?companyId=",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587556,
+    "status": 204,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/clientVersion.json?cb=1775056587569",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587573,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/build/production",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587710,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/build",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587772,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHJTW9LF87&gtm=45je63u0v894367063za200zd894367063&_p=1775056587521&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=85148850.1775056588&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=0~115938466~115938469~116133313~116991816&dl=signincontroller&sid=1775056587&sct=1&seg=0&dt=Sign%20in&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2947",
+    "method": "POST",
+    "resourceType": "fetch",
+    "timestamp": 1775056587805,
+    "status": 204,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/capabilities/check/?capabilities=WEB.DYNAMIC_SIGNIN_IFRAME",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587805,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/Onshape_by_PTC_logo_RGB_color.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056587805,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/capabilities/check/web/GOOGLE_RECAPTCHA_V2_LOGIN",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587806,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/capabilities/check/web/GOOGLE_RECAPTCHA_V3_LOGIN",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056587806,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/keyboardshortcuts",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056588214,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/users/logininfo",
+    "method": "POST",
+    "resourceType": "xhr",
+    "timestamp": 1775056593368,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/clientinfo/xsrf",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056596846,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/users/session",
+    "method": "POST",
+    "resourceType": "xhr",
+    "timestamp": 1775056596934,
+    "status": 200,
+    "contentType": "application/json;charset=UTF-8;qs=0.09"
+  },
+  {
+    "url": "https://cad.onshape.com/api/notifications/summary",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056597990,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/capabilities/allcurrent/",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056597990,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/accounts/users/69cce7763e7e891881454c81?isOwner=false&uid=69cce7763e7e891881454c81",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056597990,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/metadata/searchable?companyId=&excludeStandard=false",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056597990,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/workflow/active?documentId=",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056597990,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/toolbar/toolbars?name=all-user-removed-tools",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056597990,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/toolbar/tools",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056597990,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/users/settings?includematerials=false",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056597990,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/companies?activeOnly=false",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056597990,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/companies/user/domains",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056597990,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/documents/getImportFormatData",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056597990,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/accounts/69cce7763e7e891881454c82/purchases/69cce7763e7e891881454c83/trails",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056597990,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/accounts/69cce7763e7e891881454c82",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056597990,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHJTW9LF87&gtm=45je63u0v894367063za200zd894367063&_p=1775056587521&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=85148850.1775056588&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=0~115938466~115938469~116133313~116991816&dl=https%3A%2F%2Fcad.onshape.com%2Fsignin%3Fpage%3D2%26email%3Dstesfaye4%40student.gsu.edu&dr=https%3A%2F%2Fcad.onshape.com%2Fsignin&sid=1775056587&sct=1&seg=1&dt=Sign%20in&en=page_view&_et=6688&tfd=13159",
+    "method": "POST",
+    "resourceType": "fetch",
+    "timestamp": 1775056598069,
+    "status": 204,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/teams?filter=0&limit=1000",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598069,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/labels/users/69cce7763e7e891881454c81?ownerId=69cce7763e7e891881454c81",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598069,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/globaltreenodes",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598069,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/labels/users/69cce7763e7e891881454c81?ownerId=69cce7763e7e891881454c81",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598069,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/cloudstorageaccount",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598069,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/clientVersion.json?cb=1775056598009",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598069,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/capabilities/check/web/AI_ADVISOR",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056598069,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/clientinfo/xsrf",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056598070,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://forum.onshape.com/api/v2/discussions?categoryID=7&pinned=true&limit=1",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598070,
+    "status": 200,
+    "contentType": "application/json; charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/inappmessages/user",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598074,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elementLibrary/standardlibrarydefinitions",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598106,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elementLibrary/standardlibrarydefinitions",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598107,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/userpreferences/users/69cce7763e7e891881454c81",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598147,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/cms/onboarding/zerostatedoc",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598147,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/applications/extensions/users/69cce7763e7e891881454c81?validPurchases=true",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598147,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/applications/users/69cce7763e7e891881454c81/apps?filterType=0&userId=69cce7763e7e891881454c81&validPurchases=true",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598147,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/globaltreenodes/resourceuserowner/69cce7763e7e891881454c81?getPathToRoot=true&objectTypes=4&limit=50&sortColumn=name&sortOrder=asc&offset=0",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598329,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/thumbnails/d/6942f3f3544f9bd9e108f8e8/w/62f8d36ca6d74691ccf152f7/s/300x170?t=1711654333621",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056598337,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/globaltreenodes/resourceuserowner/69cce7763e7e891881454c81?getPathToRoot=true&objectTypes=1&limit=50&sortColumn=modifiedAt&sortOrder=desc&offset=0",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598338,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/clientinfo/xsrf",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056598388,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/globaltreenodes/magic/0?getPathToRoot=true&limit=50&sortColumn=modifiedAt&sortOrder=desc&offset=0",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598450,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/thumbnails/d/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/s/300x170?t=1775036397467",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056598475,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/keyboardshortcuts/users/69cce7763e7e891881454c81",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056598479,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHJTW9LF87&gtm=45je63u0v894367063za200zd894367063&_p=1775056587521&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=85148850.1775056588&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=3&tag_exp=0~115938466~115938469~116133313~116991816&dl=%2Fdocuments&sid=1775056587&sct=1&seg=1&dr=https%3A%2F%2Fcad.onshape.com%2Fsignin&dt=Sign%20in&en=page_view&_ee=1&_et=3517&tfd=14378",
+    "method": "POST",
+    "resourceType": "fetch",
+    "timestamp": 1775056599220,
+    "status": 204,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://cad.onshape.com/api/notifications/summary",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056602980,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHJTW9LF87&gtm=45je63u0v894367063za200zd894367063&_p=1775056587521&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=85148850.1775056588&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=4&tag_exp=0~115938466~115938469~116133313~116991816&dl=https%3A%2F%2Fcad.onshape.com%2Fdocuments%3FresourceType%3Dresourceuserowner%26nodeId%3D69cce7763e7e891881454c81&dr=https%3A%2F%2Fcad.onshape.com%2Fsignin%3Fpage%3D2%26email%3Dstesfaye4%40student.gsu.edu&sid=1775056587&sct=1&seg=1&dt=Owned%20by%20me%20%7C%20Documents&en=page_view&_et=1216&tfd=19381",
+    "method": "POST",
+    "resourceType": "fetch",
+    "timestamp": 1775056604222,
+    "status": 204,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHJTW9LF87&gtm=45je63u0v894367063za200zd894367063&_p=1775056587521&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=85148850.1775056588&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=5&tag_exp=0~115938466~115938469~116133313~116991816&sid=1775056587&sct=1&seg=1&dl=https%3A%2F%2Fcad.onshape.com%2Fdocuments%3FresourceType%3Dresourceuserowner%26nodeId%3D69cce7763e7e891881454c81&dr=https%3A%2F%2Fcad.onshape.com%2Fsignin%3Fpage%3D2%26email%3Dstesfaye4%40student.gsu.edu&dt=Owned%20by%20me%20%7C%20Documents&en=user_engagement&_et=8476&tfd=22856",
+    "method": "POST",
+    "resourceType": "fetch",
+    "timestamp": 1775056608882
+  },
+  {
+    "url": "https://jserrors.dev.onshape.com/capture?token=28a577dba23f48ce98ed383fb2ddf1dd&v=3.10.4",
+    "method": "POST",
+    "resourceType": "xhr",
+    "timestamp": 1775056608882
+  },
+  {
+    "url": "https://cad.onshape.com/images/icons.v1.4.398.min.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056609549,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/locales/tooltips-en_US.json",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056609574,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/locales/server-en_US.json",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056609575,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/locales/devportal-en_US.json",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056609576,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/locales/messages-en_US.json",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056609631,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/clientVersion.json?cb=1775056609619",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609652,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/build/production",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609652,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/capabilities/check/?capabilities=WEB.COLLECT_BROWSER_METRICS,WEB.EXTAUTH_GOOGLE,WEB.ZENDESK,WEB.PRINCIPAL_AXES_INDICATOR,WEB.SCOPE_ELEMENTS,WEB.DYNAMIC_SIGNIN_IFRAME,WEB.USER_SELECTION_FILTER,WEB.USE_DISPLAY_DATA_GPU_BUFFERS,WEB.DECREASED_BODY_DISPLAY_LIMIT,WEB.INVITE_RESPONSE_RESTRICTION,WEB.NEW_ORIGIN_FOR_MEASURE,WEB.CONFIGURE_SKETCH_APPEARANCE,WEB.CURVE_APPEARANCE,WEB.AWS_WAF_INTEGRATION,WEB.PUBLICATIONS_SINGLE_REVISIONED_PART,WEB.PERSIST_SECTION_VIEW,WEB.OAUTH_TWO_STEP_LOGIN",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609652,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/locales",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609652,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/build/production",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609652,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/deploymentinfo/appstore",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609652,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/companies/identitymanagement/login",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609652,
+    "status": 204,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/capabilities/check/web/EXTAUTH_GOOGLE",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609652,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/companies/enterprise/loginInfo",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609652,
+    "status": 204,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/users/session?companyId=",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609652,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/build/production",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609655,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/build",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609939,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/notifications/summary",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/capabilities/allcurrent/",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/accounts/users/69cce7763e7e891881454c81?isOwner=false&uid=69cce7763e7e891881454c81",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/metadata/searchable?companyId=&excludeStandard=false",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/workflow/active?documentId=",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/toolbar/toolbars?name=all-user-removed-tools",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/toolbar/tools",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/users/settings?includematerials=false",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/companies?activeOnly=false",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/companies/user/domains",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/documents/getImportFormatData",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/accounts/69cce7763e7e891881454c82/purchases/69cce7763e7e891881454c83/trails",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/accounts/69cce7763e7e891881454c82",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/clientinfo/xsrf",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/accounts/69cce7763e7e891881454c82/purchases/69cce7763e7e891881454c83/trails",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/accounts/69cce7763e7e891881454c82",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609942,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/teams?filter=0&limit=1000",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609944,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/labels/users/69cce7763e7e891881454c81?ownerId=69cce7763e7e891881454c81",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609944,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/globaltreenodes",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609944,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/labels/users/69cce7763e7e891881454c81?ownerId=69cce7763e7e891881454c81",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609944,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/cloudstorageaccount",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609944,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/clientVersion.json?cb=1775056609835",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609944,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/capabilities/check/web/AI_ADVISOR",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056609945,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/clientinfo/xsrf",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056609945,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://forum.onshape.com/api/v2/discussions?categoryID=7&pinned=true&limit=1",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609945,
+    "status": 200,
+    "contentType": "application/json; charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elementLibrary/standardlibrarydefinitions",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609948,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elementLibrary/standardlibrarydefinitions",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609948,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/inappmessages/user",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056609980,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/userpreferences/users/69cce7763e7e891881454c81",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056610068,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/cms/onboarding/zerostatedoc",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056610068,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/applications/extensions/users/69cce7763e7e891881454c81?validPurchases=true",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056610068,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/applications/users/69cce7763e7e891881454c81/apps?filterType=0&userId=69cce7763e7e891881454c81&validPurchases=true",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056610069,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/globaltreenodes/resourceuserowner/69cce7763e7e891881454c81?getPathToRoot=true&objectTypes=4&limit=50&sortColumn=name&sortOrder=asc&offset=0",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056610096,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/globaltreenodes/resourceuserowner/69cce7763e7e891881454c81?getPathToRoot=true&objectTypes=1&limit=50&sortColumn=modifiedAt&sortOrder=desc&offset=0",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056610098,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/clientinfo/xsrf",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056610100,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/keyboardshortcuts/users/69cce7763e7e891881454c81",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056610134,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/thumbnails/d/6942f3f3544f9bd9e108f8e8/w/62f8d36ca6d74691ccf152f7/s/300x170?t=1711654333621",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056610153,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/globaltreenodes/magic/0?getPathToRoot=true&limit=50&sortColumn=modifiedAt&sortOrder=desc&offset=0",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056610259,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/thumbnails/d/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/s/300x170?t=1775036397467",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056610274,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/notifications/summary",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056614835,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHJTW9LF87&gtm=45je63u0v894367063za200zd894367063&_p=1775056609623&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=85148850.1775056588&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=0~115616985~115938465~115938468~116991816&dl=%2Fdocuments%3FresourceType%3Dresourceuserowner%26nodeId%3D69cce7763e7e891881454c81&sid=1775056587&sct=1&seg=1&dt=&en=page_view&_ee=1&_et=2&tfd=7375",
+    "method": "POST",
+    "resourceType": "fetch",
+    "timestamp": 1775056614978,
+    "status": 204,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHJTW9LF87&gtm=45je63u0v894367063za200zd894367063&_p=1775056609623&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=85148850.1775056588&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=2&tag_exp=0~115616985~115938465~115938468~116991816&sid=1775056587&sct=1&seg=1&dl=https%3A%2F%2Fcad.onshape.com%2Fdocuments%3FresourceType%3Dresourceuserowner%26nodeId%3D69cce7763e7e891881454c81&dt=Owned%20by%20me%20%7C%20Documents&en=user_engagement&_et=8563&tfd=10943",
+    "method": "POST",
+    "resourceType": "fetch",
+    "timestamp": 1775056618556
+  },
+  {
+    "url": "https://jserrors.dev.onshape.com/capture?token=28a577dba23f48ce98ed383fb2ddf1dd&v=3.10.4",
+    "method": "POST",
+    "resourceType": "xhr",
+    "timestamp": 1775056618556
+  },
+  {
+    "url": "https://cad.onshape.com/images/icons.v1.4.398.min.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056619196,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/locales/tooltips-en_US.json",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056619220,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/locales/server-en_US.json",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056619221,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/locales/devportal-en_US.json",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056619222,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/locales/messages-en_US.json",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056619273,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/clientVersion.json?cb=1775056619260",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619297,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/build/production",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619297,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/capabilities/check/?capabilities=WEB.COLLECT_BROWSER_METRICS,WEB.EXTAUTH_GOOGLE,WEB.ZENDESK,WEB.PRINCIPAL_AXES_INDICATOR,WEB.SCOPE_ELEMENTS,WEB.DYNAMIC_SIGNIN_IFRAME,WEB.USER_SELECTION_FILTER,WEB.USE_DISPLAY_DATA_GPU_BUFFERS,WEB.DECREASED_BODY_DISPLAY_LIMIT,WEB.INVITE_RESPONSE_RESTRICTION,WEB.NEW_ORIGIN_FOR_MEASURE,WEB.CONFIGURE_SKETCH_APPEARANCE,WEB.CURVE_APPEARANCE,WEB.AWS_WAF_INTEGRATION,WEB.PUBLICATIONS_SINGLE_REVISIONED_PART,WEB.PERSIST_SECTION_VIEW,WEB.OAUTH_TWO_STEP_LOGIN",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619297,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/locales",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619297,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/build/production",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619298,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/deploymentinfo/appstore",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619298,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/companies/identitymanagement/login",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619298,
+    "status": 204,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/capabilities/check/web/EXTAUTH_GOOGLE",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619298,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/companies/enterprise/loginInfo",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619298,
+    "status": 204,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/users/session?companyId=",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619298,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/build/production",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619307,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/build",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619599,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/notifications/summary",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056619599,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/capabilities/allcurrent/",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619599,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/accounts/users/69cce7763e7e891881454c81?isOwner=false&uid=69cce7763e7e891881454c81",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619599,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/metadata/searchable?companyId=&excludeStandard=false",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619599,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/workflow/active?documentId=",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619613,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/toolbar/toolbars?name=all-user-removed-tools",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619614,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/toolbar/tools",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619614,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/users/settings?includematerials=false",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619614,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/companies?activeOnly=false",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619614,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/companies/user/domains",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619614,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/documents/getImportFormatData",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619614,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/accounts/69cce7763e7e891881454c82/purchases/69cce7763e7e891881454c83/trails",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619614,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/accounts/69cce7763e7e891881454c82",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619614,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/clientinfo/xsrf",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619615,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/accounts/69cce7763e7e891881454c82/purchases/69cce7763e7e891881454c83/trails",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619615,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/accounts/69cce7763e7e891881454c82",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619615,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/documents/77fc2d775aa51fdf2220efd9/permissionset",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619616,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elementLibrary/standardlibrarydefinitions",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619710,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elementLibrary/standardlibrarydefinitions",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619710,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/inappmessages/user",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619712,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/documents/77fc2d775aa51fdf2220efd9",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619785,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/capabilities/check/web/AI_ADVISOR",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056619786,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/clientinfo/xsrf",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056619786,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://forum.onshape.com/api/v2/discussions?categoryID=7&pinned=true&limit=1",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619788,
+    "status": 200,
+    "contentType": "application/json; charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/userpreferences/users/69cce7763e7e891881454c81",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619855,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/applications/extensions/users/69cce7763e7e891881454c81?validPurchases=true",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619855,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/applications/users/69cce7763e7e891881454c81/apps?filterType=0&userId=69cce7763e7e891881454c81&validPurchases=true",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619855,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/keyboardshortcuts/users/69cce7763e7e891881454c81",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619867,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/clientinfo/xsrf",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056619972,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/clientinfo/xsrf",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056619972,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/documents/d/77fc2d775aa51fdf2220efd9/workspaces/f8749b028c9091d1278de6f2/createIfNecessary?parents=undefined&readonly=false",
+    "method": "POST",
+    "resourceType": "xhr",
+    "timestamp": 1775056619978,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/globaltreenodes",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056620139,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/applications/standard?documentId=77fc2d775aa51fdf2220efd9&filterByAllowedPlan=true&wvmId=f8749b028c9091d1278de6f2&wvmOption=w",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056620139,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/applications/extensions/users/69cce7763e7e891881454c81?documentId=77fc2d775aa51fdf2220efd9&userId=69cce7763e7e891881454c81&validPurchases=true&wvmId=f8749b028c9091d1278de6f2&wvmOption=w",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056620139,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/comments/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/summary?id=77fc2d775aa51fdf2220efd9&wvd=w&wvdid=f8749b028c9091d1278de6f2",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056620139,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/classrooms/document/77fc2d775aa51fdf2220efd9/submissions",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056620140,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/GraphicsWebAssemblyUtils.js?_=1775056619089",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056621396,
+    "status": 200,
+    "contentType": "text/javascript;charset=utf-8"
+  },
+  {
+    "url": "https://127.51.68.120:8181/3dconnexion/nlproxy",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056621396
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/webServiceTest/region",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056621404,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/debug/d/77fc2d775aa51fdf2220efd9/timerflag",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056621404,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/js/GraphicsWebAssemblyUtils.wasm",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056621405,
+    "status": 200,
+    "contentType": "application/wasm"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/documents/77fc2d775aa51fdf2220efd9/workspaces/f8749b028c9091d1278de6f2/default",
+    "method": "POST",
+    "resourceType": "xhr",
+    "timestamp": 1775056621405,
+    "status": 200,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/documents/77fc2d775aa51fdf2220efd9:f8749b028c9091d1278de6f2/modelingServiceRequest",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056621405,
+    "status": 201,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/api/debug/77fc2d775aa51fdf2220efd9/log",
+    "method": "POST",
+    "resourceType": "xhr",
+    "timestamp": 1775056621581,
+    "status": 200,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/api/debug/77fc2d775aa51fdf2220efd9/log",
+    "method": "POST",
+    "resourceType": "xhr",
+    "timestamp": 1775056621581,
+    "status": 200,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/api/debug/77fc2d775aa51fdf2220efd9/log",
+    "method": "POST",
+    "resourceType": "xhr",
+    "timestamp": 1775056622119,
+    "status": 200,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/api/debug/77fc2d775aa51fdf2220efd9/log",
+    "method": "POST",
+    "resourceType": "xhr",
+    "timestamp": 1775056622270,
+    "status": 200,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/users/preferences/web/factory",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622282,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/documents/d/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/recursiveexternalreferences?topLevelOnly=true",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622282,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/documents/d/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/recursiveexternalreferences?topLevelOnly=false",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622282,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elements/translatorFormats/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/091ee274b01614a5ece78dbb?checkContent=false&configuration=&documentId=77fc2d775aa51fdf2220efd9&elementId=091ee274b01614a5ece78dbb&wv=w&wvId=f8749b028c9091d1278de6f2",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622282,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elements/applicationTargetInfo?browserMediaType=onshape-app/tutorial&filename=undefined",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622282,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/documents/d/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/elements?elementId=&linkDocumentId=&withThumbnails=false",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622282,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/documents/77fc2d775aa51fdf2220efd9/newChanges?previousOpenTimeInMilliSeconds=1775055285875",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622282,
+    "status": 204,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elements/translatorFormats/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/c08f682043b385fff0c88319?checkContent=false&configuration=&documentId=77fc2d775aa51fdf2220efd9&elementId=c08f682043b385fff0c88319&wv=w&wvId=f8749b028c9091d1278de6f2",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622298,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elements/translatorFormats/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/296c25acc1fe689a200a8697?checkContent=false&configuration=&documentId=77fc2d775aa51fdf2220efd9&elementId=296c25acc1fe689a200a8697&wv=w&wvId=f8749b028c9091d1278de6f2",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622298,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elements/translatorFormats/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/3411ffa57fa7c756a92d0967?checkContent=false&configuration=&documentId=77fc2d775aa51fdf2220efd9&elementId=3411ffa57fa7c756a92d0967&wv=w&wvId=f8749b028c9091d1278de6f2",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622298,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elements/translatorFormats/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/ef36972d24f6681309481743?checkContent=false&configuration=&documentId=77fc2d775aa51fdf2220efd9&elementId=ef36972d24f6681309481743&wv=w&wvId=f8749b028c9091d1278de6f2",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622298,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elements/translatorFormats/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/f37e23b63aee2742a8b1c62d?checkContent=false&configuration=&documentId=77fc2d775aa51fdf2220efd9&elementId=f37e23b63aee2742a8b1c62d&wv=w&wvId=f8749b028c9091d1278de6f2",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622298,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elements/translatorFormats/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/266c5a799053b1195bc9da24?checkContent=false&configuration=&documentId=77fc2d775aa51fdf2220efd9&elementId=266c5a799053b1195bc9da24&wv=w&wvId=f8749b028c9091d1278de6f2",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622298,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elements/application/content/77fc2d775aa51fdf2220efd9/091ee274b01614a5ece78dbb/workspace/f8749b028c9091d1278de6f2?documentId=77fc2d775aa51fdf2220efd9&elementId=091ee274b01614a5ece78dbb&subelementId=tutorial-url&workspaceId=f8749b028c9091d1278de6f2",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622374,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elements/application/content/77fc2d775aa51fdf2220efd9/091ee274b01614a5ece78dbb/workspace/f8749b028c9091d1278de6f2?documentId=77fc2d775aa51fdf2220efd9&elementId=091ee274b01614a5ece78dbb&subelementId=tutorial-url&workspaceId=f8749b028c9091d1278de6f2",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622466,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elements/application/content/77fc2d775aa51fdf2220efd9/091ee274b01614a5ece78dbb/workspace/f8749b028c9091d1278de6f2?documentId=77fc2d775aa51fdf2220efd9&elementId=091ee274b01614a5ece78dbb&subelementId=tutorial-url&workspaceId=f8749b028c9091d1278de6f2",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622466,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elements/application/content/77fc2d775aa51fdf2220efd9/091ee274b01614a5ece78dbb/workspace/f8749b028c9091d1278de6f2?documentId=77fc2d775aa51fdf2220efd9&elementId=091ee274b01614a5ece78dbb&subelementId=tutorial-url&workspaceId=f8749b028c9091d1278de6f2",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622527,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elements/application/content/77fc2d775aa51fdf2220efd9/091ee274b01614a5ece78dbb/workspace/f8749b028c9091d1278de6f2?documentId=77fc2d775aa51fdf2220efd9&elementId=091ee274b01614a5ece78dbb&subelementId=tutorial-url&workspaceId=f8749b028c9091d1278de6f2",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622731,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/elements/application/content/77fc2d775aa51fdf2220efd9/091ee274b01614a5ece78dbb/workspace/f8749b028c9091d1278de6f2?documentId=77fc2d775aa51fdf2220efd9&elementId=091ee274b01614a5ece78dbb&subelementId=tutorial-url&workspaceId=f8749b028c9091d1278de6f2",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056622875,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHJTW9LF87&gtm=45je63u0v894367063za200zd894367063&_p=1775056619265&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=85148850.1775056588&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=0~115938466~115938468~116133312~116991817&dl=%2Fdocuments%2F77fc2d775aa51fdf2220efd9%2Fw%2Ff8749b028c9091d1278de6f2%2Fe%2F091ee274b01614a5ece78dbb&sid=1775056587&sct=1&seg=1&dt=&en=page_view&_ee=1&_et=143&tfd=6292",
+    "method": "POST",
+    "resourceType": "fetch",
+    "timestamp": 1775056624721,
+    "status": 204,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://cad.onshape.com/api/notifications/summary",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056625120,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/notifications/summary",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056630124,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/notifications/summary",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056635120,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/thumbnails/d/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/e/c08f682043b385fff0c88319/s/300x170?t=6e25058112f4a7db060398172026-04-01T09:39:34.273+00:00&rejectEmpty=true",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056635370,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/all-around.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/angularity.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/bead-joint.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/bevel-flare-groove.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/bevel-groove.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/chipping.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/circular-runout.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/composite-frame.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/concave-contour.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/concentricity.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/convex-contour.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/cylindricity.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/fillet-symbol.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/flag-symbol.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/flat-contour.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/flatness.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637364,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/grinding.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637365,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/hammering.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637365,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/j-groove.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637365,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/machining.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637365,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/parallelism.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637365,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/perpendicularity.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637365,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/plug-or-slot-joint.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637365,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/profile-line.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637365,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/profile-surface.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637365,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/rolling.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637365,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/roundness.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637366,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/seam-joint.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637377,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/single-bevel-butt-broad-root.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637377,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/spot-joint.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637377,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/square-groove.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637377,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/straightness.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637378,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/symmetry-symbol.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637378,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/total-runout.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637378,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/position.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637378,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/u-groove.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637378,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/unspecified.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637378,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/v-flare-groove.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637378,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/v-groove.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637378,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/dimension-expression.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637378,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/function.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637378,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/dimension-expression-error.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637378,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/function-error.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637379,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/all-around.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637379,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/angularity.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637380,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/bead-joint.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637380,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/bevel-flare-groove.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637404,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/bevel-groove.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637406,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/chipping.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637406,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/circular-runout.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637406,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/composite-frame.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637406,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/concave-contour.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637406,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/concentricity.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637406,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/convex-contour.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637406,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/cylindricity.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637407,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/fillet-symbol.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637407,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/flag-symbol.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637407,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/flat-contour.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637407,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/flatness.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637407,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/grinding.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637408,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/hammering.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637409,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/j-groove.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637409,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/machining.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637409,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/parallelism.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637409,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/perpendicularity.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637409,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/plug-or-slot-joint.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637409,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/profile-line.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637410,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/profile-surface.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637410,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/rolling.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637410,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/roundness.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637410,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/seam-joint.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637410,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/single-bevel-butt-broad-root.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637410,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/spot-joint.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637411,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/square-groove.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637411,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/straightness.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637412,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/symmetry-symbol.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637412,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/total-runout.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637412,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/position.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637412,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/u-groove.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637412,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/unspecified.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637412,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/v-flare-groove.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637412,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/images/mbd/v-groove.svg",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056637412,
+    "status": 200,
+    "contentType": "image/svg+xml;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/users/69cce7763e7e891881454c81/specexternalreferences",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056639392,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/v13/documents/d/77fc2d775aa51fdf2220efd9/u/69cce7763e7e891881454c81/specexternalreferences",
+    "method": "GET",
+    "resourceType": "xhr",
+    "timestamp": 1775056639392,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/notifications/summary",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056640121,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/thumbnails/d/77fc2d775aa51fdf2220efd9/w/f8749b028c9091d1278de6f2/e/c08f682043b385fff0c88319/ac/List_tSwtWVVKW53tJm%3DCopy_of_3_/s/300x170?t=6e25058112f4a7db060398172026-04-01T09:39:34.273+00:00&rejectEmpty=true",
+    "method": "GET",
+    "resourceType": "image",
+    "timestamp": 1775056640968,
+    "status": 200,
+    "contentType": "image/png;charset=utf-8"
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHJTW9LF87&gtm=45je63u0v894367063za200zd894367063&_p=1775056619265&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=85148850.1775056588&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=0~115938466~115938468~116133312~116991817&dl=https%3A%2F%2Fcad.onshape.com%2Fdocuments%2F77fc2d775aa51fdf2220efd9%2Fw%2Ff8749b028c9091d1278de6f2%2Fe%2Fc08f682043b385fff0c88319&dr=https%3A%2F%2Fcad.onshape.com%2Fdocuments%2F77fc2d775aa51fdf2220efd9%2Fw%2Ff8749b028c9091d1278de6f2%2Fe%2F091ee274b01614a5ece78dbb&sid=1775056587&sct=1&seg=1&dt=Onshape%20EDU%20Quickstart%20%7C%20BASE%20PARTS&en=page_view&_et=4321&tfd=22735",
+    "method": "POST",
+    "resourceType": "fetch",
+    "timestamp": 1775056641161,
+    "status": 204,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://cad.onshape.com/api/notifications/summary",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056645122,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://cad.onshape.com/api/notifications/summary",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056650119,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHJTW9LF87&gtm=45je63u0v894367063za200zd894367063&_p=1775056619265&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=85148850.1775056588&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&tag_exp=0~115938466~115938468~116133312~116991817&sid=1775056587&sct=1&seg=1&dl=https%3A%2F%2Fcad.onshape.com%2Fdocuments%2F77fc2d775aa51fdf2220efd9%2Fw%2Ff8749b028c9091d1278de6f2%2Fe%2Fc08f682043b385fff0c88319&dr=https%3A%2F%2Fcad.onshape.com%2Fdocuments%2F77fc2d775aa51fdf2220efd9%2Fw%2Ff8749b028c9091d1278de6f2%2Fe%2F091ee274b01614a5ece78dbb&dt=Onshape%20EDU%20Quickstart%20%7C%20BASE%20PARTS&_s=3&tfd=32658",
+    "method": "POST",
+    "resourceType": "fetch",
+    "timestamp": 1775056651085,
+    "status": 204,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://cad.onshape.com/api/notifications/summary",
+    "method": "GET",
+    "resourceType": "fetch",
+    "timestamp": 1775056655123,
+    "status": 200,
+    "contentType": "application/json;charset=utf-8"
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MHJTW9LF87&gtm=45je63u0v894367063za200zd894367063&_p=1775056619265&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=85148850.1775056588&ul=en-us&sr=1920x1080&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&tag_exp=0~115938466~115938468~116133312~116991817&sid=1775056587&sct=1&seg=1&dl=https%3A%2F%2Fcad.onshape.com%2Fdocuments%2F77fc2d775aa51fdf2220efd9%2Fw%2Ff8749b028c9091d1278de6f2%2Fe%2Fc08f682043b385fff0c88319&dr=https%3A%2F%2Fcad.onshape.com%2Fdocuments%2F77fc2d775aa51fdf2220efd9%2Fw%2Ff8749b028c9091d1278de6f2%2Fe%2F091ee274b01614a5ece78dbb&dt=Onshape%20EDU%20Quickstart%20%7C%20BASE%20PARTS&_s=4&tfd=37796",
+    "method": "POST",
+    "resourceType": "fetch",
+    "timestamp": 1775056656224,
+    "status": 204,
+    "contentType": "text/plain"
+  },
+  {
+    "url": "https://cad.onshape.com/api/debug/77fc2d775aa51fdf2220efd9/log",
+    "method": "POST",
+    "resourceType": "xhr",
+    "timestamp": 1775056656554,
+    "status": 200,
+    "contentType": "unknown"
+  },
+  {
+    "url": "https://cad.onshape.com/api/debug/77fc2d775aa51fdf2220efd9/log",
+    "method": "POST",
+    "resourceType": "xhr",
+    "timestamp": 1775056656554,
+    "status": 200,
+    "contentType": "unknown"
+  }
+]

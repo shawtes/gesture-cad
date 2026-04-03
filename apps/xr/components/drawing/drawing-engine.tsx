@@ -71,16 +71,16 @@ export function DrawingEngine({ active }: DrawingEngineProps) {
   useFrame((state) => {
     if (!active) return;
 
-    const session = (state.gl as any).xr?.getSession?.();
+    const session = state.gl.xr.getSession();
     if (!session) return;
 
-    const frame = (state as any).__xrFrame;
+    const frame = state.gl.xr.getFrame();
     if (!frame) return;
 
     // Get hand input sources
     for (const source of session.inputSources) {
       if (source.hand && source.handedness === "right") {
-        const refSpace = (state.gl as any).xr.getReferenceSpace();
+        const refSpace = state.gl.xr.getReferenceSpace();
         if (!refSpace) continue;
 
         const thumbTip = source.hand.get("thumb-tip");

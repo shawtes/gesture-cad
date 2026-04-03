@@ -1,0 +1,3330 @@
+[
+  {
+    "text": "sineshaw tesfaye",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": "account-dropdown",
+    "classes": "user-signin-name os-user-signin-name btn nav-item",
+    "tag": "DIV",
+    "rect": {
+      "x": 1758,
+      "y": 0,
+      "w": 162,
+      "h": 40
+    }
+  },
+  {
+    "text": "Sketch\nSearch tools… alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "",
+    "tag": "OS-TOOLBAR",
+    "rect": {
+      "x": 40,
+      "y": 40,
+      "w": 1880,
+      "h": 36
+    }
+  },
+  {
+    "text": "Sketch\nSearch tools… alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "os-grow",
+    "tag": "DIV",
+    "rect": {
+      "x": 40,
+      "y": 40,
+      "w": 1873,
+      "h": 36
+    }
+  },
+  {
+    "text": "Sketch\nSearch tools… alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "",
+    "tag": "OS-VUE-CUSTOM-TOOLBAR",
+    "rect": {
+      "x": 40,
+      "y": 40,
+      "w": 1873,
+      "h": 36
+    }
+  },
+  {
+    "text": "Sketch\nSearch tools… alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "custom-toolbar",
+    "tag": "DIV",
+    "rect": {
+      "x": 40,
+      "y": 40,
+      "w": 1873,
+      "h": 36
+    }
+  },
+  {
+    "text": "Sketch\nSearch tools… alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolbar os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 40,
+      "y": 40,
+      "w": 1873,
+      "h": 36
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolbar-item os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 40,
+      "y": 40,
+      "w": 70,
+      "h": 36
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolset os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 41,
+      "y": 41,
+      "w": 68,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "os-row os-grow",
+    "tag": "DIV",
+    "rect": {
+      "x": 41,
+      "y": 41,
+      "w": 68,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button disabled",
+    "tag": "DIV",
+    "rect": {
+      "x": 42,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 48,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 48,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 50,
+      "y": 50,
+      "w": 13,
+      "h": 15
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button disabled",
+    "tag": "DIV",
+    "rect": {
+      "x": 76,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 82,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 82,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 86,
+      "y": 50,
+      "w": 13,
+      "h": 15
+    }
+  },
+  {
+    "text": "Sketch",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 110,
+      "y": 40,
+      "w": 1545,
+      "h": 36
+    }
+  },
+  {
+    "text": "Sketch",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolbar-item os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 110,
+      "y": 40,
+      "w": 89,
+      "h": 36
+    }
+  },
+  {
+    "text": "Sketch",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolset os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 113,
+      "y": 41,
+      "w": 85,
+      "h": 34
+    }
+  },
+  {
+    "text": "Sketch",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "os-row os-grow",
+    "tag": "DIV",
+    "rect": {
+      "x": 113,
+      "y": 41,
+      "w": 85,
+      "h": 34
+    }
+  },
+  {
+    "text": "Sketch",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 114,
+      "y": 42,
+      "w": 83,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 120,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 120,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 121,
+      "y": 50,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "Sketch",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-label",
+    "tag": "SPAN",
+    "rect": {
+      "x": 144,
+      "y": 48,
+      "w": 43,
+      "h": 20
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolbar-item os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 199,
+      "y": 40,
+      "w": 192,
+      "h": 36
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolset os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 202,
+      "y": 41,
+      "w": 188,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "os-row os-grow",
+    "tag": "DIV",
+    "rect": {
+      "x": 202,
+      "y": 41,
+      "w": 188,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 203,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 209,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 209,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 210,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 237,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 243,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 243,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 244,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 271,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 277,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 277,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 278,
+      "y": 49,
+      "w": 19,
+      "h": 19
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 305,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 311,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 311,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 312,
+      "y": 49,
+      "w": 18,
+      "h": 19
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown",
+    "tag": "DIV",
+    "rect": {
+      "x": 338,
+      "y": 41,
+      "w": 52,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolgroup is-hoverable",
+    "tag": "DIV",
+    "rect": {
+      "x": 339,
+      "y": 42,
+      "w": 50,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 339,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 345,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 345,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 346,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown-arrow tool is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 371,
+      "y": 42,
+      "w": 18,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolbar-item os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 391,
+      "y": 40,
+      "w": 278,
+      "h": 36
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolset os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 394,
+      "y": 41,
+      "w": 274,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "os-row os-grow",
+    "tag": "DIV",
+    "rect": {
+      "x": 394,
+      "y": 41,
+      "w": 274,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown",
+    "tag": "DIV",
+    "rect": {
+      "x": 394,
+      "y": 41,
+      "w": 52,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolgroup is-hoverable",
+    "tag": "DIV",
+    "rect": {
+      "x": 395,
+      "y": 42,
+      "w": 50,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 395,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 401,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 401,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 402,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown-arrow tool is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 427,
+      "y": 42,
+      "w": 18,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 447,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 453,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 453,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 454,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown",
+    "tag": "DIV",
+    "rect": {
+      "x": 480,
+      "y": 41,
+      "w": 52,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolgroup is-hoverable",
+    "tag": "DIV",
+    "rect": {
+      "x": 481,
+      "y": 42,
+      "w": 50,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 481,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 487,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 487,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 488,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown-arrow tool is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 513,
+      "y": 42,
+      "w": 18,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 533,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 539,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 539,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 540,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 567,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 573,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 573,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 574,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 601,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 607,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 607,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 608,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 635,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 641,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 641,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 645,
+      "y": 49,
+      "w": 12,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolbar-item os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 669,
+      "y": 40,
+      "w": 90,
+      "h": 36
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolset os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 672,
+      "y": 41,
+      "w": 86,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "os-row os-grow",
+    "tag": "DIV",
+    "rect": {
+      "x": 672,
+      "y": 41,
+      "w": 86,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown",
+    "tag": "DIV",
+    "rect": {
+      "x": 672,
+      "y": 41,
+      "w": 52,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolgroup is-hoverable",
+    "tag": "DIV",
+    "rect": {
+      "x": 673,
+      "y": 42,
+      "w": 50,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 673,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 679,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 679,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 680,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown-arrow tool is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 705,
+      "y": 42,
+      "w": 18,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 725,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 731,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 731,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 732,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolbar-item os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 759,
+      "y": 40,
+      "w": 158,
+      "h": 36
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolset os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 762,
+      "y": 41,
+      "w": 154,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "os-row os-grow",
+    "tag": "DIV",
+    "rect": {
+      "x": 762,
+      "y": 41,
+      "w": 154,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 763,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 769,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 769,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 769,
+      "y": 51,
+      "w": 19,
+      "h": 13
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 797,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 803,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 803,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 803,
+      "y": 50,
+      "w": 20,
+      "h": 16
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown",
+    "tag": "DIV",
+    "rect": {
+      "x": 830,
+      "y": 41,
+      "w": 52,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolgroup is-hoverable",
+    "tag": "DIV",
+    "rect": {
+      "x": 831,
+      "y": 42,
+      "w": 50,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 831,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 837,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 837,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 838,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown-arrow tool is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 863,
+      "y": 42,
+      "w": 18,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 883,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 889,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 889,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 891,
+      "y": 50,
+      "w": 17,
+      "h": 17
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolbar-item os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 917,
+      "y": 40,
+      "w": 140,
+      "h": 36
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolset os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 920,
+      "y": 41,
+      "w": 136,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "os-row os-grow",
+    "tag": "DIV",
+    "rect": {
+      "x": 920,
+      "y": 41,
+      "w": 136,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 921,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 927,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 927,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 927,
+      "y": 49,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 955,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 961,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 961,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 961,
+      "y": 49,
+      "w": 19,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 989,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 995,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 995,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 996,
+      "y": 50,
+      "w": 18,
+      "h": 17
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1023,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1029,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1029,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1030,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolbar-item os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 1057,
+      "y": 40,
+      "w": 330,
+      "h": 36
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolset os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 1060,
+      "y": 41,
+      "w": 326,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "os-row os-grow",
+    "tag": "DIV",
+    "rect": {
+      "x": 1060,
+      "y": 41,
+      "w": 326,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1061,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1067,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1067,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1069,
+      "y": 49,
+      "w": 17,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown",
+    "tag": "DIV",
+    "rect": {
+      "x": 1094,
+      "y": 41,
+      "w": 52,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolgroup is-hoverable",
+    "tag": "DIV",
+    "rect": {
+      "x": 1095,
+      "y": 42,
+      "w": 50,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1095,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1101,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1101,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1104,
+      "y": 49,
+      "w": 15,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown-arrow tool is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1127,
+      "y": 42,
+      "w": 18,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown",
+    "tag": "DIV",
+    "rect": {
+      "x": 1146,
+      "y": 41,
+      "w": 52,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolgroup is-hoverable",
+    "tag": "DIV",
+    "rect": {
+      "x": 1147,
+      "y": 42,
+      "w": 50,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1147,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1153,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1153,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1154,
+      "y": 49,
+      "w": 17,
+      "h": 16
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown-arrow tool is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1179,
+      "y": 42,
+      "w": 18,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1199,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1205,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1205,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1206,
+      "y": 49,
+      "w": 19,
+      "h": 19
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1233,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1239,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1239,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1240,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown",
+    "tag": "DIV",
+    "rect": {
+      "x": 1266,
+      "y": 41,
+      "w": 52,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolgroup is-hoverable",
+    "tag": "DIV",
+    "rect": {
+      "x": 1267,
+      "y": 42,
+      "w": 50,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1267,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1273,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1273,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1273,
+      "y": 51,
+      "w": 20,
+      "h": 15
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown-arrow tool is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1299,
+      "y": 42,
+      "w": 18,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1319,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1325,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1325,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1325,
+      "y": 48,
+      "w": 20,
+      "h": 19
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1353,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1359,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1359,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1362,
+      "y": 51,
+      "w": 15,
+      "h": 15
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolbar-item os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 1387,
+      "y": 40,
+      "w": 174,
+      "h": 36
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolset os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 1390,
+      "y": 41,
+      "w": 170,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "os-row os-grow",
+    "tag": "DIV",
+    "rect": {
+      "x": 1390,
+      "y": 41,
+      "w": 170,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1391,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1397,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1397,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1400,
+      "y": 49,
+      "w": 14,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1425,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1431,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1431,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1431,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1459,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1465,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1465,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1466,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1493,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1499,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1499,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1500,
+      "y": 49,
+      "w": 18,
+      "h": 18
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown",
+    "tag": "DIV",
+    "rect": {
+      "x": 1526,
+      "y": 41,
+      "w": 34,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolgroup is-hoverable",
+    "tag": "DIV",
+    "rect": {
+      "x": 1527,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1527,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1533,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1533,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1533,
+      "y": 48,
+      "w": 19,
+      "h": 19
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolbar-item os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 1561,
+      "y": 40,
+      "w": 56,
+      "h": 36
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolset os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 1564,
+      "y": 41,
+      "w": 52,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown",
+    "tag": "DIV",
+    "rect": {
+      "x": 1564,
+      "y": 41,
+      "w": 52,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolgroup is-hoverable",
+    "tag": "DIV",
+    "rect": {
+      "x": 1565,
+      "y": 42,
+      "w": 50,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1565,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1571,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1571,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1572,
+      "y": 49,
+      "w": 17,
+      "h": 17
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown-arrow tool is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1597,
+      "y": 42,
+      "w": 18,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolbar-item os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 1617,
+      "y": 40,
+      "w": 38,
+      "h": 36
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolset os-row",
+    "tag": "DIV",
+    "rect": {
+      "x": 1620,
+      "y": 41,
+      "w": 34,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "dropdown",
+    "tag": "DIV",
+    "rect": {
+      "x": 1620,
+      "y": 41,
+      "w": 34,
+      "h": 34
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolgroup is-hoverable",
+    "tag": "DIV",
+    "rect": {
+      "x": 1621,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "tag": "DIV",
+    "rect": {
+      "x": 1621,
+      "y": 42,
+      "w": 32,
+      "h": 32
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "tool-icon",
+    "tag": "DIV",
+    "rect": {
+      "x": 1627,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1627,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "[object SVGAnimatedString]",
+    "tag": "use",
+    "rect": {
+      "x": 1627,
+      "y": 48,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "text": "Search tools… alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "os-row os-align-center",
+    "tag": "DIV",
+    "rect": {
+      "x": 1655,
+      "y": 40,
+      "w": 171,
+      "h": 36
+    }
+  },
+  {
+    "text": "Search tools… alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "command-search-trigger",
+    "tag": "BUTTON",
+    "rect": {
+      "x": 1665,
+      "y": 42,
+      "w": 161,
+      "h": 32
+    }
+  },
+  {
+    "text": "alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "",
+    "tag": "SPAN",
+    "rect": {
+      "x": 1765,
+      "y": 48,
+      "w": 51,
+      "h": 20
+    }
+  },
+  {
+    "text": "alt/⌥",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "shortcut-key",
+    "tag": "SPAN",
+    "rect": {
+      "x": 1765,
+      "y": 50,
+      "w": 34,
+      "h": 20
+    }
+  },
+  {
+    "text": "c",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "shortcut-key",
+    "tag": "SPAN",
+    "rect": {
+      "x": 1799,
+      "y": 50,
+      "w": 17,
+      "h": 20
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": null,
+    "classes": "toolbar-overflow os-grow",
+    "tag": "DIV",
+    "rect": {
+      "x": 1826,
+      "y": 40,
+      "w": 87,
+      "h": 36
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": "measure-button",
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1820,
+      "y": 1026,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": "curve-surface-diagnostic-button",
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1855,
+      "y": 1026,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": "mass-properties",
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1890,
+      "y": 1026,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "title": null,
+    "ariaLabel": null,
+    "dataAutomation": "view-cube-button",
+    "classes": "[object SVGAnimatedString]",
+    "tag": "svg",
+    "rect": {
+      "x": 1865,
+      "y": 222,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": "Notifications",
+    "classes": "dropdown",
+    "rect": {
+      "x": 1516,
+      "y": 0,
+      "w": 32,
+      "h": 40
+    },
+    "source": "svg-button"
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": "Navigates you to Action items page in a new window.",
+    "classes": "btn nav-item",
+    "rect": {
+      "x": 1548,
+      "y": 0,
+      "w": 32,
+      "h": 40
+    },
+    "source": "svg-button"
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": "Navigates you to Onshape app store in a new window.",
+    "classes": "btn nav-invite nav-item",
+    "rect": {
+      "x": 1580,
+      "y": 0,
+      "w": 32,
+      "h": 40
+    },
+    "source": "svg-button"
+  },
+  {
+    "text": "",
+    "title": null,
+    "ariaLabel": "Navigates you to Onshape Learning Center in a new window.",
+    "classes": "btn nav-invite nav-item",
+    "rect": {
+      "x": 1612,
+      "y": 0,
+      "w": 32,
+      "h": 40
+    },
+    "source": "svg-button"
+  }
+]

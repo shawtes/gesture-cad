@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GestureCAD XR — Hologram</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #f5f0e8; color: #333; height: 100vh; width: 100vw;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'SF Mono', Menlo, monospace; overflow: hidden;
+}
+.card { text-align: center; max-width: 400px; padding: 40px 30px; }
+.icon { font-size: 48px; }
+h1 { font-size: 28px; font-weight: 700; margin: 12px 0 8px; letter-spacing: -0.02em; }
+.badge {
+  font-size: 10px; font-weight: 700; color: #00886a; letter-spacing: 0.2em;
+  background: rgba(0,255,204,0.1); border: 1px solid rgba(0,255,204,0.3);
+  display: inline-block; padding: 3px 12px; border-radius: 4px; margin-bottom: 24px;
+}
+.desc { font-size: 14px; color: #668; line-height: 1.6; margin-bottom: 20px; }
+.status {
+  font-size: 12px; margin-bottom: 24px; padding: 8px 16px;
+  background: rgba(0,255,204,0.05); border: 1px solid rgba(0,255,204,0.15);
+  border-radius: 8px; display: inline-block;
+}
+.launch {
+  display: block; width: 100%; padding: 16px 0; font-size: 16px; font-weight: 700;
+  font-family: inherit; color: #050510; background: #00ccaa; border: none;
+  border-radius: 10px; cursor: pointer; margin-bottom: 24px;
+}
+.launch:active { background: #00ddaa; }
+.hints { font-size: 11px; color: #445; line-height: 1.8; }
+.loading { display: none; }
+.loading.active { display: flex; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.spinner {
+  width: 32px; height: 32px; border: 3px solid #112;
+  border-top: 3px solid #00ffcc; border-radius: 50%;
+  animation: spin 1s linear infinite; margin: 0 auto 16px;
+}
+iframe {
+  position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+  border: none; display: none;
+}
+</style>
+</head>
+<body>
+
+<div class="card" id="landing">
+  <div class="icon">◈</div>
+  <h1>GestureCAD XR</h1>
+  <p class="badge">HOLOGRAM</p>
+  <p class="desc">
+    View your CAD models as holograms in AR.<br>
+    Control with your hands or controllers.
+  </p>
+  <div class="status" id="xr-status">Checking WebXR...</div>
+  <br><br>
+  <button class="launch" id="launch-btn" onclick="launchApp()">Launch 3D Viewer</button>
+  <div class="hints">
+    <p>Pinch = grab &amp; move</p>
+    <p>Two-hand pinch = scale</p>
+    <p>Fist = rotate</p>
+    <p>Open palm = reset</p>
+  </div>
+</div>
+
+<div class="loading card" id="loading">
+  <div class="spinner"></div>
+  <p>Loading 3D engine...</p>
+  <p style="font-size:11px; color:#445; margin-top:8px">This may take a moment on Quest</p>
+</div>
+
+<iframe id="app-frame"></iframe>
+
+<script>
+// Check WebXR
+(function() {
+  var el = document.getElementById('xr-status');
+  if (navigator.xr) {
+    navigator.xr.isSessionSupported('immersive-ar').then(function(s) {
+      el.textContent = s ? 'AR supported ✓' : 'VR only';
+      el.style.color = s ? '#00ffcc' : '#ff8800';
+    }).catch(function() { el.textContent = 'WebXR error'; el.style.color = '#f44'; });
+  } else {
+    el.textContent = 'Desktop mode (no WebXR)';
+    el.style.color = '#888';
+  }
+})();
+
+function launchApp() {
+  document.getElementById('landing').style.display = 'none';
+  document.getElementById('loading').classList.add('active');
+
+  // Navigate to the Next.js app
+  setTimeout(function() {
+    window.location.href = '/';
+  }, 500);
+}
+</script>
+
+</body>
+</html>

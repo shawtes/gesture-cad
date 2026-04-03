@@ -1,0 +1,14 @@
+{
+  "timing": {
+    "domContentLoaded": 121.19999999925494,
+    "load": 122.39999999850988,
+    "ttfb": 0,
+    "domInteractive": 121.19999999925494
+  },
+  "resourceCount": 0,
+  "resourceByType": {},
+  "memoryUsage": {
+    "usedJSHeapSize": 10000000,
+    "totalJSHeapSize": 10000000
+  }
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Extrude",
+    "available": false
+  },
+  {
+    "name": "Revolve",
+    "available": false
+  },
+  {
+    "name": "Sweep",
+    "available": false
+  },
+  {
+    "name": "Loft",
+    "available": false
+  },
+  {
+    "name": "Fillet",
+    "available": false
+  },
+  {
+    "name": "Chamfer",
+    "available": false
+  },
+  {
+    "name": "Shell",
+    "available": false
+  },
+  {
+    "name": "Draft",
+    "available": false
+  },
+  {
+    "name": "Boolean",
+    "available": false
+  },
+  {
+    "name": "Pattern",
+    "available": false
+  },
+  {
+    "name": "Mirror",
+    "available": false
+  },
+  {
+    "name": "Hole",
+    "available": false
+  },
+  {
+    "name": "Rib",
+    "available": false
+  },
+  {
+    "name": "Split",
+    "available": false
+  },
+  {
+    "name": "Move",
+    "available": false
+  },
+  {
+    "name": "Transform",
+    "available": false
+  },
+  {
+    "name": "Thicken",
+    "available": false
+  },
+  {
+    "name": "Helix",
+    "available": false
+  },
+  {
+    "name": "Plane",
+    "available": false
+  }
+]

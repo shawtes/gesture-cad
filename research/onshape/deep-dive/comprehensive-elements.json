@@ -1,0 +1,1738 @@
+[
+  {
+    "tag": "BODY",
+    "text": "Onshape EDU Quickstart\nMain\nShare\n \nsineshaw tesfaye\nInsert\nSearch tools… alt/⌥c\nConfigurations\nJaw Width\n3\"\nJaw Opening\n4\"\nWarning Label Standard\nANS",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-hover-enabled",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Onshape EDU Quickstart\nMain\nShare\n \nsineshaw tesfaye\nInsert\nSearch tools… alt/⌥c\nConfigurations\nJaw Width\n3\"\nJaw Opening\n4\"\nWarning Label Standard\nANS",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-app-container",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 1080
+    }
+  },
+  {
+    "tag": "NAV",
+    "text": "Onshape EDU Quickstart\nMain\nShare\n \nsineshaw tesfaye",
+    "title": null,
+    "ariaLabel": null,
+    "role": "navigation",
+    "dataAutomation": null,
+    "classes": "fixed-top navbar navbar-light",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1920,
+      "h": 40
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Onshape EDU Quickstart\nMain",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "navbar-document-and-workspace-names os-row os-grow os-align-center",
+    "rect": {
+      "x": 171,
+      "y": 0,
+      "w": 1341,
+      "h": 40
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Onshape EDU Quickstart\nMain",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "navbar-block-wrapper",
+    "rect": {
+      "x": 171,
+      "y": 2,
+      "w": 303,
+      "h": 37
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Main",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "workspace-or-version-name navbar-document-version d-none d-sm-block",
+    "rect": {
+      "x": 435,
+      "y": 9,
+      "w": 34,
+      "h": 28
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Share\n \nsineshaw tesfaye",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "nav-navbar os-row os-no-shrink navbar-right-pinned",
+    "rect": {
+      "x": 1512,
+      "y": 0,
+      "w": 408,
+      "h": 40
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "",
+    "title": null,
+    "ariaLabel": "Notifications",
+    "role": "button",
+    "dataAutomation": null,
+    "classes": "dropdown",
+    "rect": {
+      "x": 1516,
+      "y": 0,
+      "w": 32,
+      "h": 40
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "title": null,
+    "ariaLabel": "Navigates you to Action items page in a new window.",
+    "role": "link",
+    "dataAutomation": null,
+    "classes": "btn nav-item",
+    "rect": {
+      "x": 1548,
+      "y": 0,
+      "w": 32,
+      "h": 40
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "title": null,
+    "ariaLabel": "Navigates you to Onshape app store in a new window.",
+    "role": "link",
+    "dataAutomation": null,
+    "classes": "btn nav-invite nav-item",
+    "rect": {
+      "x": 1580,
+      "y": 0,
+      "w": 32,
+      "h": 40
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "title": null,
+    "ariaLabel": "Navigates you to Onshape Learning Center in a new window.",
+    "role": "link",
+    "dataAutomation": null,
+    "classes": "btn nav-invite nav-item",
+    "rect": {
+      "x": 1612,
+      "y": 0,
+      "w": 32,
+      "h": 40
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Share",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "navbar-btn-container d-block",
+    "rect": {
+      "x": 1644,
+      "y": 0,
+      "w": 67,
+      "h": 40
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Share",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "btn btn-primary nav-share document-list-share-button os-navbar-share-button",
+    "rect": {
+      "x": 1648,
+      "y": 3,
+      "w": 59,
+      "h": 34
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "",
+    "title": null,
+    "ariaLabel": "Help menu",
+    "role": null,
+    "dataAutomation": null,
+    "classes": "dropdown-toggle btn nav-item nav-help",
+    "rect": {
+      "x": 1711,
+      "y": 0,
+      "w": 47,
+      "h": 40
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "sineshaw tesfaye",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "dropdown",
+    "rect": {
+      "x": 1758,
+      "y": 0,
+      "w": 162,
+      "h": 40
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "sineshaw tesfaye",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "username-ellipsis-container ellipseOverflowText",
+    "rect": {
+      "x": 1793,
+      "y": 0,
+      "w": 106,
+      "h": 40
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "sineshaw tesfaye",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "navbar-dropdown-username-ellipsis d-none d-lg-block",
+    "rect": {
+      "x": 1793,
+      "y": 0,
+      "w": 106,
+      "h": 40
+    }
+  },
+  {
+    "tag": "OSX-ROW",
+    "text": "Insert\nSearch tools… alt/⌥c\nConfigurations\nJaw Width\n3\"\nJaw Opening\n4\"\nWarning Label Standard\nANSI\nInstances (3)\nMAIN ASSEMBLY\nOrigin\nBASE SUBASSEMBLY",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-content-container",
+    "rect": {
+      "x": 0,
+      "y": 40,
+      "w": 1920,
+      "h": 1040
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Insert\nSearch tools… alt/⌥c\nConfigurations\nJaw Width\n3\"\nJaw Opening\n4\"\nWarning Label Standard\nANSI\nInstances (3)\nMAIN ASSEMBLY\nOrigin\nBASE SUBASSEMBLY",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "enable-user-select os-content",
+    "rect": {
+      "x": 0,
+      "y": 40,
+      "w": 1920,
+      "h": 1040
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Insert\nSearch tools… alt/⌥c\nConfigurations\nJaw Width\n3\"\nJaw Opening\n4\"\nWarning Label Standard\nANSI\nInstances (3)\nMAIN ASSEMBLY\nOrigin\nBASE SUBASSEMBLY",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "document-and-user-splitter-container os-column-splitter-container",
+    "rect": {
+      "x": 40,
+      "y": 40,
+      "w": 1880,
+      "h": 1040
+    }
+  },
+  {
+    "tag": "OS-TOOLBAR",
+    "text": "Insert\nSearch tools… alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 40,
+      "y": 40,
+      "w": 1880,
+      "h": 36
+    }
+  },
+  {
+    "tag": "OS-VUE-CUSTOM-TOOLBAR",
+    "text": "Insert\nSearch tools… alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 40,
+      "y": 40,
+      "w": 1873,
+      "h": 36
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Insert",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-row",
+    "rect": {
+      "x": 110,
+      "y": 40,
+      "w": 994,
+      "h": 36
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Insert",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "toolbar-item os-row",
+    "rect": {
+      "x": 148,
+      "y": 40,
+      "w": 82,
+      "h": 36
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Insert",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "toolset os-row",
+    "rect": {
+      "x": 151,
+      "y": 41,
+      "w": 78,
+      "h": 34
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Insert",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "tool is-activatable is-button",
+    "rect": {
+      "x": 152,
+      "y": 42,
+      "w": 76,
+      "h": 32
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Insert",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "tool-label",
+    "rect": {
+      "x": 182,
+      "y": 48,
+      "w": 36,
+      "h": 20
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Search tools… alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-row os-align-center",
+    "rect": {
+      "x": 1104,
+      "y": 40,
+      "w": 171,
+      "h": 36
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Search tools… alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "command-search-trigger",
+    "rect": {
+      "x": 1114,
+      "y": 42,
+      "w": 161,
+      "h": 32
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "alt/⌥c",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 1214,
+      "y": 48,
+      "w": 51,
+      "h": 20
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "alt/⌥",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "shortcut-key",
+    "rect": {
+      "x": 1214,
+      "y": 50,
+      "w": 34,
+      "h": 20
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "c",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "shortcut-key",
+    "rect": {
+      "x": 1248,
+      "y": 50,
+      "w": 17,
+      "h": 20
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Configurations\nJaw Width\n3\"\nJaw Opening\n4\"\nWarning Label Standard\nANSI\nInstances (3)\nMAIN ASSEMBLY\nOrigin\nBASE SUBASSEMBLY <1>\nJAW SUBASSEMBLY <1>\nWAR",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "content-div disable-user-select",
+    "rect": {
+      "x": 40,
+      "y": 76,
+      "w": 1880,
+      "h": 974
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Configurations\nJaw Width\n3\"\nJaw Opening\n4\"\nWarning Label Standard\nANSI\nInstances (3)\nMAIN ASSEMBLY\nOrigin\nBASE SUBASSEMBLY <1>\nJAW SUBASSEMBLY <1>\nWAR",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "panel-content-pane os-row-splitter-container",
+    "rect": {
+      "x": 40,
+      "y": 77,
+      "w": 200,
+      "h": 972
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Configurations",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "ns-subdialog-title",
+    "rect": {
+      "x": 40,
+      "y": 77,
+      "w": 93,
+      "h": 30
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Jaw Width\n3\"\nJaw Opening\n4\"\nWarning Label Standard\nANSI",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "left-pane-section-container pane-section-scroll-container",
+    "rect": {
+      "x": 40,
+      "y": 112,
+      "w": 200,
+      "h": 45
+    }
+  },
+  {
+    "tag": "OS-PARAMETER-LIST-VIEW",
+    "text": "Jaw Width\n3\"\nJaw Opening\n4\"\nWarning Label Standard\nANSI",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 42,
+      "y": 112,
+      "w": 178,
+      "h": 81
+    }
+  },
+  {
+    "tag": "OS-PARAMETER-GROUP",
+    "text": "Jaw Width\n3\"",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 42,
+      "y": 112,
+      "w": 178,
+      "h": 27
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Jaw Width\n3\"",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-parameter-list-item os-param-fill-first-column",
+    "rect": {
+      "x": 42,
+      "y": 112,
+      "w": 178,
+      "h": 25
+    }
+  },
+  {
+    "tag": "OS-ENUM-PARAMETER",
+    "text": "Jaw Width\n3\"",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 42,
+      "y": 112,
+      "w": 178,
+      "h": 25
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Jaw Width\n3\"",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-param-wrapper os-param-select",
+    "rect": {
+      "x": 42,
+      "y": 112,
+      "w": 178,
+      "h": 25
+    }
+  },
+  {
+    "tag": "LABEL",
+    "text": "Jaw Width",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-param-label",
+    "rect": {
+      "x": 42,
+      "y": 112,
+      "w": 66,
+      "h": 23
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Jaw Width",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 47,
+      "y": 119,
+      "w": 56,
+      "h": 17
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "3\"",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "select-container-wrapper",
+    "rect": {
+      "x": 108,
+      "y": 112,
+      "w": 112,
+      "h": 25
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "3\"",
+    "title": null,
+    "ariaLabel": "Select box activate",
+    "role": null,
+    "dataAutomation": null,
+    "classes": "btn btn-secondary form-control os-select-toggle",
+    "rect": {
+      "x": 108,
+      "y": 112,
+      "w": 112,
+      "h": 26
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "3\"",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-select-match-text float-start",
+    "rect": {
+      "x": 114,
+      "y": 114,
+      "w": 106,
+      "h": 21
+    }
+  },
+  {
+    "tag": "OS-PARAMETER-GROUP",
+    "text": "Jaw Opening\n4\"",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 42,
+      "y": 139,
+      "w": 178,
+      "h": 27
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Jaw Opening\n4\"",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-parameter-list-item os-param-fill-first-column",
+    "rect": {
+      "x": 42,
+      "y": 139,
+      "w": 178,
+      "h": 25
+    }
+  },
+  {
+    "tag": "OS-ENUM-PARAMETER",
+    "text": "Jaw Opening\n4\"",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 42,
+      "y": 139,
+      "w": 178,
+      "h": 25
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Jaw Opening\n4\"",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-param-wrapper os-param-select",
+    "rect": {
+      "x": 42,
+      "y": 139,
+      "w": 178,
+      "h": 25
+    }
+  },
+  {
+    "tag": "LABEL",
+    "text": "Jaw Opening",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-param-label",
+    "rect": {
+      "x": 42,
+      "y": 139,
+      "w": 78,
+      "h": 23
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Jaw Opening",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 47,
+      "y": 146,
+      "w": 69,
+      "h": 17
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "4\"",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "select-container-wrapper",
+    "rect": {
+      "x": 120,
+      "y": 139,
+      "w": 100,
+      "h": 25
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "4\"",
+    "title": null,
+    "ariaLabel": "Select box activate",
+    "role": null,
+    "dataAutomation": null,
+    "classes": "btn btn-secondary form-control os-select-toggle",
+    "rect": {
+      "x": 120,
+      "y": 139,
+      "w": 100,
+      "h": 26
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "4\"",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-select-match-text float-start",
+    "rect": {
+      "x": 126,
+      "y": 141,
+      "w": 94,
+      "h": 21
+    }
+  },
+  {
+    "tag": "OS-PARAMETER-GROUP",
+    "text": "Warning Label Standard\nANSI",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 42,
+      "y": 166,
+      "w": 178,
+      "h": 27
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Warning Label Standard\nANSI",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-parameter-list-item os-param-fill-first-column",
+    "rect": {
+      "x": 42,
+      "y": 166,
+      "w": 178,
+      "h": 25
+    }
+  },
+  {
+    "tag": "OS-ENUM-PARAMETER",
+    "text": "Warning Label Standard\nANSI",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 42,
+      "y": 166,
+      "w": 178,
+      "h": 25
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Warning Label Standard\nANSI",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-param-wrapper os-param-select",
+    "rect": {
+      "x": 42,
+      "y": 166,
+      "w": 178,
+      "h": 25
+    }
+  },
+  {
+    "tag": "LABEL",
+    "text": "Warning Label Standard",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-param-label",
+    "rect": {
+      "x": 42,
+      "y": 166,
+      "w": 78,
+      "h": 23
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Warning Label Standard",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 47,
+      "y": 173,
+      "w": 127,
+      "h": 17
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "ANSI",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "select-container-wrapper",
+    "rect": {
+      "x": 120,
+      "y": 166,
+      "w": 100,
+      "h": 25
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "ANSI",
+    "title": null,
+    "ariaLabel": "Select box activate",
+    "role": null,
+    "dataAutomation": null,
+    "classes": "btn btn-secondary form-control os-select-toggle",
+    "rect": {
+      "x": 120,
+      "y": 166,
+      "w": 100,
+      "h": 26
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "ANSI",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-select-match-text float-start",
+    "rect": {
+      "x": 126,
+      "y": 168,
+      "w": 94,
+      "h": 21
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Instances (3)\nMAIN ASSEMBLY\nOrigin\nBASE SUBASSEMBLY <1>\nJAW SUBASSEMBLY <1>\nWARNING LABEL - ANSI <1>\nMate Features (2)\nMAIN ROTATION\nFastened 1",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "assembly-tree-container os-col os-split-content",
+    "rect": {
+      "x": 40,
+      "y": 158,
+      "w": 200,
+      "h": 891
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Instances (3)",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-row",
+    "rect": {
+      "x": 40,
+      "y": 195,
+      "w": 200,
+      "h": 30
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "MAIN ASSEMBLY\nOrigin\nBASE SUBASSEMBLY <1>\nJAW SUBASSEMBLY <1>\nWARNING LABEL - ANSI <1>\nMate Features (2)\nMAIN ROTATION\nFastened 1",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "left-pane-section-container pane-section-scroll-container",
+    "rect": {
+      "x": 40,
+      "y": 225,
+      "w": 200,
+      "h": 824
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "MAIN ASSEMBLY",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-col ellipseOverflowText",
+    "rect": {
+      "x": 63,
+      "y": 228,
+      "w": 67,
+      "h": 21
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "MAIN ASSEMBLY",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "assemblyTreeName os-list-item-name",
+    "rect": {
+      "x": 66,
+      "y": 228,
+      "w": 64,
+      "h": 20
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Origin\nBASE SUBASSEMBLY <1>\nJAW SUBASSEMBLY <1>\nWARNING LABEL - ANSI <1>\nMate Features (2)\nMAIN ROTATION\nFastened 1",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "ns-list",
+    "rect": {
+      "x": 40,
+      "y": 251,
+      "w": 200,
+      "h": 182
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Origin",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-list-item-label",
+    "rect": {
+      "x": 60,
+      "y": 251,
+      "w": 180,
+      "h": 26
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Origin",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "assemblyTreeName os-list-item-name",
+    "rect": {
+      "x": 86,
+      "y": 254,
+      "w": 144,
+      "h": 20
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "BASE SUBASSEMBLY <1>",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-list-item is-instance ns-user-feature",
+    "rect": {
+      "x": 40,
+      "y": 277,
+      "w": 200,
+      "h": 26
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "BASE SUBASSEMBLY <1>",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-list-item-label",
+    "rect": {
+      "x": 60,
+      "y": 277,
+      "w": 180,
+      "h": 26
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "BASE SUBASSEMBLY <1>",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-col ellipseOverflowText",
+    "rect": {
+      "x": 83,
+      "y": 280,
+      "w": 47,
+      "h": 21
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "BASE SUBASSEMBLY <1>",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "assemblyTreeName os-list-item-name",
+    "rect": {
+      "x": 86,
+      "y": 280,
+      "w": 44,
+      "h": 20
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "JAW SUBASSEMBLY <1>",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-list-item is-instance ns-user-feature",
+    "rect": {
+      "x": 40,
+      "y": 303,
+      "w": 200,
+      "h": 26
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "JAW SUBASSEMBLY <1>",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-list-item-label",
+    "rect": {
+      "x": 60,
+      "y": 303,
+      "w": 180,
+      "h": 26
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "JAW SUBASSEMBLY <1>",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-col ellipseOverflowText",
+    "rect": {
+      "x": 83,
+      "y": 306,
+      "w": 147,
+      "h": 21
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "JAW SUBASSEMBLY <1>",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "assemblyTreeName os-list-item-name",
+    "rect": {
+      "x": 86,
+      "y": 306,
+      "w": 144,
+      "h": 20
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "WARNING LABEL - ANSI <1>",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-list-item is-instance ns-user-feature",
+    "rect": {
+      "x": 40,
+      "y": 329,
+      "w": 200,
+      "h": 26
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "WARNING LABEL - ANSI <1>",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-list-item-label",
+    "rect": {
+      "x": 60,
+      "y": 329,
+      "w": 180,
+      "h": 26
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "WARNING LABEL - ANSI <1>",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-col ellipseOverflowText",
+    "rect": {
+      "x": 83,
+      "y": 332,
+      "w": 147,
+      "h": 21
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "WARNING LABEL - ANSI <1>",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "assemblyTreeName os-list-item-name",
+    "rect": {
+      "x": 86,
+      "y": 332,
+      "w": 144,
+      "h": 20
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Mate Features (2)",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-list-item is-folder ns-user-feature",
+    "rect": {
+      "x": 40,
+      "y": 355,
+      "w": 200,
+      "h": 26
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Mate Features (2)",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-list-item-label",
+    "rect": {
+      "x": 60,
+      "y": 355,
+      "w": 180,
+      "h": 26
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Mate Features (2)",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "assemblyTreeName os-list-item-name",
+    "rect": {
+      "x": 63,
+      "y": 358,
+      "w": 167,
+      "h": 20
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "MAIN ROTATION",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-list-item ns-list-item-hidden is-mate-item ns-user-feature",
+    "rect": {
+      "x": 40,
+      "y": 381,
+      "w": 200,
+      "h": 26
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "MAIN ROTATION",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-list-item-label",
+    "rect": {
+      "x": 79,
+      "y": 381,
+      "w": 161,
+      "h": 26
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "MAIN ROTATION",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "assemblyTreeName os-list-item-name",
+    "rect": {
+      "x": 105,
+      "y": 384,
+      "w": 65,
+      "h": 20
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Fastened 1",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-list-item ns-list-item-hidden is-mate-item ns-user-feature",
+    "rect": {
+      "x": 40,
+      "y": 407,
+      "w": 200,
+      "h": 26
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "Fastened 1",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-list-item-label",
+    "rect": {
+      "x": 79,
+      "y": 407,
+      "w": 161,
+      "h": 26
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Fastened 1",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "assemblyTreeName os-list-item-name",
+    "rect": {
+      "x": 105,
+      "y": 410,
+      "w": 125,
+      "h": 20
+    }
+  },
+  {
+    "tag": "svg",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": "measure-button",
+    "classes": "[object SVGAnimatedString]",
+    "rect": {
+      "x": 1820,
+      "y": 1026,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "tag": "svg",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": "curve-surface-diagnostic-button",
+    "classes": "[object SVGAnimatedString]",
+    "rect": {
+      "x": 1855,
+      "y": 1026,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "tag": "svg",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": "mass-properties",
+    "classes": "[object SVGAnimatedString]",
+    "rect": {
+      "x": 1890,
+      "y": 1026,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "tag": "svg",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": "view-cube-button",
+    "classes": "[object SVGAnimatedString]",
+    "rect": {
+      "x": 1865,
+      "y": 222,
+      "w": 20,
+      "h": 20
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "DRAWINGS\nMAIN ASSEMBLY\nSLIDING JAW\nSHEET METAL PLATE",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 40,
+      "y": 1050,
+      "w": 1880,
+      "h": 30
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "DRAWINGS",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-tab-bar-breadcrumbs",
+    "rect": {
+      "x": 74,
+      "y": 1050,
+      "w": 159,
+      "h": 30
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "DRAWINGS",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-tab-bar-breadcrumb",
+    "rect": {
+      "x": 125,
+      "y": 1050,
+      "w": 108,
+      "h": 27
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "DRAWINGS",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "breadcrumb-content",
+    "rect": {
+      "x": 125,
+      "y": 1052,
+      "w": 96,
+      "h": 20
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "DRAWINGS",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 150,
+      "y": 1052,
+      "w": 71,
+      "h": 20
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "MAIN ASSEMBLY\nSLIDING JAW\nSHEET METAL PLATE",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "document-tabs-container",
+    "rect": {
+      "x": 233,
+      "y": 1050,
+      "w": 1687,
+      "h": 30
+    }
+  },
+  {
+    "tag": "TAB-LIST",
+    "text": "MAIN ASSEMBLY\nSLIDING JAW\nSHEET METAL PLATE",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-tab-bar-tablist",
+    "rect": {
+      "x": 233,
+      "y": 1050,
+      "w": 1687,
+      "h": 31
+    }
+  },
+  {
+    "tag": "TAB-LIST-ITEM",
+    "text": "MAIN ASSEMBLY",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-tab-bar-tab",
+    "rect": {
+      "x": 243,
+      "y": 1050,
+      "w": 200,
+      "h": 27
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "MAIN ASSEMBLY",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "tab-content-wrapper",
+    "rect": {
+      "x": 253,
+      "y": 1053,
+      "w": 180,
+      "h": 21
+    }
+  },
+  {
+    "tag": "ELEMENT-NAME",
+    "text": "MAIN ASSEMBLY",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 272,
+      "y": 1049,
+      "w": 165,
+      "h": 29
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "MAIN ASSEMBLY",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-tab-name extended-child-tooltip",
+    "rect": {
+      "x": 276,
+      "y": 1054,
+      "w": 108,
+      "h": 20
+    }
+  },
+  {
+    "tag": "TAB-LIST-ITEM",
+    "text": "SLIDING JAW",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-tab-bar-tab",
+    "rect": {
+      "x": 445,
+      "y": 1050,
+      "w": 200,
+      "h": 27
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "SLIDING JAW",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "tab-content-wrapper",
+    "rect": {
+      "x": 455,
+      "y": 1053,
+      "w": 180,
+      "h": 21
+    }
+  },
+  {
+    "tag": "ELEMENT-NAME",
+    "text": "SLIDING JAW",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 474,
+      "y": 1049,
+      "w": 165,
+      "h": 29
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "SLIDING JAW",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-tab-name extended-child-tooltip",
+    "rect": {
+      "x": 478,
+      "y": 1054,
+      "w": 85,
+      "h": 20
+    }
+  },
+  {
+    "tag": "TAB-LIST-ITEM",
+    "text": "SHEET METAL PLATE",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-tab-bar-tab",
+    "rect": {
+      "x": 647,
+      "y": 1050,
+      "w": 200,
+      "h": 27
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "SHEET METAL PLATE",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "tab-content-wrapper",
+    "rect": {
+      "x": 657,
+      "y": 1053,
+      "w": 180,
+      "h": 21
+    }
+  },
+  {
+    "tag": "ELEMENT-NAME",
+    "text": "SHEET METAL PLATE",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "",
+    "rect": {
+      "x": 676,
+      "y": 1049,
+      "w": 165,
+      "h": 29
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "SHEET METAL PLATE",
+    "title": null,
+    "ariaLabel": null,
+    "role": null,
+    "dataAutomation": null,
+    "classes": "os-tab-name extended-child-tooltip",
+    "rect": {
+      "x": 680,
+      "y": 1054,
+      "w": 138,
+      "h": 20
+    }
+  }
+]

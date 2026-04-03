@@ -1,0 +1,58 @@
+{
+  "tag": "body",
+  "classes": "os-hover-enabled",
+  "rect": {
+    "x": 0,
+    "y": 0,
+    "w": 1920,
+    "h": 1080
+  },
+  "children": [
+    {
+      "tag": "div",
+      "classes": "os-app-container",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "children": [
+        {
+          "tag": "osx-row",
+          "classes": "os-content-container",
+          "rect": {
+            "x": 0,
+            "y": 40,
+            "w": 1920,
+            "h": 1040
+          },
+          "children": [
+            {
+              "tag": "div",
+              "classes": "enable-user-select os-content",
+              "rect": {
+                "x": 0,
+                "y": 40,
+                "w": 1920,
+                "h": 1010
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "classes": "os-document-list-page-container os-col",
+                  "rect": {
+                    "x": 0,
+                    "y": 40,
+                    "w": 1920,
+                    "h": 1010
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
